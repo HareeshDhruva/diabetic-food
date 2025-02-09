@@ -1,0 +1,3517 @@
+version: '3.1'
+intents:
+  - greet
+  - goodbye
+  - affirm
+  - deny
+  - mood_great
+  - mood_unhappy
+  - bot_challenge
+  - ask_proliferative_monday_vegetarian_breakfast
+  - ask_proliferative_monday_vegetarian_morning_snack
+  - ask_proliferative_monday_vegetarian_lunch
+  - ask_proliferative_monday_vegetarian_midday_snack
+  - ask_proliferative_monday_vegetarian_dinner
+  - ask_proliferative_monday_nonvegetarian_breakfast
+  - ask_proliferative_monday_nonvegetarian_morning_snack
+  - ask_proliferative_monday_nonvegetarian_lunch
+  - ask_proliferative_monday_nonvegetarian_midday_snack
+  - ask_proliferative_monday_nonvegetarian_dinner
+  - ask_proliferative_monday_vegan_breakfast
+  - ask_proliferative_monday_vegan_morning_snack
+  - ask_proliferative_monday_vegan_lunch
+  - ask_proliferative_monday_vegan_midday_snack
+  - ask_proliferative_monday_vegan_dinner
+  - ask_proliferative_tuesday_vegetarian_breakfast
+  - ask_proliferative_tuesday_vegetarian_morning_snack
+  - ask_proliferative_tuesday_vegetarian_lunch
+  - ask_proliferative_tuesday_vegetarian_midday_snack
+  - ask_proliferative_tuesday_vegetarian_dinner
+  - ask_proliferative_tuesday_nonvegetarian_breakfast
+  - ask_proliferative_tuesday_nonvegetarian_morning_snack
+  - ask_proliferative_tuesday_nonvegetarian_lunch
+  - ask_proliferative_tuesday_nonvegetarian_midday_snack
+  - ask_proliferative_tuesday_nonvegetarian_dinner
+  - ask_proliferative_tuesday_vegan_breakfast
+  - ask_proliferative_tuesday_vegan_morning_snack
+  - ask_proliferative_tuesday_vegan_lunch
+  - ask_proliferative_tuesday_vegan_midday_snack
+  - ask_proliferative_tuesday_vegan_dinner
+  - ask_proliferative_wednesday_vegetarian_breakfast
+  - ask_proliferative_wednesday_vegetarian_morning_snack
+  - ask_proliferative_wednesday_vegetarian_lunch
+  - ask_proliferative_wednesday_vegetarian_midday_snack
+  - ask_proliferative_wednesday_vegetarian_dinner
+  - ask_proliferative_wednesday_nonvegetarian_breakfast
+  - ask_proliferative_wednesday_nonvegetarian_morning_snack
+  - ask_proliferative_wednesday_nonvegetarian_lunch
+  - ask_proliferative_wednesday_nonvegetarian_midday_snack
+  - ask_proliferative_wednesday_nonvegetarian_dinner
+  - ask_proliferative_wednesday_vegan_breakfast
+  - ask_proliferative_wednesday_vegan_morning_snack
+  - ask_proliferative_wednesday_vegan_lunch
+  - ask_proliferative_wednesday_vegan_midday_snack
+  - ask_proliferative_wednesday_vegan_dinner
+  - ask_proliferative_thursday_vegetarian_breakfast
+  - ask_proliferative_thursday_vegetarian_morning_snack
+  - ask_proliferative_thursday_vegetarian_lunch
+  - ask_proliferative_thursday_vegetarian_midday_snack
+  - ask_proliferative_thursday_vegetarian_dinner
+  - ask_proliferative_thursday_nonvegetarian_breakfast
+  - ask_proliferative_thursday_nonvegetarian_morning_snack
+  - ask_proliferative_thursday_nonvegetarian_lunch
+  - ask_proliferative_thursday_nonvegetarian_midday_snack
+  - ask_proliferative_thursday_nonvegetarian_dinner
+  - ask_proliferative_thursday_vegan_breakfast
+  - ask_proliferative_thursday_vegan_morning_snack
+  - ask_proliferative_thursday_vegan_lunch
+  - ask_proliferative_thursday_vegan_midday_snack
+  - ask_proliferative_thursday_vegan_dinner
+  - ask_proliferative_friday_vegetarian_breakfast
+  - ask_proliferative_friday_vegetarian_morning_snack
+  - ask_proliferative_friday_vegetarian_lunch
+  - ask_proliferative_friday_vegetarian_midday_snack
+  - ask_proliferative_friday_vegetarian_dinner
+  - ask_proliferative_friday_nonvegetarian_breakfast
+  - ask_proliferative_friday_nonvegetarian_morning_snack
+  - ask_proliferative_friday_nonvegetarian_lunch
+  - ask_proliferative_friday_nonvegetarian_midday_snack
+  - ask_proliferative_friday_nonvegetarian_dinner
+  - ask_proliferative_friday_vegan_breakfast
+  - ask_proliferative_friday_vegan_morning_snack
+  - ask_proliferative_friday_vegan_lunch
+  - ask_proliferative_friday_vegan_midday_snack
+  - ask_proliferative_friday_vegan_dinner
+  - ask_proliferative_saturday_vegetarian_breakfast
+  - ask_proliferative_saturday_vegetarian_morning_snack
+  - ask_proliferative_saturday_vegetarian_lunch
+  - ask_proliferative_saturday_vegetarian_midday_snack
+  - ask_proliferative_saturday_vegetarian_dinner
+  - ask_proliferative_saturday_nonvegetarian_breakfast
+  - ask_proliferative_saturday_nonvegetarian_morning_snack
+  - ask_proliferative_saturday_nonvegetarian_lunch
+  - ask_proliferative_saturday_nonvegetarian_midday_snack
+  - ask_proliferative_saturday_nonvegetarian_dinner
+  - ask_proliferative_saturday_vegan_breakfast
+  - ask_proliferative_saturday_vegan_morning_snack
+  - ask_proliferative_saturday_vegan_lunch
+  - ask_proliferative_saturday_vegan_midday_snack
+  - ask_proliferative_saturday_vegan_dinner
+  - ask_proliferative_sunday_vegetarian_breakfast
+  - ask_proliferative_sunday_vegetarian_morning_snack
+  - ask_proliferative_sunday_vegetarian_lunch
+  - ask_proliferative_sunday_vegetarian_midday_snack
+  - ask_proliferative_sunday_vegetarian_dinner
+  - ask_proliferative_sunday_nonvegetarian_breakfast
+  - ask_proliferative_sunday_nonvegetarian_morning_snack
+  - ask_proliferative_sunday_nonvegetarian_lunch
+  - ask_proliferative_sunday_nonvegetarian_midday_snack
+  - ask_proliferative_sunday_nonvegetarian_dinner
+  - ask_proliferative_sunday_vegan_breakfast
+  - ask_proliferative_sunday_vegan_morning_snack
+  - ask_proliferative_sunday_vegan_lunch
+  - ask_proliferative_sunday_vegan_midday_snack
+  - ask_proliferative_sunday_vegan_dinner
+  - ask_severe_monday_vegetarian_breakfast
+  - ask_severe_monday_vegetarian_morning_snack
+  - ask_severe_monday_vegetarian_lunch
+  - ask_severe_monday_vegetarian_midday_snack
+  - ask_severe_monday_vegetarian_dinner
+  - ask_severe_monday_nonvegetarian_breakfast
+  - ask_severe_monday_nonvegetarian_morning_snack
+  - ask_severe_monday_nonvegetarian_lunch
+  - ask_severe_monday_nonvegetarian_midday_snack
+  - ask_severe_monday_nonvegetarian_dinner
+  - ask_severe_monday_vegan_breakfast
+  - ask_severe_monday_vegan_morning_snack
+  - ask_severe_monday_vegan_lunch
+  - ask_severe_monday_vegan_midday_snack
+  - ask_severe_monday_vegan_dinner
+  - ask_severe_tuesday_vegetarian_breakfast
+  - ask_severe_tuesday_vegetarian_morning_snack
+  - ask_severe_tuesday_vegetarian_lunch
+  - ask_severe_tuesday_vegetarian_midday_snack
+  - ask_severe_tuesday_vegetarian_dinner
+  - ask_severe_tuesday_nonvegetarian_breakfast
+  - ask_severe_tuesday_nonvegetarian_morning_snack
+  - ask_severe_tuesday_nonvegetarian_lunch
+  - ask_severe_tuesday_nonvegetarian_midday_snack
+  - ask_severe_tuesday_nonvegetarian_dinner
+  - ask_severe_tuesday_vegan_breakfast
+  - ask_severe_tuesday_vegan_morning_snack
+  - ask_severe_tuesday_vegan_lunch
+  - ask_severe_tuesday_vegan_midday_snack
+  - ask_severe_tuesday_vegan_dinner
+  - ask_severe_wednesday_vegetarian_breakfast
+  - ask_severe_wednesday_vegetarian_morning_snack
+  - ask_severe_wednesday_vegetarian_lunch
+  - ask_severe_wednesday_vegetarian_midday_snack
+  - ask_severe_wednesday_vegetarian_dinner
+  - ask_severe_wednesday_nonvegetarian_breakfast
+  - ask_severe_wednesday_nonvegetarian_morning_snack
+  - ask_severe_wednesday_nonvegetarian_lunch
+  - ask_severe_wednesday_nonvegetarian_midday_snack
+  - ask_severe_wednesday_nonvegetarian_dinner
+  - ask_severe_wednesday_vegan_breakfast
+  - ask_severe_wednesday_vegan_morning_snack
+  - ask_severe_wednesday_vegan_lunch
+  - ask_severe_wednesday_vegan_midday_snack
+  - ask_severe_wednesday_vegan_dinner
+  - ask_severe_thursday_vegetarian_breakfast
+  - ask_severe_thursday_vegetarian_morning_snack
+  - ask_severe_thursday_vegetarian_lunch
+  - ask_severe_thursday_vegetarian_midday_snack
+  - ask_severe_thursday_vegetarian_dinner
+  - ask_severe_thursday_nonvegetarian_breakfast
+  - ask_severe_thursday_nonvegetarian_morning_snack
+  - ask_severe_thursday_nonvegetarian_lunch
+  - ask_severe_thursday_nonvegetarian_midday_snack
+  - ask_severe_thursday_nonvegetarian_dinner
+  - ask_severe_thursday_vegan_breakfast
+  - ask_severe_thursday_vegan_morning_snack
+  - ask_severe_thursday_vegan_lunch
+  - ask_severe_thursday_vegan_midday_snack
+  - ask_severe_thursday_vegan_dinner
+  - ask_severe_friday_vegetarian_breakfast
+  - ask_severe_friday_vegetarian_morning_snack
+  - ask_severe_friday_vegetarian_lunch
+  - ask_severe_friday_vegetarian_midday_snack
+  - ask_severe_friday_vegetarian_dinner
+  - ask_severe_friday_nonvegetarian_breakfast
+  - ask_severe_friday_nonvegetarian_morning_snack
+  - ask_severe_friday_nonvegetarian_lunch
+  - ask_severe_friday_nonvegetarian_midday_snack
+  - ask_severe_friday_nonvegetarian_dinner
+  - ask_severe_friday_vegan_breakfast
+  - ask_severe_friday_vegan_morning_snack
+  - ask_severe_friday_vegan_lunch
+  - ask_severe_friday_vegan_midday_snack
+  - ask_severe_friday_vegan_dinner
+  - ask_severe_saturday_vegetarian_breakfast
+  - ask_severe_saturday_vegetarian_morning_snack
+  - ask_severe_saturday_vegetarian_lunch
+  - ask_severe_saturday_vegetarian_midday_snack
+  - ask_severe_saturday_vegetarian_dinner
+  - ask_severe_saturday_nonvegetarian_breakfast
+  - ask_severe_saturday_nonvegetarian_morning_snack
+  - ask_severe_saturday_nonvegetarian_lunch
+  - ask_severe_saturday_nonvegetarian_midday_snack
+  - ask_severe_saturday_nonvegetarian_dinner
+  - ask_severe_saturday_vegan_breakfast
+  - ask_severe_saturday_vegan_morning_snack
+  - ask_severe_saturday_vegan_lunch
+  - ask_severe_saturday_vegan_midday_snack
+  - ask_severe_saturday_vegan_dinner
+  - ask_severe_sunday_vegetarian_breakfast
+  - ask_severe_sunday_vegetarian_morning_snack
+  - ask_severe_sunday_vegetarian_lunch
+  - ask_severe_sunday_vegetarian_midday_snack
+  - ask_severe_sunday_vegetarian_dinner
+  - ask_severe_sunday_nonvegetarian_breakfast
+  - ask_severe_sunday_nonvegetarian_morning_snack
+  - ask_severe_sunday_nonvegetarian_lunch
+  - ask_severe_sunday_nonvegetarian_midday_snack
+  - ask_severe_sunday_nonvegetarian_dinner
+  - ask_severe_sunday_vegan_breakfast
+  - ask_severe_sunday_vegan_morning_snack
+  - ask_severe_sunday_vegan_lunch
+  - ask_severe_sunday_vegan_midday_snack
+  - ask_severe_sunday_vegan_dinner
+  - ask_moderate_monday_vegetarian_breakfast
+  - ask_moderate_monday_vegetarian_morning_snack
+  - ask_moderate_monday_vegetarian_lunch
+  - ask_moderate_monday_vegetarian_midday_snack
+  - ask_moderate_monday_vegetarian_dinner
+  - ask_moderate_monday_nonvegetarian_breakfast
+  - ask_moderate_monday_nonvegetarian_morning_snack
+  - ask_moderate_monday_nonvegetarian_lunch
+  - ask_moderate_monday_nonvegetarian_midday_snack
+  - ask_moderate_monday_nonvegetarian_dinner
+  - ask_moderate_monday_vegan_breakfast
+  - ask_moderate_monday_vegan_morning_snack
+  - ask_moderate_monday_vegan_lunch
+  - ask_moderate_monday_vegan_midday_snack
+  - ask_moderate_monday_vegan_dinner
+  - ask_moderate_tuesday_vegetarian_breakfast
+  - ask_moderate_tuesday_vegetarian_morning_snack
+  - ask_moderate_tuesday_vegetarian_lunch
+  - ask_moderate_tuesday_vegetarian_midday_snack
+  - ask_moderate_tuesday_vegetarian_dinner
+  - ask_moderate_tuesday_nonvegetarian_breakfast
+  - ask_moderate_tuesday_nonvegetarian_morning_snack
+  - ask_moderate_tuesday_nonvegetarian_lunch
+  - ask_moderate_tuesday_nonvegetarian_midday_snack
+  - ask_moderate_tuesday_nonvegetarian_dinner
+  - ask_moderate_tuesday_vegan_breakfast
+  - ask_moderate_tuesday_vegan_morning_snack
+  - ask_moderate_tuesday_vegan_lunch
+  - ask_moderate_tuesday_vegan_midday_snack
+  - ask_moderate_tuesday_vegan_dinner
+  - ask_moderate_wednesday_vegetarian_breakfast
+  - ask_moderate_wednesday_vegetarian_morning_snack
+  - ask_moderate_wednesday_vegetarian_lunch
+  - ask_moderate_wednesday_vegetarian_midday_snack
+  - ask_moderate_wednesday_vegetarian_dinner
+  - ask_moderate_wednesday_nonvegetarian_breakfast
+  - ask_moderate_wednesday_nonvegetarian_morning_snack
+  - ask_moderate_wednesday_nonvegetarian_lunch
+  - ask_moderate_wednesday_nonvegetarian_midday_snack
+  - ask_moderate_wednesday_nonvegetarian_dinner
+  - ask_moderate_wednesday_vegan_breakfast
+  - ask_moderate_wednesday_vegan_morning_snack
+  - ask_moderate_wednesday_vegan_lunch
+  - ask_moderate_wednesday_vegan_midday_snack
+  - ask_moderate_wednesday_vegan_dinner
+  - ask_moderate_thursday_vegetarian_breakfast
+  - ask_moderate_thursday_vegetarian_morning_snack
+  - ask_moderate_thursday_vegetarian_lunch
+  - ask_moderate_thursday_vegetarian_midday_snack
+  - ask_moderate_thursday_vegetarian_dinner
+  - ask_moderate_thursday_nonvegetarian_breakfast
+  - ask_moderate_thursday_nonvegetarian_morning_snack
+  - ask_moderate_thursday_nonvegetarian_lunch
+  - ask_moderate_thursday_nonvegetarian_midday_snack
+  - ask_moderate_thursday_nonvegetarian_dinner
+  - ask_moderate_thursday_vegan_breakfast
+  - ask_moderate_thursday_vegan_morning_snack
+  - ask_moderate_thursday_vegan_lunch
+  - ask_moderate_thursday_vegan_midday_snack
+  - ask_moderate_thursday_vegan_dinner
+  - ask_moderate_friday_vegetarian_breakfast
+  - ask_moderate_friday_vegetarian_morning_snack
+  - ask_moderate_friday_vegetarian_lunch
+  - ask_moderate_friday_vegetarian_midday_snack
+  - ask_moderate_friday_vegetarian_dinner
+  - ask_moderate_friday_nonvegetarian_breakfast
+  - ask_moderate_friday_nonvegetarian_morning_snack
+  - ask_moderate_friday_nonvegetarian_lunch
+  - ask_moderate_friday_nonvegetarian_midday_snack
+  - ask_moderate_friday_nonvegetarian_dinner
+  - ask_moderate_friday_vegan_breakfast
+  - ask_moderate_friday_vegan_morning_snack
+  - ask_moderate_friday_vegan_lunch
+  - ask_moderate_friday_vegan_midday_snack
+  - ask_moderate_friday_vegan_dinner
+  - ask_moderate_saturday_vegetarian_breakfast
+  - ask_moderate_saturday_vegetarian_morning_snack
+  - ask_moderate_saturday_vegetarian_lunch
+  - ask_moderate_saturday_vegetarian_midday_snack
+  - ask_moderate_saturday_vegetarian_dinner
+  - ask_moderate_saturday_nonvegetarian_breakfast
+  - ask_moderate_saturday_nonvegetarian_morning_snack
+  - ask_moderate_saturday_nonvegetarian_lunch
+  - ask_moderate_saturday_nonvegetarian_midday_snack
+  - ask_moderate_saturday_nonvegetarian_dinner
+  - ask_moderate_saturday_vegan_breakfast
+  - ask_moderate_saturday_vegan_morning_snack
+  - ask_moderate_saturday_vegan_lunch
+  - ask_moderate_saturday_vegan_midday_snack
+  - ask_moderate_saturday_vegan_dinner
+  - ask_moderate_sunday_vegetarian_breakfast
+  - ask_moderate_sunday_vegetarian_morning_snack
+  - ask_moderate_sunday_vegetarian_lunch
+  - ask_moderate_sunday_vegetarian_midday_snack
+  - ask_moderate_sunday_vegetarian_dinner
+  - ask_moderate_sunday_nonvegetarian_breakfast
+  - ask_moderate_sunday_nonvegetarian_morning_snack
+  - ask_moderate_sunday_nonvegetarian_lunch
+  - ask_moderate_sunday_nonvegetarian_midday_snack
+  - ask_moderate_sunday_nonvegetarian_dinner
+  - ask_moderate_sunday_vegan_breakfast
+  - ask_moderate_sunday_vegan_morning_snack
+  - ask_moderate_sunday_vegan_lunch
+  - ask_moderate_sunday_vegan_midday_snack
+  - ask_moderate_sunday_vegan_dinner
+
+
+responses:
+  utter_greet:
+    - text: Hey! How are you?
+  utter_cheer_up:
+    - text: 'Here is something to cheer you up:'
+      image: 'https://i.imgur.com/nGF1K8f.jpg'
+  utter_did_that_help:
+    - text: Did that help you?
+  utter_happy:
+    - text: 'Great, carry on!'
+  utter_goodbye:
+    - text: Bye
+  utter_iamabot:
+    - text: 'I am a bot, powered by Rasa.'
+  utter_hi_swathi:
+    - text: Hello Swathi!
+  utter_great:
+    - text: 'Wow, nice! You know many things at this age.'
+  utter_proliferative_monday_vegetarian_breakfast:
+    - text: >-
+        For vegetarian breakfast in the proliferative diet on Monday, you can
+        have: Besan Chilla with Mint Chutney,Oats Upma with Mixed Vegetables,
+        Ragi Idli with Sambar,Moong Dal Cheela, Quinoa Poha.
+  utter_proliferative_monday_vegetarian_morning_snack:
+    - text: >
+        For a vegetarian morning snack in the proliferative diet on Monday, you
+        can have:
+
+        - Roasted Chana
+
+        - Cucumber with Mint Raita
+
+        - Almonds (7-8 pieces)
+
+        - Sprouted Moong
+
+        - Roasted Makhana.
+  utter_proliferative_monday_vegetarian_lunch:
+    - text: |
+        For vegetarian lunch in the proliferative diet on Monday, you can have:
+        - Dal Khichdi with Vegetable Raita
+        - Brown Rice with Rajma Curry
+        - Vegetable Daliya
+        - Quinoa Pulao
+        - Millet Khichdi.
+  utter_proliferative_monday_vegetarian_midday_snack:
+    - text: >
+        For a vegetarian midday snack in the proliferative diet on Monday, you
+        can have:
+
+        - Roasted Peanuts
+
+        - Buttermilk
+
+        - Apple Slices
+
+        - Vegetable Soup
+
+        - Roasted Chana.
+  utter_proliferative_monday_vegetarian_dinner:
+    - text: |
+        For vegetarian dinner in the proliferative diet on Monday, you can have:
+        - Vegetable Daliya
+        - Moong Dal Khichdi
+        - Quinoa Vegetable Curry
+        - Millet Roti with Dal
+        - Brown Rice with Vegetable Curry.
+  utter_proliferative_monday_nonvegetarian_breakfast:
+    - text: >
+        For non-vegetarian breakfast in the proliferative diet on Monday, you
+        can have:
+
+        - Egg White Omelet with Spinach
+
+        - Smoked Salmon on Whole Wheat Toast
+
+        - Chicken Keema Upma
+
+        - Egg Bhurji with Millets
+
+        - Lean Turkey Scramble.
+  utter_proliferative_monday_nonvegetarian_morning_snack:
+    - text: >
+        For a non-vegetarian morning snack in the proliferative diet on Monday,
+        you can have:
+
+        - Boiled Egg White
+
+        - Grilled Chicken Strips
+
+        - Hung Curd with Almonds
+
+        - Fish Cutlet
+
+        - Roasted Pumpkin Seeds.
+  utter_proliferative_monday_nonvegetarian_lunch:
+    - text: >
+        For non-vegetarian lunch in the proliferative diet on Monday, you can
+        have:
+
+        - Grilled Chicken Salad
+
+        - Baked Fish with Brown Rice
+
+        - Lean Meat Daliya
+
+        - Egg White Curry
+
+        - Tandoori Chicken with Quinoa.
+  utter_proliferative_monday_nonvegetarian_midday_snack:
+    - text: >
+        For a non-vegetarian midday snack in the proliferative diet on Monday,
+        you can have:
+
+        - Chicken Soup
+
+        - Tuna Salad
+
+        - Boiled Egg
+
+        - Grilled Prawns
+
+        - Protein Smoothie.
+  utter_proliferative_monday_nonvegetarian_dinner:
+    - text: >
+        For non-vegetarian dinner in the proliferative diet on Monday, you can
+        have:
+
+        - Baked Cod with Vegetable Stir Fry
+
+        - Lean Mutton Curry
+
+        - Chicken Pulao
+
+        - Fish Moilee
+
+        - Turkey Meatballs.
+  utter_proliferative_monday_vegan_breakfast:
+    - text: |
+        For vegan breakfast in the proliferative diet on Monday, you can have:
+        - Chia Pudding with Almond Milk and Berries
+        - Vegetable Poha with Tofu
+        - Oats Dosa with Mint Chutney
+        - Sprouted Moong Salad
+        - Quinoa Upma.
+  utter_proliferative_monday_vegan_morning_snack:
+    - text: >
+        For a vegan morning snack in the proliferative diet on Monday, you can
+        have:
+
+        - Handful of Mixed Nuts (Almonds, Walnuts)
+
+        - Roasted Chickpeas
+
+        - Carrot and Cucumber Sticks with Hummus
+
+        - Fruit Salad with Guava
+
+        - Sunflower Seeds.
+  utter_proliferative_monday_vegan_lunch:
+    - text: |
+        For vegan lunch in the proliferative diet on Monday, you can have:
+        - Vegetable Brown Rice Pulao
+        - Quinoa Salad with Roasted Vegetables
+        - Mixed Dal Soup with Whole Wheat Bread
+        - Stuffed Capsicum with Millet
+        - Vegetable Barley Soup.
+  utter_proliferative_monday_vegan_midday_snack:
+    - text: >
+        For a vegan midday snack in the proliferative diet on Monday, you can
+        have:
+
+        - Coconut Water with Chia Seeds
+
+        - Steamed Edamame
+
+        - Masala Roasted Peanuts
+
+        - Apple Slices with Almond Butter
+
+        - Homemade Protein Bar.
+  utter_proliferative_monday_vegan_dinner:
+    - text: |
+        For vegan dinner in the proliferative diet on Monday, you can have:
+        - Stir-Fried Vegetables with Tofu
+        - Lentil Curry with Brown Rice
+        - Sweet Potato Mash with Grilled Veggies
+        - Stuffed Bell Peppers with Millet.
+  utter_proliferative_tuesday_vegetarian_breakfast:
+    - text: >
+        For vegetarian breakfast in the proliferative diet on Tuesday, you can
+        have:
+
+        - Ragi Dosa with Coconut Chutney
+
+        - Kodo Millet Porridge with Almonds
+
+        - Vegetable Poha with Tofu
+
+        - Bajra Upma with Vegetables
+
+        - Moong Dal Cheela.
+  utter_proliferative_tuesday_vegetarian_morning_snack:
+    - text: >
+        For a vegetarian morning snack in the proliferative diet on Tuesday, you
+        can have:
+
+        - Almonds (7-8 pieces)
+
+        - Roasted Makhana
+
+        - Carrot Sticks with Lemon
+
+        - Sprouted Moong
+
+        - Roasted Chana.
+  utter_proliferative_tuesday_vegetarian_lunch:
+    - text: |
+        For vegetarian lunch in the proliferative diet on Tuesday, you can have:
+        - Vegetable Sambar with Millet
+        - Quinoa Pulao with Spinach
+        - Moong Dal Khichdi with Vegetable Raita
+        - Vegetable Barley Soup
+        - Kodo Millet Porridge.
+  utter_proliferative_tuesday_vegetarian_midday_snack:
+    - text: >
+        For a vegetarian midday snack in the proliferative diet on Tuesday, you
+        can have:
+
+        - Roasted Peanuts
+
+        - Apple Slices
+
+        - Fresh Coconut Water
+
+        - Vegetable Soup
+
+        - Roasted Chana.
+  utter_proliferative_tuesday_vegetarian_dinner:
+    - text: >
+        For vegetarian dinner in the proliferative diet on Tuesday, you can
+        have:
+
+        - Moong Dal Soup with Ragi Roti
+
+        - Quinoa Vegetable Curry
+
+        - Vegetable Stir Fry with Bajra Roti
+
+        - Millet Roti with Spinach
+
+        - Brown Rice with Vegetable Curry.
+  utter_proliferative_tuesday_nonvegetarian_breakfast:
+    - text: >
+        For non-vegetarian breakfast in the proliferative diet on Tuesday, you
+        can have:
+
+        - Scrambled Eggs with Tomato
+
+        - Grilled Chicken with Quinoa
+
+        - Chicken Keema Upma
+
+        - Poached Eggs with Spinach
+
+        - Egg Bhurji with Kale.
+  utter_proliferative_tuesday_nonvegetarian_morning_snack:
+    - text: >
+        For a non-vegetarian morning snack in the proliferative diet on Tuesday,
+        you can have:
+
+        - Hard-Boiled Eggs
+
+        - Grilled Turkey Slices
+
+        - Chicken Salad with Avocado
+
+        - Tuna Salad
+
+        - Fish Cutlet.
+  utter_proliferative_tuesday_nonvegetarian_lunch:
+    - text: >
+        For non-vegetarian lunch in the proliferative diet on Tuesday, you can
+        have:
+
+        - Grilled Salmon with Steamed Veggies
+
+        - Baked Fish with Brown Rice
+
+        - Grilled Chicken with Quinoa
+
+        - Chicken Stew with Sweet Potato
+
+        - Baked Turkey with Vegetables.
+  utter_proliferative_tuesday_nonvegetarian_midday_snack:
+    - text: >
+        For a non-vegetarian midday snack in the proliferative diet on Tuesday,
+        you can have:
+
+        - Tuna Lettuce Wraps
+
+        - Grilled Chicken Skewers
+
+        - Boiled Egg with Paprika
+
+        - Chicken Soup
+
+        - Grilled Prawns.
+  utter_proliferative_tuesday_nonvegetarian_dinner:
+    - text: >
+        For non-vegetarian dinner in the proliferative diet on Tuesday, you can
+        have:
+
+        - Grilled Mutton with Roasted Vegetables
+
+        - Chicken Pulao
+
+        - Fish Moilee with Brown Rice
+
+        - Grilled Turkey with Veggies
+
+        - Prawns with Garlic Butter.
+  utter_proliferative_tuesday_vegan_breakfast:
+    - text: |
+        For vegan breakfast in the proliferative diet on Tuesday, you can have:
+        - Millet Porridge with Chia Seeds
+        - Chia Pudding with Almond Milk
+        - Tofu Scramble with Kale
+        - Quinoa Upma with Vegetables
+        - Oats Pancakes with Blueberries.
+  utter_proliferative_tuesday_vegan_morning_snack:
+    - text: >
+        For a vegan morning snack in the proliferative diet on Tuesday, you can
+        have:
+
+        - Mixed Nuts (Almonds, Walnuts, Cashews)
+
+        - Sliced Pear with Lemon
+
+        - Roasted Pumpkin Seeds
+
+        - Cucumber and Carrot Sticks with Hummus
+
+        - Fruit Salad with Guava.
+  utter_proliferative_tuesday_vegan_lunch:
+    - text: |
+        For vegan lunch in the proliferative diet on Tuesday, you can have:
+        - Chickpea and Avocado Salad
+        - Vegetable Brown Rice Pulao
+        - Tofu and Veggie Stir Fry with Brown Rice
+        - Quinoa Salad with Roasted Vegetables
+        - Mixed Dal Soup with Whole Wheat Bread.
+  utter_proliferative_tuesday_vegan_midday_snack:
+    - text: >
+        For a vegan midday snack in the proliferative diet on Tuesday, you can
+        have:
+
+        - Steamed Edamame
+
+        - Masala Roasted Peanuts
+
+        - Apple Slices with Almond Butter
+
+        - Coconut Water with Chia Seeds
+
+        - Roasted Sunflower Seeds.
+  utter_proliferative_tuesday_vegan_dinner:
+    - text: |
+        For vegan dinner in the proliferative diet on Tuesday, you can have:
+        - Stir-Fried Tofu with Broccoli
+        - Vegan Lentil Soup
+        - Sweet Potato and Lentil Stew
+        - Stuffed Bell Peppers with Millet
+        - Vegetable Stir Fry with Soba Noodles.
+  utter_proliferative_wednesday_vegetarian_breakfast:
+    - text: >
+        For vegetarian breakfast in the proliferative diet on Wednesday, you can
+        have:
+
+        - Kodo Millet Upma
+
+        - Methi Paratha with Curd
+
+        - Ragi Idli with Sambar
+
+        - Vegetable Poha
+
+        - Quinoa Poha.
+  utter_proliferative_wednesday_vegetarian_morning_snack:
+    - text: >
+        For a vegetarian morning snack in the proliferative diet on Wednesday,
+        you can have:
+
+        - Roasted Makhana
+
+        - Almonds (7-8 pieces)
+
+        - Carrot Sticks with Lemon
+
+        - Roasted Chana
+
+        - Cucumber with Mint Raita.
+  utter_proliferative_wednesday_vegetarian_lunch:
+    - text: >
+        For vegetarian lunch in the proliferative diet on Wednesday, you can
+        have:
+
+        - Quinoa Pulao with Spinach
+
+        - Vegetable Khichdi with Vegetable Raita
+
+        - Methi Thepla with Vegetable Raita
+
+        - Quinoa with Stir-Fried Veggies
+
+        - Vegetable Sambar with Millet.
+  utter_proliferative_wednesday_vegetarian_midday_snack:
+    - text: >
+        For a vegetarian midday snack in the proliferative diet on Wednesday,
+        you can have:
+
+        - Roasted Peanuts
+
+        - Vegetable Soup
+
+        - Apple Slices
+
+        - Fresh Coconut Water
+
+        - Roasted Chana.
+  utter_proliferative_wednesday_vegetarian_dinner:
+    - text: >
+        For vegetarian dinner in the proliferative diet on Wednesday, you can
+        have:
+
+        - Vegetable Stir Fry with Bajra Roti
+
+        - Moong Dal Khichdi
+
+        - Brown Rice with Vegetable Curry
+
+        - Quinoa Vegetable Curry
+
+        - Millet Roti with Dal.
+  utter_proliferative_wednesday_nonvegetarian_breakfast:
+    - text: >
+        For non-vegetarian breakfast in the proliferative diet on Wednesday, you
+        can have:
+
+        - Scrambled Eggs with Spinach
+
+        - Grilled Chicken Sausage with Vegetables
+
+        - Fish Curry with Barley
+
+        - Poached Eggs on Multigrain Toast
+
+        - Lean Meat Cutlets with Millet.
+  utter_proliferative_wednesday_nonvegetarian_morning_snack:
+    - text: >
+        For a non-vegetarian morning snack in the proliferative diet on
+        Wednesday, you can have:
+
+        - Grilled Fish Fingers
+
+        - Hard-Boiled Eggs
+
+        - Tuna Salad
+
+        - Grilled Chicken Skewers
+
+        - Chicken Broth.
+  utter_proliferative_wednesday_nonvegetarian_lunch:
+    - text: >
+        For non-vegetarian lunch in the proliferative diet on Wednesday, you can
+        have:
+
+        - Grilled Chicken Salad
+
+        - Grilled Salmon with Steamed Veggies
+
+        - Fish Curry with Brown Rice
+
+        - Lean Meat Daliya
+
+        - Chicken Stew with Sweet Potato.
+  utter_proliferative_wednesday_nonvegetarian_midday_snack:
+    - text: >
+        For a non-vegetarian midday snack in the proliferative diet on
+        Wednesday, you can have:
+
+        - Grilled Chicken with Bell Peppers
+
+        - Boiled Egg with Black Salt
+
+        - Fish Salad with Olive Oil Dressing
+
+        - Chicken Broth with Herbs
+
+        - Grilled Prawns.
+  utter_proliferative_wednesday_nonvegetarian_dinner:
+    - text: >
+        For non-vegetarian dinner in the proliferative diet on Wednesday, you
+        can have:
+
+        - Grilled Mutton with Roasted Vegetables
+
+        - Chicken Pulao
+
+        - Fish Moilee with Brown Rice
+
+        - Grilled Turkey with Veggies
+
+        - Prawns with Garlic Butter.
+  utter_proliferative_wednesday_vegan_breakfast:
+    - text: >
+        For vegan breakfast in the proliferative diet on Wednesday, you can
+        have:
+
+        - Millet Porridge with Chia Seeds
+
+        - Red Rice Idli with Sambar
+
+        - Sprouted Moong Salad with Lemon
+
+        - Avocado Toast on Whole Grain Bread
+
+        - Tofu Scramble with Kale.
+  utter_proliferative_wednesday_vegan_morning_snack:
+    - text: >
+        For a vegan morning snack in the proliferative diet on Wednesday, you
+        can have:
+
+        - Mixed Nuts (Almonds, Walnuts)
+
+        - Carrot and Cucumber Sticks with Hummus
+
+        - Sliced Pear with Lemon
+
+        - Roasted Pumpkin Seeds
+
+        - Fresh Guava.
+  utter_proliferative_wednesday_vegan_lunch:
+    - text: |
+        For vegan lunch in the proliferative diet on Wednesday, you can have:
+        - Tofu and Veggie Stir Fry with Brown Rice
+        - Zucchini Stir Fry with Quinoa
+        - Stuffed Bell Peppers with Millet
+        - Mixed Dal Soup with Whole Wheat Bread
+        - Chickpea Salad with Olive Oil.
+  utter_proliferative_wednesday_vegan_midday_snack:
+    - text: >
+        For a vegan midday snack in the proliferative diet on Wednesday, you can
+        have:
+
+        - Steamed Edamame
+
+        - Masala Roasted Peanuts
+
+        - Apple Slices with Almond Butter
+
+        - Coconut Water with Chia Seeds
+  utter_proliferative_wednesday_vegan_dinner:
+    - text: |
+        For vegan dinner in the proliferative diet on Wednesday, you can have:
+        - Stir-Fried Tofu with Broccoli
+        - Vegan Spinach Soup with Quinoa
+        - Sweet Potato and Lentil Stew
+        - Stuffed Bell Peppers with Millet
+        - Vegetable Stir Fry with Soba Noodles.
+  utter_proliferative_thursday_vegetarian_breakfast:
+    - text: >
+        For vegetarian breakfast in the proliferative diet on Thursday, you can
+        have:
+
+        - Methi Paratha with Curd
+
+        - Ragi Dosa with Coconut Chutney
+
+        - Barley Upma with Vegetables
+
+        - Kodo Millet Porridge
+  utter_proliferative_thursday_vegetarian_morning_snack:
+    - text: >
+        For a vegetarian morning snack in the proliferative diet on Thursday,
+        you can have:
+
+        - Roasted Chana
+
+        - Almonds (7-8 pieces)
+
+        - Carrot Sticks with Lemon
+
+        - Roasted Makhana
+
+        - Sliced Papaya.
+
+        - Ragi Dosa with Coconut Chutney
+  utter_proliferative_thursday_vegetarian_lunch:
+    - text: >
+        For vegetarian lunch in the proliferative diet on Thursday, you can
+        have:
+
+        - Vegetable Sambar with Millet
+
+        - Brown Rice with Rajma Curry
+
+        - Vegetable Daliya
+
+        - Quinoa Pulao
+
+        - Moong Dal Khichdi.
+  utter_proliferative_thursday_vegetarian_midday_snack:
+    - text: >
+        For a vegetarian midday snack in the proliferative diet on Thursday, you
+        can have:
+
+        - Roasted Peanuts
+
+        - Buttermilk
+
+        - Apple Slices
+
+        - Vegetable Soup
+
+        - Roasted Chana.
+  utter_proliferative_thursday_vegetarian_dinner:
+    - text: >
+        For vegetarian dinner in the proliferative diet on Thursday, you can
+        have:
+
+        - Vegetable Daliya
+
+        - Moong Dal Khichdi
+
+        - Quinoa Vegetable Curry
+
+        - Millet Roti with Dal
+  utter_proliferative_thursday_nonvegetarian_breakfast:
+    - text: >
+        For non-vegetarian breakfast in the proliferative diet on Thursday, you
+        can have:
+
+        - Poached Eggs with Spinach
+
+        - Scrambled Eggs with Tomato
+
+        - Grilled Chicken with Quinoa
+
+        - Chicken Keema Upma
+  utter_proliferative_thursday_nonvegetarian_morning_snack:
+    - text: >
+        For a non-vegetarian morning snack in the proliferative diet on
+        Thursday, you can have:
+
+        - Boiled Egg White
+
+        - Grilled Chicken Strips
+
+        - Tuna Salad
+
+        - Protein Smoothie
+
+        - Fish Cutlet.
+  utter_proliferative_thursday_nonvegetarian_lunch:
+    - text: >
+        For non-vegetarian lunch in the proliferative diet on Thursday, you can
+        have:
+
+        - Grilled Chicken Salad
+
+        - Baked Fish with Brown Rice
+
+        - Lean Meat Daliya
+
+        - Tandoori Chicken with Quinoa
+
+        - Fish Curry with Barley.
+  utter_proliferative_thursday_nonvegetarian_midday_snack:
+    - text: >
+        For a non-vegetarian midday snack in the proliferative diet on Thursday,
+        you can have:
+
+        - Chicken Soup
+
+        - Tuna Salad
+
+        - Boiled Egg
+
+        - Grilled Prawns
+
+        - Protein Smoothie.
+  utter_proliferative_thursday_nonvegetarian_dinner:
+    - text: >
+        For non-vegetarian dinner in the proliferative diet on Thursday, you can
+        have:
+
+        - Baked Cod with Vegetable Stir Fry
+
+        - Lean Mutton Curry
+
+        - Chicken Pulao
+
+        - Fish Moilee
+  utter_proliferative_thursday_vegan_breakfast:
+    - text: |
+        For vegan breakfast in the proliferative diet on Thursday, you can have:
+        - Chia Pudding with Almond Milk and Berries
+        - Avocado Toast on Multigrain Bread
+        - Millet and Spinach Smoothie
+        - Oats and Banana Pancakes
+        - Quinoa Upma with Tofu.
+  utter_proliferative_thursday_vegan_morning_snack:
+    - text: >
+        For a vegan morning snack in the proliferative diet on Thursday, you can
+        have:
+
+        - Mixed Nuts (Almonds, Walnuts, Cashews)
+
+        - Sliced Pear with Lemon
+
+        - Roasted Pumpkin Seeds
+
+        - Carrot and Cucumber Sticks with Hummus
+
+        - Fruit Salad with Guava.
+  utter_proliferative_thursday_vegan_lunch:
+    - text: |
+        For vegan lunch in the proliferative diet on Thursday, you can have:
+        - Vegetable Brown Rice Pulao
+        - Quinoa Salad with Roasted Vegetables
+        - Mixed Dal Soup with Whole Wheat Bread
+        - Stuffed Capsicum with Millet
+        - Vegetable Barley Soup.
+  utter_proliferative_thursday_vegan_midday_snack:
+    - text: >
+        For a vegan midday snack in the proliferative diet on Thursday, you can
+        have:
+
+        - Coconut Water with Chia Seeds
+
+        - Steamed Edamame
+
+        - Masala Roasted Peanuts
+
+        - Apple Slices with Almond Butter
+
+        - Homemade Protein Bar.
+  utter_proliferative_thursday_vegan_dinner:
+    - text: |
+        For vegan dinner in the proliferative diet on Thursday, you can have:
+        - Stir-Fried Vegetables with Tofu
+        - Lentil Curry with Brown Rice
+        - Sweet Potato Mash with Grilled Veggies
+        - Stuffed Bell Peppers with Millet
+        - Vegetable Stir Fry with Soba Noodles.
+        - Fruit Salad with Guava.
+  utter_proliferative_friday_vegetarian_breakfast:
+    - text: >
+        For vegetarian breakfast in the proliferative diet on Friday, you can
+        have:
+
+        - Moong Dal Cheela with Mint Chutney
+
+        - Ragi Idli with Sambar
+
+        - Vegetable Poha with Peanuts
+
+        - Quinoa Upma with Vegetables
+
+        - Besan Chilla with Curd.
+  utter_proliferative_friday_vegetarian_morning_snack:
+    - text: >
+        For a vegetarian morning snack in the proliferative diet on Friday, you
+        can have:
+
+        - Roasted Makhana
+
+        - Almonds (7-8 pieces)
+
+        - Cucumber with Mint Raita
+
+        - Sprouted Moong with Lemon
+
+        - Roasted Chana.
+  utter_proliferative_friday_vegetarian_lunch:
+    - text: |
+        For vegetarian lunch in the proliferative diet on Friday, you can have:
+        - Dal Khichdi with Vegetable Raita
+        - Brown Rice with Rajma Curry
+        - Millet Roti with Palak Dal
+        - Quinoa Pulao with Cucumber Raita
+        - Vegetable Daliya.
+  utter_proliferative_friday_vegetarian_midday_snack:
+    - text: >
+        For a vegetarian midday snack in the proliferative diet on Friday, you
+        can have:
+
+        - Buttermilk
+
+        - Roasted Peanuts
+
+        - Apple Slices
+
+        - Fresh Coconut Water
+
+        - Vegetable Soup.
+  utter_proliferative_friday_vegetarian_dinner:
+    - text: |
+        For vegetarian dinner in the proliferative diet on Friday, you can have:
+        - Moong Dal Khichdi
+        - Brown Rice with Mixed Vegetable Curry
+        - Quinoa Vegetable Curry
+        - Millet Roti with Dal
+        - Stir-Fried Vegetables with Bajra Roti.
+  utter_proliferative_friday_nonvegetarian_breakfast:
+    - text: >
+        For non-vegetarian breakfast in the proliferative diet on Friday, you
+        can have:
+
+        - Scrambled Eggs with Spinach
+
+        - Grilled Chicken with Quinoa
+
+        - Poached Eggs with Whole Wheat Toast
+
+        - Chicken Keema Upma
+
+        - Egg Bhurji with Kale.
+  utter_proliferative_friday_nonvegetarian_morning_snack:
+    - text: >
+        For a non-vegetarian morning snack in the proliferative diet on Friday,
+        you can have:
+
+        - Boiled Egg Whites
+
+        - Grilled Chicken Strips
+
+        - Hung Curd with Almonds
+
+        - Fish Cutlet
+
+        - Roasted Pumpkin Seeds.
+  utter_proliferative_friday_nonvegetarian_lunch:
+    - text: >
+        For non-vegetarian lunch in the proliferative diet on Friday, you can
+        have:
+
+        - Grilled Chicken Salad
+
+        - Baked Fish with Brown Rice
+
+        - Lean Meat Daliya
+
+        - Egg White Curry with Whole Wheat Roti
+
+        - Tandoori Chicken with Quinoa.
+  utter_proliferative_friday_nonvegetarian_midday_snack:
+    - text: >
+        For a non-vegetarian midday snack in the proliferative diet on Friday,
+        you can have:
+
+        - Chicken Soup
+
+        - Tuna Salad
+
+        - Boiled Egg with Paprika
+
+        - Grilled Prawns
+
+        - Protein Smoothie.
+  utter_proliferative_friday_nonvegetarian_dinner:
+    - text: >
+        For non-vegetarian dinner in the proliferative diet on Friday, you can
+        have:
+
+        - Baked Cod with Vegetable Stir Fry
+
+        - Lean Mutton Curry
+
+        - Chicken Pulao
+
+        - Fish Moilee with Brown Rice
+
+        - Turkey Meatballs with Roasted Vegetables.
+  utter_proliferative_friday_vegan_breakfast:
+    - text: |
+        For vegan breakfast in the proliferative diet on Friday, you can have:
+        - Chia Pudding with Almond Milk and Berries
+        - Oats Pancakes with Banana
+        - Tofu Scramble with Spinach
+        - Quinoa Upma with Vegetables
+        - Millet Porridge with Chia Seeds.
+  utter_proliferative_friday_vegan_morning_snack:
+    - text: >
+        For a vegan morning snack in the proliferative diet on Friday, you can
+        have:
+
+        - Mixed Nuts (Almonds, Walnuts, Cashews)
+
+        - Roasted Chickpeas
+
+        - Carrot and Cucumber Sticks with Hummus
+
+        - Fruit Salad with Guava
+
+        - Sunflower Seeds.
+  utter_proliferative_friday_vegan_lunch:
+    - text: |
+        For vegan lunch in the proliferative diet on Friday, you can have:
+        - Vegetable Brown Rice Pulao
+        - Quinoa Salad with Roasted Vegetables
+        - Mixed Dal Soup with Whole Wheat Bread
+        - Stuffed Bell Peppers with Millet
+        - Zucchini Stir Fry with Tofu.
+  utter_proliferative_friday_vegan_midday_snack:
+    - text: >
+        For a vegan midday snack in the proliferative diet on Friday, you can
+        have:
+
+        - Coconut Water with Chia Seeds
+
+        - Steamed Edamame
+
+        - Masala Roasted Peanuts
+
+        - Apple Slices with Almond Butter
+
+        - Homemade Vegan Protein Bar.
+  utter_proliferative_friday_vegan_dinner:
+    - text: |
+        For vegan dinner in the proliferative diet on Friday, you can have:
+        - Stir-Fried Vegetables with Tofu
+        - Lentil Curry with Brown Rice
+        - Sweet Potato Mash with Grilled Veggies
+        - Stuffed Bell Peppers with Millet
+        - Vegetable Stir Fry with Soba Noodles.
+  utter_proliferative_saturday_vegetarian_breakfast:
+    - text: >
+        For vegetarian breakfast in the proliferative diet on Saturday, you can
+        have:
+
+        - Moong Dal Cheela with Mint Chutney
+
+        - Ragi Idli with Sambar
+
+        - Vegetable Poha with Peanuts
+
+        - Quinoa Upma with Vegetables
+
+        - Besan Chilla with Curd.
+  utter_proliferative_saturday_vegetarian_morning_snack:
+    - text: >
+        For a vegetarian morning snack in the proliferative diet on Saturday,
+        you can have:
+
+        - Roasted Makhana
+
+        - Almonds (7-8 pieces)
+
+        - Cucumber with Mint Raita
+
+        - Sprouted Moong with Lemon
+
+        - Roasted Chana.
+  utter_proliferative_saturday_vegetarian_lunch:
+    - text: >
+        For vegetarian lunch in the proliferative diet on Saturday, you can
+        have:
+
+        - Dal Khichdi with Vegetable Raita
+
+        - Brown Rice with Rajma Curry
+
+        - Millet Roti with Palak Dal
+
+        - Quinoa Pulao with Cucumber Raita
+
+        - Vegetable Daliya.
+  utter_proliferative_saturday_vegetarian_midday_snack:
+    - text: >
+        For a vegetarian midday snack in the proliferative diet on Saturday, you
+        can have:
+
+        - Buttermilk
+
+        - Roasted Peanuts
+
+        - Apple Slices
+
+        - Fresh Coconut Water
+
+        - Vegetable Soup.
+  utter_proliferative_saturday_vegetarian_dinner:
+    - text: >
+        For vegetarian dinner in the proliferative diet on Saturday, you can
+        have:
+
+        - Moong Dal Khichdi
+
+        - Brown Rice with Mixed Vegetable Curry
+
+        - Quinoa Vegetable Curry
+
+        - Millet Roti with Dal
+
+        - Stir-Fried Vegetables with Bajra Roti.
+  utter_proliferative_saturday_nonvegetarian_breakfast:
+    - text: >
+        For non-vegetarian breakfast in the proliferative diet on Saturday, you
+        can have:
+
+        - Scrambled Eggs with Spinach
+
+        - Grilled Chicken with Quinoa
+
+        - Poached Eggs with Whole Wheat Toast
+
+        - Chicken Keema Upma
+
+        - Egg Bhurji with Kale.
+  utter_proliferative_saturday_nonvegetarian_morning_snack:
+    - text: >
+        For a non-vegetarian morning snack in the proliferative diet on
+        Saturday, you can have:
+
+        - Boiled Egg Whites
+
+        - Grilled Chicken Strips
+
+        - Hung Curd with Almonds
+
+        - Fish Cutlet
+
+        - Roasted Pumpkin Seeds.
+  utter_proliferative_saturday_nonvegetarian_lunch:
+    - text: >
+        For non-vegetarian lunch in the proliferative diet on Saturday, you can
+        have:
+
+        - Grilled Chicken Salad
+
+        - Baked Fish with Brown Rice
+
+        - Lean Meat Daliya
+
+        - Egg White Curry with Whole Wheat Roti
+
+        - Tandoori Chicken with Quinoa.
+  utter_proliferative_saturday_nonvegetarian_midday_snack:
+    - text: >
+        For a non-vegetarian midday snack in the proliferative diet on Saturday,
+        you can have:
+
+        - Chicken Soup
+
+        - Tuna Salad
+
+        - Boiled Egg with Paprika
+
+        - Grilled Prawns
+
+        - Protein Smoothie.
+  utter_proliferative_saturday_nonvegetarian_dinner:
+    - text: >
+        For non-vegetarian dinner in the proliferative diet on Saturday, you can
+        have:
+
+        - Baked Cod with Vegetable Stir Fry
+
+        - Lean Mutton Curry
+
+        - Chicken Pulao
+
+        - Fish Moilee with Brown Rice
+
+        - Turkey Meatballs with Roasted Vegetables.
+  utter_proliferative_saturday_vegan_breakfast:
+    - text: |
+        For vegan breakfast in the proliferative diet on Saturday, you can have:
+        - Chia Pudding with Almond Milk and Berries
+        - Oats Pancakes with Banana
+        - Tofu Scramble with Spinach
+        - Quinoa Upma with Vegetables
+        - Millet Porridge with Chia Seeds.
+  utter_proliferative_saturday_vegan_morning_snack:
+    - text: >
+        For a vegan morning snack in the proliferative diet on Saturday, you can
+        have:
+
+        - Mixed Nuts (Almonds, Walnuts, Cashews)
+
+        - Roasted Chickpeas
+
+        - Carrot and Cucumber Sticks with Hummus
+
+        - Fruit Salad with Guava
+
+        - Sunflower Seeds.
+  utter_proliferative_saturday_vegan_lunch:
+    - text: |
+        For vegan lunch in the proliferative diet on Saturday, you can have:
+        - Vegetable Brown Rice Pulao
+        - Quinoa Salad with Roasted Vegetables
+        - Mixed Dal Soup with Whole Wheat Bread
+        - Stuffed Bell Peppers with Millet
+        - Zucchini Stir Fry with Tofu.
+  utter_proliferative_saturday_vegan_midday_snack:
+    - text: >
+        For a vegan midday snack in the proliferative diet on Saturday, you can
+        have:
+
+        - Coconut Water with Chia Seeds
+
+        - Steamed Edamame
+
+        - Masala Roasted Peanuts
+
+        - Apple Slices with Almond Butter
+
+        - Homemade Vegan Protein Bar.
+  utter_proliferative_saturday_vegan_dinner:
+    - text: |
+        For vegan dinner in the proliferative diet on Saturday, you can have:
+        - Stir-Fried Vegetables with Tofu
+        - Lentil Curry with Brown Rice
+        - Sweet Potato Mash with Grilled Veggies
+        - Stuffed Bell Peppers with Millet
+        - Vegetable Stir Fry with Soba Noodles.
+  utter_proliferative_sunday_vegetarian_breakfast:
+    - text: >
+        For vegetarian breakfast in the proliferative diet on Sunday, you can
+        have:
+
+        - Ragi Dosa with Coconut Chutney
+
+        - Methi Paratha with Curd
+
+        - Vegetable Poha with Peanuts
+
+        - Bajra Upma with Vegetables
+
+        - Moong Dal Cheela with Mint Chutney.
+  utter_proliferative_sunday_vegetarian_morning_snack:
+    - text: >
+        For a vegetarian morning snack in the proliferative diet on Sunday, you
+        can have:
+
+        - Roasted Makhana
+
+        - Almonds (7-8 pieces)
+
+        - Carrot Sticks with Lemon
+
+        - Roasted Chana
+
+        - Cucumber with Mint Raita.
+  utter_proliferative_sunday_vegetarian_lunch:
+    - text: |
+        For vegetarian lunch in the proliferative diet on Sunday, you can have:
+        - Quinoa Pulao with Spinach
+        - Vegetable Khichdi with Vegetable Raita
+        - Methi Thepla with Vegetable Raita
+        - Quinoa with Stir-Fried Veggies
+        - Vegetable Sambar with Millet.
+  utter_proliferative_sunday_vegetarian_midday_snack:
+    - text: >
+        For a vegetarian midday snack in the proliferative diet on Sunday, you
+        can have:
+
+        - Roasted Peanuts
+
+        - Vegetable Soup
+
+        - Apple Slices
+
+        - Fresh Coconut Water
+
+        - Roasted Chana.
+  utter_proliferative_sunday_vegetarian_dinner:
+    - text: |
+        For vegetarian dinner in the proliferative diet on Sunday, you can have:
+        - Vegetable Stir Fry with Bajra Roti
+        - Moong Dal Khichdi
+        - Brown Rice with Vegetable Curry
+        - Quinoa Vegetable Curry
+        - Millet Roti with Dal.
+  utter_proliferative_sunday_nonvegetarian_breakfast:
+    - text: >
+        For non-vegetarian breakfast in the proliferative diet on Sunday, you
+        can have:
+
+        - Scrambled Eggs with Spinach
+
+        - Grilled Chicken with Quinoa
+
+        - Poached Eggs with Whole Wheat Toast
+
+        - Chicken Keema Upma
+
+        - Egg Bhurji with Kale.
+  utter_proliferative_sunday_nonvegetarian_morning_snack:
+    - text: >
+        For a non-vegetarian morning snack in the proliferative diet on Sunday,
+        you can have:
+
+        - Boiled Egg Whites
+
+        - Grilled Chicken Strips
+
+        - Hung Curd with Almonds
+
+        - Fish Cutlet
+
+        - Roasted Pumpkin Seeds.
+  utter_proliferative_sunday_nonvegetarian_lunch:
+    - text: >
+        For non-vegetarian lunch in the proliferative diet on Sunday, you can
+        have:
+
+        - Grilled Chicken Salad
+
+        - Baked Fish with Brown Rice
+
+        - Lean Meat Daliya
+
+        - Egg White Curry with Whole Wheat Roti
+
+        - Tandoori Chicken with Quinoa.
+  utter_proliferative_sunday_nonvegetarian_midday_snack:
+    - text: >
+        For a non-vegetarian midday snack in the proliferative diet on Sunday,
+        you can have:
+
+        - Chicken Soup
+
+        - Tuna Salad
+
+        - Boiled Egg with Paprika
+
+        - Grilled Prawns
+
+        - Protein Smoothie.
+  utter_proliferative_sunday_nonvegetarian_dinner:
+    - text: >
+        For non-vegetarian dinner in the proliferative diet on Sunday, you can
+        have:
+
+        - Baked Cod with Vegetable Stir Fry
+
+        - Lean Mutton Curry
+
+        - Chicken Pulao
+
+        - Fish Moilee with Brown Rice
+
+        - Turkey Meatballs with Roasted Vegetables.
+  utter_proliferative_sunday_vegan_breakfast:
+    - text: |
+        For vegan breakfast in the proliferative diet on Sunday, you can have:
+        - Chia Pudding with Almond Milk and Berries
+        - Oats Pancakes with Banana
+        - Tofu Scramble with Spinach
+        - Quinoa Upma with Vegetables
+        - Millet Porridge with Chia Seeds.
+  utter_proliferative_sunday_vegan_morning_snack:
+    - text: >
+        For a vegan morning snack in the proliferative diet on Sunday, you can
+        have:
+
+        - Mixed Nuts (Almonds, Walnuts, Cashews)
+
+        - Roasted Chickpeas
+
+        - Carrot and Cucumber Sticks with Hummus
+
+        - Fruit Salad with Guava
+
+        - Sunflower Seeds.
+  utter_proliferative_sunday_vegan_lunch:
+    - text: |
+        For vegan lunch in the proliferative diet on Sunday, you can have:
+        - Vegetable Brown Rice Pulao
+        - Quinoa Salad with Roasted Vegetables
+        - Mixed Dal Soup with Whole Wheat Bread
+        - Stuffed Bell Peppers with Millet
+        - Zucchini Stir Fry with Tofu.
+  utter_proliferative_sunday_vegan_midday_snack:
+    - text: >
+        For a vegan midday snack in the proliferative diet on Sunday, you can
+        have:
+
+        - Coconut Water with Chia Seeds
+
+        - Steamed Edamame
+
+        - Masala Roasted Peanuts
+
+        - Apple Slices with Almond Butter
+
+        - Homemade Vegan Protein Bar.
+  utter_proliferative_sunday_vegan_dinner:
+    - text: |
+        For vegan dinner in the proliferative diet on Sunday, you can have:
+        - Stir-Fried Vegetables with Tofu
+        - Lentil Curry with Brown Rice
+        - Sweet Potato Mash with Grilled Veggies
+        - Stuffed Bell Peppers with Millet
+        - Vegetable Stir Fry with Soba Noodles.
+  utter_severe_monday_vegetarian_breakfast:
+    - text: |
+        For vegetarian breakfast in the severe diet on Monday, you can have:
+        - Barley Idli with Coconut Chutney
+        - Masoor Dal Cheela
+        - Bajra Upma with Vegetables
+        - Kodo Millet Porridge
+        - Cucumber and Tomato Sandwich (Whole Grain Bread).
+  utter_severe_monday_vegetarian_morning_snack:
+    - text: >
+        For a vegetarian morning snack in the severe diet on Monday, you can
+        have:
+
+        - Flaxseed Laddu
+
+        - Roasted Watermelon Seeds
+
+        - Carrot Sticks with Mint Dip
+
+        - Apple with Peanut Butter
+
+        - Cucumber with Lemon and Salt.
+  utter_severe_monday_vegetarian_lunch:
+    - text: |
+        For vegetarian lunch in the severe diet on Monday, you can have:
+        - Vegetable Barley Khichdi
+        - Methi Thepla with Curd
+        - Bottle Gourd Kofta Curry with Red Rice
+        - Spinach Dal with Bajra Roti
+        - Cabbage Stir Fry with Amaranth.
+  utter_severe_monday_vegetarian_midday_snack:
+    - text: >
+        For a vegetarian midday snack in the severe diet on Monday, you can
+        have:
+
+        - Sliced Orange
+
+        - Mixed Nuts (Almonds, Walnuts, Pistachios)
+
+        - Masala Chana Chaat
+
+        - Fresh Coconut Water
+
+        - Vegetable Sticks with Yogurt Dip.
+  utter_severe_monday_vegetarian_dinner:
+    - text: |
+        For vegetarian dinner in the severe diet on Monday, you can have:
+        - Bajra Roti with Brinjal Curry
+        - Moong Dal Dhokla
+        - Quinoa and Mixed Vegetable Curry
+        - Millet Khichdi
+        - Bottle Gourd Soup with Brown Rice.
+  utter_severe_monday_nonvegetarian_breakfast:
+    - text: |
+        For non-vegetarian breakfast in the severe diet on Monday, you can have:
+        - Scrambled Eggs with Spinach
+        - Grilled Chicken Sausage with Vegetables
+        - Fish Curry with Barley
+        - Poached Eggs on Multigrain Toast
+        - Lean Meat Cutlets with Millet.
+  utter_severe_monday_nonvegetarian_morning_snack:
+    - text: >
+        For a non-vegetarian morning snack in the severe diet on Monday, you can
+        have:
+
+        - Grilled Fish Fingers
+
+        - Chicken and Cucumber Salad
+
+        - Hard-Boiled Egg with Paprika
+
+        - Turkey Slices with Pickled Vegetables
+
+        - Tuna Lettuce Wraps.
+  utter_severe_monday_nonvegetarian_lunch:
+    - text: |
+        For non-vegetarian lunch in the severe diet on Monday, you can have:
+        - Grilled Salmon with Steamed Vegetables
+        - Mutton Curry with Barley
+        - Chicken Stew with Sweet Potato
+        - Fish Curry with Masoor Dal
+        - Baked Turkey with Quinoa.
+  utter_severe_monday_nonvegetarian_midday_snack:
+    - text: >
+        For a non-vegetarian midday snack in the severe diet on Monday, you can
+        have:
+
+        - Grilled Chicken with Bell Peppers
+
+        - Boiled Egg with Black Salt
+
+        - Fish Salad with Olive Oil Dressing
+
+        - Chicken Broth with Herbs
+
+        - Prawns with Lemon.
+  utter_severe_monday_nonvegetarian_dinner:
+    - text: |
+        For non-vegetarian dinner in the severe diet on Monday, you can have:
+        - Baked Fish with Spinach
+        - Chicken Curry with Foxtail Millet
+        - Grilled Mutton Chops with Vegetables
+        - Turkey Stew with Barley
+        - Prawns with Stir-Fried Greens.
+  utter_severe_monday_vegan_breakfast:
+    - text: |
+        For vegan breakfast in the severe diet on Monday, you can have:
+        - Ragi Malt with Almond Milk
+        - Avocado Toast (Whole Grain Bread)
+        - Millet Porridge with Chia Seeds
+        - Red Rice Idli with Sambar
+        - Sprouted Moong with Lemon and Spices.
+  utter_severe_monday_vegan_morning_snack:
+    - text: |
+        For a vegan morning snack in the severe diet on Monday, you can have:
+        - Handful of Cashews
+        - Guava Slices with Black Salt
+        - Pumpkin Seeds
+        - Almonds with Raisins
+        - Sliced Pear with Lime.
+  utter_severe_monday_vegan_lunch:
+    - text: |
+        For vegan lunch in the severe diet on Monday, you can have:
+        - Tofu and Spinach Curry with Brown Rice
+        - Moong Dal Soup with Ragi Roti
+        - Chickpea Salad with Quinoa
+        - Zucchini and Lentil Stir Fry
+        - Stuffed Ridge Gourd with Millet.
+  utter_severe_monday_vegan_midday_snack:
+    - text: |
+        For a vegan midday snack in the severe diet on Monday, you can have:
+        - Steamed Edamame
+        - Roasted Makhana with Turmeric
+        - Fresh Watermelon with Mint
+        - Homemade Protein Bar (Almond Flour, Dates)
+        - Cucumber and Avocado Salad.
+  utter_severe_monday_vegan_dinner:
+    - text: |
+        For vegan dinner in the severe diet on Monday, you can have:
+        - Grilled Tofu with Broccoli
+        - Sweet Potato Mash with Lentil Soup
+        - Vegetable and Coconut Curry with Red Rice
+        - Amaranth Roti with Vegetable Curry
+        - Vegan Spinach Soup with Quinoa.
+  utter_severe_tuesday_vegetarian_breakfast:
+    - text: |
+        For vegetarian breakfast in the severe diet on Tuesday, you can have:
+        - Moong Dal Cheela with Mint Chutney
+        - Ragi Upma with Mixed Vegetables
+        - Bajra Thepla with Yogurt
+        - Kodo Millet Pongal
+        - Sprouted Moong Salad.
+  utter_severe_tuesday_vegetarian_morning_snack:
+    - text: >
+        For a vegetarian morning snack in the severe diet on Tuesday, you can
+        have:
+
+        - Roasted Fox Nuts
+
+        - Buttermilk with Cumin
+
+        - Flaxseed Crackers
+
+        - Almonds and Walnuts
+
+        - Fresh Pomegranate Seeds.
+  utter_severe_tuesday_vegetarian_lunch:
+    - text: |
+        For vegetarian lunch in the severe diet on Tuesday, you can have:
+        - Quinoa Khichdi with Ghee
+        - Spinach Dal with Brown Rice
+        - Stuffed Capsicum with Mixed Vegetables
+        - Barley Roti with Bottle Gourd Curry
+        - Soya Chunk Pulao.
+  utter_severe_tuesday_vegetarian_midday_snack:
+    - text: >
+        For a vegetarian midday snack in the severe diet on Tuesday, you can
+        have:
+
+        - Cucumber and Carrot Sticks
+
+        - Roasted Chana with Jaggery
+
+        - Fresh Coconut Slices
+
+        - Greek Yogurt with Berries
+
+        - Herbal Tea with Pumpkin Seeds.
+  utter_severe_tuesday_vegetarian_dinner:
+    - text: |
+        For vegetarian dinner in the severe diet on Tuesday, you can have:
+        - Moong Dal Dhokla
+        - Bajra Roti with Bhindi Masala
+        - Lentil Soup with Millet Bread
+        - Masoor Dal with Red Rice
+        - Grilled Paneer with Stir-Fried Vegetables.
+  utter_severe_tuesday_nonvegetarian_breakfast:
+    - text: >
+        For non-vegetarian breakfast in the severe diet on Tuesday, you can
+        have:
+
+        - Scrambled Eggs with Spinach
+
+        - Chicken Sausage with Vegetables
+
+        - Grilled Salmon with Whole Wheat Toast
+
+        - Turkey Omelet with Herbs
+
+        - Poached Eggs with Avocado.
+  utter_severe_tuesday_nonvegetarian_morning_snack:
+    - text: >
+        For a non-vegetarian morning snack in the severe diet on Tuesday, you
+        can have:
+
+        - Boiled Egg with Salt and Pepper
+
+        - Grilled Chicken Strips with Mustard Dip
+
+        - Roasted Turkey Slices with Cucumber
+
+        - Fish Fingers with Lemon
+
+        - Tuna Salad with Lettuce.
+  utter_severe_tuesday_nonvegetarian_lunch:
+    - text: |
+        For non-vegetarian lunch in the severe diet on Tuesday, you can have:
+        - Grilled Chicken with Quinoa Salad
+        - Baked Fish with Steamed Vegetables
+        - Mutton Keema with Brown Rice
+        - Egg Curry with Bajra Roti
+        - Turkey Stir Fry with Beans.
+  utter_severe_tuesday_nonvegetarian_midday_snack:
+    - text: >
+        For a non-vegetarian midday snack in the severe diet on Tuesday, you can
+        have:
+
+        - Chicken Broth with Herbs
+
+        - Tuna Lettuce Wraps
+
+        - Boiled Egg with Paprika
+
+        - Grilled Prawns with Garlic Butter
+
+        - Roasted Pumpkin Seeds with Cheese.
+  utter_severe_tuesday_nonvegetarian_dinner:
+    - text: |
+        For non-vegetarian dinner in the severe diet on Tuesday, you can have:
+        - Grilled Mutton with Stir-Fried Vegetables
+        - Fish Curry with Barley Roti
+        - Baked Chicken with Sweet Potatoes
+        - Prawns with Quinoa Pilaf
+        - Roasted Turkey with Green Beans.
+  utter_severe_tuesday_vegan_breakfast:
+    - text: |
+        For vegan breakfast in the severe diet on Tuesday, you can have:
+        - Chia Seed Pudding with Almond Milk
+        - Ragi Pancakes with Maple Syrup
+        - Quinoa Porridge with Berries
+        - Sprouted Moong Chaat
+        - Oats Smoothie with Dates.
+  utter_severe_tuesday_vegan_morning_snack:
+    - text: |
+        For a vegan morning snack in the severe diet on Tuesday, you can have:
+        - Roasted Chickpeas with Spices
+        - Fresh Coconut Slices
+        - Almond Butter with Rice Cakes
+        - Carrot and Cucumber Sticks with Hummus
+        - Mixed Nuts (Walnuts, Almonds, Pistachios).
+  utter_severe_tuesday_vegan_lunch:
+    - text: |
+        For vegan lunch in the severe diet on Tuesday, you can have:
+        - Red Lentil Curry with Brown Rice
+        - Chickpea Salad with Avocado Dressing
+        - Stuffed Bell Peppers with Quinoa
+        - Zucchini Noodles with Tomato Sauce
+        - Tofu Stir Fry with Vegetables.
+  utter_severe_tuesday_vegan_midday_snack:
+    - text: |
+        For a vegan midday snack in the severe diet on Tuesday, you can have:
+        - Steamed Edamame with Sea Salt
+        - Coconut Water with Chia Seeds
+        - Baked Sweet Potato Fries
+        - Sunflower Seeds with Lemon Juice
+        - Fresh Watermelon Cubes.
+  utter_severe_tuesday_vegan_dinner:
+    - text: |
+        For vegan dinner in the severe diet on Tuesday, you can have:
+        - Grilled Tofu with Mixed Greens
+        - Sweet Potato Mash with Lentils
+        - Amaranth Roti with Spinach Curry
+        - Stuffed Zucchini with Millet
+        - Roasted Vegetables with Almond Sauce.
+  utter_severe_wednesday_vegetarian_breakfast:
+    - text: |
+        For vegetarian breakfast in the severe diet on Wednesday, you can have:
+        - Bajra Khichdi with Curd
+        - Moong Dal Pancakes
+        - Ragi Dosa with Coconut Chutney
+        - Barley Upma with Vegetables
+        - Sprouted Moong with Lemon and Spices.
+  utter_severe_wednesday_vegetarian_morning_snack:
+    - text: >
+        For a vegetarian morning snack in the severe diet on Wednesday, you can
+        have:
+
+        - Roasted Pumpkin Seeds
+
+        - Almond Butter on Whole Wheat Toast
+
+        - Fresh Coconut Slices
+
+        - Carrot Sticks with Yogurt Dip
+
+        - Herbal Tea with Walnuts.
+  utter_severe_wednesday_vegetarian_lunch:
+    - text: |
+        For vegetarian lunch in the severe diet on Wednesday, you can have:
+        - Red Rice with Rajma Curry
+        - Bajra Roti with Bottle Gourd Curry
+        - Spinach Dal with Quinoa
+        - Mixed Vegetable Curry with Millet
+        - Paneer Bhurji with Amaranth Roti.
+  utter_severe_wednesday_vegetarian_midday_snack:
+    - text: >
+        For a vegetarian midday snack in the severe diet on Wednesday, you can
+        have:
+
+        - Roasted Chana with Jaggery
+
+        - Fresh Orange Slices
+
+        - Greek Yogurt with Flaxseeds
+
+        - Herbal Tea with Dates
+
+        - Roasted Makhana with Turmeric.
+  utter_severe_wednesday_vegetarian_dinner:
+    - text: |
+        For vegetarian dinner in the severe diet on Wednesday, you can have:
+        - Lentil Soup with Brown Rice
+        - Quinoa and Vegetable Stir Fry
+        - Moong Dal Chilla with Mint Chutney
+        - Barley Roti with Bhindi Masala
+        - Spinach and Tofu Curry.
+  utter_severe_wednesday_nonvegetarian_breakfast:
+    - text: >
+        For non-vegetarian breakfast in the severe diet on Wednesday, you can
+        have:
+
+        - Scrambled Eggs with Spinach
+
+        - Grilled Chicken with Avocado
+
+        - Smoked Salmon on Whole Wheat Toast
+
+        - Turkey Omelet with Herbs
+
+        - Poached Eggs with Cucumber Salad.
+  utter_severe_wednesday_nonvegetarian_morning_snack:
+    - text: >
+        For a non-vegetarian morning snack in the severe diet on Wednesday, you
+        can have:
+
+        - Boiled Egg with Black Salt
+
+        - Grilled Chicken with Mustard Dip
+
+        - Turkey Slices with Pickled Vegetables
+
+        - Tuna Salad with Lettuce
+
+        - Fish Fingers with Lemon.
+  utter_severe_wednesday_nonvegetarian_lunch:
+    - text: |
+        For non-vegetarian lunch in the severe diet on Wednesday, you can have:
+        - Grilled Chicken with Brown Rice
+        - Baked Fish with Steamed Vegetables
+        - Mutton Curry with Bajra Roti
+        - Egg Curry with Millet Roti
+        - Turkey Stir Fry with Beans.
+  utter_severe_wednesday_nonvegetarian_midday_snack:
+    - text: >
+        For a non-vegetarian midday snack in the severe diet on Wednesday, you
+        can have:
+
+        - Chicken Broth with Herbs
+
+        - Tuna Lettuce Wraps
+
+        - Boiled Egg with Paprika
+
+        - Grilled Prawns with Garlic Butter
+
+        - Roasted Pumpkin Seeds with Cheese.
+  utter_severe_wednesday_nonvegetarian_dinner:
+    - text: |
+        For non-vegetarian dinner in the severe diet on Wednesday, you can have:
+        - Grilled Mutton with Stir-Fried Vegetables
+        - Fish Curry with Barley Roti
+        - Baked Chicken with Sweet Potatoes
+        - Prawns with Quinoa Pilaf
+        - Roasted Turkey with Green Beans.
+  utter_severe_wednesday_vegan_breakfast:
+    - text: |
+        For vegan breakfast in the severe diet on Wednesday, you can have:
+        - Chia Seed Pudding with Almond Milk
+        - Ragi Pancakes with Maple Syrup
+        - Quinoa Porridge with Berries
+        - Sprouted Moong Chaat
+        - Oats Smoothie with Dates.
+  utter_severe_wednesday_vegan_morning_snack:
+    - text: |
+        For a vegan morning snack in the severe diet on Wednesday, you can have:
+        - Roasted Chickpeas with Spices
+        - Fresh Coconut Slices
+        - Almond Butter with Rice Cakes
+        - Carrot and Cucumber Sticks with Hummus
+        - Mixed Nuts (Walnuts, Almonds, Pistachios).
+  utter_severe_wednesday_vegan_lunch:
+    - text: |
+        For vegan lunch in the severe diet on Wednesday, you can have:
+        - Red Lentil Curry with Brown Rice
+        - Chickpea Salad with Avocado Dressing
+        - Stuffed Bell Peppers with Quinoa
+        - Zucchini Noodles with Tomato Sauce
+        - Tofu Stir Fry with Vegetables.
+  utter_severe_wednesday_vegan_midday_snack:
+    - text: |
+        For a vegan midday snack in the severe diet on Wednesday, you can have:
+        - Steamed Edamame with Sea Salt
+        - Coconut Water with Chia Seeds
+        - Baked Sweet Potato Fries
+        - Sunflower Seeds with Lemon Juice
+        - Fresh Watermelon Cubes.
+  utter_severe_wednesday_vegan_dinner:
+    - text: |
+        For vegan dinner in the severe diet on Wednesday, you can have:
+        - Grilled Tofu with Mixed Greens
+        - Sweet Potato Mash with Lentils
+        - Amaranth Roti with Spinach Curry
+        - Stuffed Zucchini with Millet
+        - Roasted Vegetables with Almond Sauce.
+  utter_severe_thursday_vegetarian_breakfast:
+    - text: |
+        For vegetarian breakfast in the severe diet on Thursday, you can have:
+        - Ragi Idli with Coconut Chutney
+        - Moong Dal Pancakes
+        - Bajra Upma with Mixed Vegetables
+        - Kodo Millet Pongal
+        - Sprouted Moong Salad.
+  utter_severe_thursday_vegetarian_morning_snack:
+    - text: >
+        For a vegetarian morning snack in the severe diet on Thursday, you can
+        have:
+
+        - Roasted Makhana
+
+        - Guava with Mint
+
+        - Spiced Almonds
+
+        - Coconut Water with Basil Seeds
+
+        - Carrot Sticks with Hummus.
+  
+  utter_severe_thursday_vegetarian_lunch:
+    - text: |
+        For vegetarian lunch in the severe diet on Thursday, you can have:
+        - Spinach Dal with Jowar Roti
+        - Bajra Pulao with Spiced Curd
+        - Rajma Curry with Brown Rice
+        - Mixed Vegetable Barley Soup
+        - Quinoa with Tofu and Stir-Fried Vegetables.
+  utter_severe_thursday_vegetarian_midday_snack:
+    - text: >
+        For a vegetarian midday snack in the severe diet on Thursday, you can
+        have:
+
+        - Spiced Buttermilk
+
+        - Roasted Pumpkin Seeds
+
+        - Masala Foxnuts
+
+        - Pomegranate and Mint Salad
+
+        - Almond Milk Smoothie.
+  utter_severe_thursday_vegetarian_dinner:
+    - text: |
+        For vegetarian dinner in the severe diet on Thursday, you can have:
+        - Ragi Roti with Bottle Gourd Curry
+        - Moong Dal Khichdi with Spinach
+        - Lentil Soup with Brown Rice
+        - Vegetable Stew with Millet
+        - Tofu Stir-Fry with Mixed Vegetables.
+  utter_severe_thursday_nonvegetarian_breakfast:
+    - text: |
+        For non-vegetarian breakfast in the severe diet on Thursday, you can
+        have:
+        - Egg Bhurji with Sprouted Bread
+        - Steamed Fish Curry with Spinach
+        - Grilled Chicken with Avocado
+        - Scrambled Eggs with Herbs
+        - Poached Eggs with Multigrain Toast.
+  utter_severe_thursday_nonvegetarian_morning_snack:
+    - text: |
+        For a non-vegetarian morning snack in the severe diet on Thursday, you
+        can have:
+        - Boiled Eggs with Lemon
+        - Grilled Chicken Fingers
+        - Fish Tikka with Spices
+        - Turkey Slices with Pickled Vegetables
+        - Tuna Cucumber Bites.
+  utter_severe_thursday_nonvegetarian_lunch:
+    - text: |
+        For non-vegetarian lunch in the severe diet on Thursday, you can have:
+        - Chicken Curry with Red Rice
+        - Fish Moilee with Steamed Vegetables
+        - Mutton Keema with Bajra Roti
+        - Turkey Stir-Fry with Vegetables
+        - Grilled Prawns with Lemon.
+  utter_severe_thursday_nonvegetarian_midday_snack:
+    - text: |
+        For a non-vegetarian midday snack in the severe diet on Thursday, you
+        can have:
+        - Grilled Prawns with Lemon
+        - Boiled Egg and Spinach Salad
+        - Chicken Broth with Herbs
+        - Tuna Lettuce Wraps
+        - Roasted Pumpkin Seeds with Cheese.
+  utter_severe_thursday_nonvegetarian_dinner:
+    - text: |
+        For non-vegetarian dinner in the severe diet on Thursday, you can have:
+        - Lemon Chicken Soup with Barley
+        - Grilled Fish with Broccoli
+        - Baked Chicken with Sweet Potatoes
+        - Prawns with Quinoa Pilaf
+        - Roasted Turkey with Green Beans.
+  utter_severe_thursday_vegan_breakfast:
+    - text: |
+        For vegan breakfast in the severe diet on Thursday, you can have:
+        - Millet Upma with Chia Seeds
+        - Tofu Bhurji with Jowar Toast
+        - Red Rice Pongal with Coconut Chutney
+        - Avocado Toast (Whole Grain Bread)
+        - Chia Seed Pudding with Almond Milk.
+  utter_severe_thursday_vegan_morning_snack:
+    - text: |
+        For a vegan morning snack in the severe diet on Thursday, you can have:
+        - Roasted Chickpeas with Spices
+        - Fresh Coconut Slices
+        - Almond Butter with Rice Cakes
+        - Carrot and Cucumber Sticks with Hummus
+        - Mixed Nuts (Walnuts, Almonds, Pistachios).
+  utter_severe_thursday_vegan_lunch:
+    - text: |
+        For vegan lunch in the severe diet on Thursday, you can have:
+        - Mixed Vegetable Barley Soup
+        - Quinoa with Tofu and Stir-Fried Vegetables
+        - Red Lentil Curry with Brown Rice
+        - Chickpea Salad with Avocado Dressing
+        - Stuffed Bell Peppers with Millet.
+  utter_severe_thursday_vegan_midday_snack:
+    - text: |
+        For a vegan midday snack in the severe diet on Thursday, you can have:
+        - Pomegranate and Mint Salad
+        - Almond Milk Smoothie
+        - Steamed Edamame with Sea Salt
+        - Coconut Water with Chia Seeds
+        - Baked Sweet Potato Fries.
+  utter_severe_thursday_vegan_dinner:
+    - text: |
+        For vegan dinner in the severe diet on Thursday, you can have:
+        - Sweet Potato Mash with Stir-Fried Greens
+        - Tofu and Lentil Curry
+        - Amaranth Roti with Spinach Curry
+        - Stuffed Zucchini with Millet
+        - Roasted Vegetables with Almond Sauce.
+  utter_severe_friday_vegetarian_breakfast:
+    - text: |
+        For vegetarian breakfast in the severe diet on Friday, you can have:
+        - Vegetable Barley Idli
+        - Poha with Flaxseeds and Peanuts
+        - Bajra Pancakes
+        - Ragi Upma with Vegetables
+        - Jowar Roti with Mint Chutney.
+  utter_severe_friday_vegetarian_morning_snack:
+    - text: |
+        For a vegetarian morning snack in the severe diet on Friday, you can
+        have:
+        - Roasted Chana
+        - Apple Slices with Yogurt
+        - Spiced Pumpkin Seeds
+        - Cucumber Sticks with Mint Raita
+        - Almonds with Raisins.
+  utter_severe_friday_vegetarian_lunch:
+    - text: |
+        For vegetarian lunch in the severe diet on Friday, you can have:
+        - Bajra Roti with Lauki Tadka Dal
+        - Spinach Moong Dal with Quinoa
+        - Mixed Vegetable Barley Pulao
+        - Masoor Dal with Red Rice
+        - Rajma Curry with Multigrain Roti.
+  utter_severe_friday_vegetarian_midday_snack:
+    - text: |
+        For a vegetarian midday snack in the severe diet on Friday, you can
+        have:
+        - Lemon Buttermilk
+        - Roasted Almonds
+        - Guava with Black Salt
+        - Masala Makhana
+        - Fresh Coconut Slices.
+  utter_severe_friday_vegetarian_dinner:
+    - text: |
+        For vegetarian dinner in the severe diet on Friday, you can have:
+        - Barley Khichdi with Spiced Curd
+        - Rajma Soup with Multigrain Bread
+        - Moong Dal Tadka with Jowar Roti
+        - Grilled Paneer with Stir-Fried Vegetables
+        - Lentil Soup with Brown Rice.
+  utter_severe_friday_nonvegetarian_breakfast:
+    - text: |
+        For non-vegetarian breakfast in the severe diet on Friday, you can have:
+        - Chicken Omelet with Millets
+        - Grilled Salmon with Quinoa
+        - Scrambled Eggs with Spinach
+        - Poached Eggs with Multigrain Toast
+        - Turkey and Avocado Wrap.
+  utter_severe_friday_nonvegetarian_morning_snack:
+    - text: |
+        For a non-vegetarian morning snack in the severe diet on Friday, you can
+        have:
+        - Hard-Boiled Eggs
+        - Grilled Chicken Sticks
+        - Tuna Salad with Crackers
+        - Smoked Salmon with Cucumbers
+        - Cheese Slices with Nuts.
+  utter_severe_friday_nonvegetarian_lunch:
+    - text: |
+        For non-vegetarian lunch in the severe diet on Friday, you can have:
+        - Baked Fish with Stir-Fried Vegetables
+        - Chicken Curry with Bajra Roti
+        - Grilled Turkey with Quinoa Salad
+        - Mutton Stew with Barley
+        - Lemon Herb Prawns with Red Rice.
+  utter_severe_friday_nonvegetarian_midday_snack:
+    - text: |
+        For a non-vegetarian midday snack in the severe diet on Friday, you can
+        have:
+        - Shrimp Salad with Spinach
+        - Chicken Soup with Herbs
+        - Boiled Egg with Paprika
+        - Turkey Slices with Olives
+        - Grilled Fish Bites.
+  utter_severe_friday_nonvegetarian_dinner:
+    - text: |
+        For non-vegetarian dinner in the severe diet on Friday, you can have:
+        - Lemon Grilled Fish with Quinoa
+        - Chicken Stew with Pumpkin
+        - Mutton Chops with Roasted Vegetables
+        - Baked Prawns with Sweet Potato
+        - Turkey and Spinach Casserole.
+  utter_severe_friday_vegan_breakfast:
+    - text: |
+        For vegan breakfast in the severe diet on Friday, you can have:
+        - Red Rice Pongal with Coconut Chutney
+        - Vegetable Stir Fry with Tofu
+        - Millet Pancakes with Flaxseeds
+        - Chia Pudding with Almond Milk
+        - Sprouted Green Gram with Lemon.
+  utter_severe_friday_vegan_morning_snack:
+    - text: |
+        For a vegan morning snack in the severe diet on Friday, you can have:
+        - Papaya with Lime
+        - Roasted Foxnuts
+        - Baked Sweet Potato Chips
+        - Handful of Pecans
+        - Pumpkin Soup with Toasted Seeds.
+  utter_severe_friday_vegan_lunch:
+    - text: |
+        For vegan lunch in the severe diet on Friday, you can have:
+        - Barley Vegetable Soup
+        - Sweet Potato and Lentil Curry
+        - Stir-Fried Tofu with Vegetables
+        - Chickpea and Pumpkin Curry
+        - Red Lentil Stew with Quinoa.
+  utter_severe_friday_vegan_midday_snack:
+    - text: |
+        For a vegan midday snack in the severe diet on Friday, you can have:
+        - Coconut Milk with Chia Seeds
+        - Roasted Soy Nuts
+        - Almond Butter with Dates
+        - Carrot Sticks with Hummus
+        - Pear Slices with Mixed Nuts.
+  utter_severe_friday_vegan_dinner:
+    - text: |
+        For vegan dinner in the severe diet on Friday, you can have:
+        - Lentil Stew with Millet
+        - Tofu and Mushroom Stir-Fry
+        - Grilled Vegetables with Almond Sauce
+        - Amaranth Roti with Spinach Curry
+        - Stuffed Peppers with Quinoa.
+  utter_severe_saturday_vegetarian_breakfast:
+    - text: |
+        For vegetarian breakfast in the severe diet on Saturday, you can have:
+        - Bajra Cheela with Green Chutney
+        - Ragi and Spinach Idli
+        - Barley and Vegetable Upma
+        - Multigrain Dosa with Sambar
+        - Sprouted Moong Salad.
+  utter_severe_saturday_vegetarian_morning_snack:
+    - text: |
+        For a vegetarian morning snack in the severe diet on Saturday, you can
+        have:
+        - Cucumber Sticks with Mint Raita
+        - Roasted Makhana
+        - Almonds with Raisins
+        - Fresh Coconut Slices
+        - Spiced Buttermilk.
+  utter_severe_saturday_vegetarian_lunch:
+    - text: |
+        For vegetarian lunch in the severe diet on Saturday, you can have:
+        - Masoor Dal with Bajra Roti
+        - Rajma and Quinoa Curry
+        - Lauki Kofta with Red Rice
+        - Spinach Moong Dal with Jowar Roti
+        - Mixed Vegetable Millet Pulao.
+  utter_severe_saturday_vegetarian_midday_snack:
+    - text: |
+        For a vegetarian midday snack in the severe diet on Saturday, you can
+        have:
+        - Roasted Chana with Jaggery
+        - Herbal Tea with Walnuts
+        - Fresh Orange Slices
+        - Greek Yogurt with Flaxseeds
+        - Carrot and Beetroot Sticks with Yogurt Dip.
+  utter_severe_saturday_vegetarian_dinner:
+    - text: |
+        For vegetarian dinner in the severe diet on Saturday, you can have:
+        - Ragi Roti with Moong Dal Curry
+        - Vegetable Millet Pulao with Spiced Curd
+        - Lentil Soup with Brown Rice
+        - Grilled Paneer with Stir-Fried Vegetables
+        - Barley and Spinach Stew.
+  utter_severe_saturday_nonvegetarian_breakfast:
+    - text: |
+        For non-vegetarian breakfast in the severe diet on Saturday, you can
+        have:
+        - Egg White Bhurji with Multigrain Bread
+        - Grilled Fish with Stir-Fried Vegetables
+        - Chicken and Spinach Wrap
+        - Scrambled Eggs with Herbs
+        - Smoked Salmon with Avocado.
+  utter_severe_saturday_nonvegetarian_morning_snack:
+    - text: |
+        For a non-vegetarian morning snack in the severe diet on Saturday, you
+        can have
+        - Chicken Broth
+        - Boiled Eggs with Black Salt
+        - Grilled Turkey Slices
+        - Tuna and Avocado Salad
+        - Fish Cakes with Herbs.
+  utter_severe_saturday_nonvegetarian_lunch:
+    - text: |
+        For non-vegetarian lunch in the severe diet on Saturday, you can have:
+        - Mutton Keema with Brown Rice
+        - Grilled Prawns with Stir-Fried Vegetables
+        - Chicken Curry with Jowar Roti
+        - Fish Tikka with Steamed Quinoa
+        - Turkey and Lentil Stew.
+  utter_severe_saturday_nonvegetarian_midday_snack:
+    - text: |
+        For a non-vegetarian midday snack in the severe diet on Saturday, you
+        can have:
+        - Grilled Chicken Salad
+        - Tuna and Cucumber Wrap
+        - Shrimp Skewers with Herbs
+        - Boiled Egg with Pepper
+        - Turkey Strips with Pickled Vegetables.
+  utter_severe_saturday_nonvegetarian_dinner:
+    - text: |
+        For non-vegetarian dinner in the severe diet on Saturday, you can have:
+        - Grilled Salmon with Steamed Broccoli
+        - Chicken Soup with Jowar Roti
+        - Lemon Baked Fish with Spinach
+        - Mutton Curry with Foxtail Millet
+        - Prawns with Quinoa Pilaf.
+  utter_severe_saturday_vegan_breakfast:
+    - text: |
+        For vegan breakfast in the severe diet on Saturday, you can have:
+        - Millet Pancakes with Flaxseeds
+        - Tofu and Spinach Wrap
+        - Red Rice Pongal with Coconut Chutney
+        - Chia and Almond Milk Smoothie
+        - Sprouted Green Gram with Lemon.
+  utter_severe_saturday_vegan_morning_snack:
+    - text: |
+        For a vegan morning snack in the severe diet on Saturday, you can have:
+        - Coconut Water with Lime
+        - Roasted Pumpkin Seeds
+        - Almond Butter with Rice Cakes
+        - Fresh Pomegranate Slices
+        - Baked Sweet Potato Chips.
+  utter_severe_saturday_vegan_lunch:
+    - text: |
+        For vegan lunch in the severe diet on Saturday, you can have:
+        - Stir-Fried Tofu with Vegetables
+        - Sweet Potato and Lentil Mash
+        - Barley and Vegetable Soup
+        - Chickpea and Pumpkin Curry
+        - Red Lentil Stew with Amaranth Roti.
+  utter_severe_saturday_vegan_midday_snack:
+    - text: |
+        For a vegan midday snack in the severe diet on Saturday, you can have:
+        - Papaya and Pomegranate Salad
+        - Roasted Soy Nuts
+        - Almond Milk with Chia Seeds
+        - Cucumber and Avocado Slices
+        - Fresh Orange Wedges.
+  utter_severe_saturday_vegan_dinner:
+    - text: |
+        For vegan dinner in the severe diet on Saturday, you can have:
+        - Lentil and Vegetable Curry with Millet
+        - Stir-Fried Mushrooms and Greens
+        - Amaranth Roti with Spinach Curry
+        - Grilled Tofu with Mixed Vegetables
+        - Roasted Vegetables with Almond Sauce.
+  utter_severe_sunday_vegetarian_breakfast:
+    - text: |
+        For vegetarian breakfast in the severe diet on Sunday, you can have:
+        - Barley Pongal
+        - Jowar Pancakes with Mint Chutney
+        - Mixed Vegetable Upma
+        - Ragi Idli with Sambar
+        - Sprouted Moong Salad.
+  utter_severe_sunday_vegetarian_morning_snack:
+    - text: |
+        For a vegetarian morning snack in the severe diet on Sunday, you can
+        have:
+        - Guava Slices with Black Salt
+        - Roasted Chana
+        - Almonds with Raisins
+        - Fresh Coconut Slices
+        - Spiced Buttermilk.
+  utter_severe_sunday_vegetarian_lunch:
+    - text: |
+        For vegetarian lunch in the severe diet on Sunday, you can have:
+        - Bajra Roti with Spinach Dal
+        - Rajma and Mixed Vegetable Barley Pulao
+        - Bottle Gourd Curry with Red Rice
+        - Lentil Soup with Jowar Roti
+        - Mixed Vegetable Millet Khichdi.
+  utter_severe_sunday_vegetarian_midday_snack:
+    - text: |
+        For a vegetarian midday snack in the severe diet on Sunday, you can
+        have:
+        - Apple Slices with Peanut Butter
+        - Spiced Buttermilk
+        - Roasted Foxnuts
+        - Carrot and Cucumber Sticks with Yogurt Dip
+        - Fresh Pomegranate Slices.
+  utter_severe_sunday_vegetarian_dinner:
+    - text: |
+        For vegetarian dinner in the severe diet on Sunday, you can have:
+        - Millet and Moong Dal Khichdi
+        - Barley Vegetable Stew
+        - Lentil and Spinach Curry with Roti
+        - Grilled Paneer with Stir-Fried Vegetables
+        - Roasted Vegetables with Brown Rice.
+  utter_severe_sunday_nonvegetarian_breakfast:
+    - text: |
+        For non-vegetarian breakfast in the severe diet on Sunday, you can have:
+        - Poached Egg with Avocado Toast
+        - Grilled Fish Salad
+        - Chicken Omelet with Spinach
+        - Scrambled Eggs with Herbs
+        - Smoked Salmon with Multigrain Bread.
+  utter_severe_sunday_nonvegetarian_morning_snack:
+    - text: |
+        For a non-vegetarian morning snack in the severe diet on Sunday, you can
+        have:
+        - Grilled Chicken Skewers
+        - Hard-Boiled Eggs
+        - Tuna and Cucumber Salad
+        - Turkey Slices with Pickled Vegetables
+        - Fish Cakes with Herbs.
+  utter_severe_sunday_nonvegetarian_lunch:
+    - text: |
+        For non-vegetarian lunch in the severe diet on Sunday, you can have:
+        - Baked Fish with Stir-Fried Zucchini
+        - Chicken Curry with Barley
+        - Mutton Stew with Quinoa
+        - Grilled Prawns with Spinach
+        - Turkey and Lentil Casserole.
+  utter_severe_sunday_nonvegetarian_midday_snack:
+    - text: |
+        For a non-vegetarian midday snack in the severe diet on Sunday, you can
+        have:
+        - Grilled Shrimp with Lemon
+        - Turkey Strips with Vegetables
+        - Boiled Egg with Paprika
+        - Chicken Broth with Herbs
+        - Fish Salad with Olive Oil Dressing.
+  utter_severe_sunday_nonvegetarian_dinner:
+    - text: |
+        For non-vegetarian dinner in the severe diet on Sunday, you can have:
+        - Grilled Mackerel with Lemon and Herbs
+        - Chicken Soup with Jowar Roti
+        - Baked Salmon with Sweet Potato
+        - Prawns with Stir-Fried Vegetables
+        - Roasted Turkey with Green Beans.
+  utter_severe_sunday_vegan_breakfast:
+    - text: |
+        For vegan breakfast in the severe diet on Sunday, you can have:
+        - Millet Porridge with Dates
+        - Tofu Stir Fry with Greens
+        - Chia and Almond Pudding
+        - Quinoa Pancakes with Maple Syrup
+        - Sprouted Green Gram with Lemon.
+  utter_severe_sunday_vegan_morning_snack:
+    - text: |
+        For a vegan morning snack in the severe diet on Sunday, you can have:
+        - Coconut Water with Basil Seeds
+        - Carrot Sticks with Hummus
+        - Almond Butter with Rice Cakes
+        - Fresh Watermelon with Mint
+        - Baked Sweet Potato Chips.
+  utter_severe_sunday_vegan_lunch:
+    - text: |
+        For vegan lunch in the severe diet on Sunday, you can have:
+        - Vegetable and Chickpea Curry with Brown Rice
+        - Stir-Fried Tofu with Vegetables
+        - Lentil and Spinach Soup with Multigrain Bread
+        - Red Lentil Stew with Amaranth Roti
+        - Stuffed Peppers with Millet.
+  utter_severe_sunday_vegan_midday_snack:
+    - text: |
+        For a vegan midday snack in the severe diet on Sunday, you can have:
+        - Almond Milk Smoothie
+        - Roasted Soy Nuts
+        - Fresh Orange Wedges
+        - Cucumber and Avocado Salad
+        - Papaya and Pomegranate Salad.
+  utter_severe_sunday_vegan_dinner:
+    - text: |
+        For vegan dinner in the severe diet on Sunday, you can have:
+        - Mixed Vegetable and Lentil Curry with Millet
+        - Grilled Mushrooms and Bell Peppers
+        - Amaranth Roti with Spinach Curry
+        - Stir-Fried Zucchini with Tofu
+        - Roasted Vegetables with Almond Sauce.
+  utter_moderate_monday_vegetarian_breakfast:
+    - text: |
+        For vegetarian breakfast in the moderate diet on Monday, you can have:
+        - Methi Paratha with Curd
+        - Moong Dal Pancake with Carrot
+        - Ragi Upma
+        - Bajra Khichdi
+        - Dosa with Sambar.
+
+  utter_moderate_monday_vegetarian_morning_snack:
+    - text:  |
+        For a vegetarian morning snack in the moderate diet on Monday, you can have:
+        - Roasted Almonds
+        - Mixed Fruit Salad with Papaya
+        - Steamed Corn
+        - Carrot and Cucumber Sticks with Mint Dip
+        - Puffed Rice.
+     
+
+  utter_moderate_monday_vegetarian_lunch:
+     - text:  |
+          For vegetarian lunch in the moderate diet on Monday, you can have:
+          - Vegetable Khichdi
+          - Brown Rice with Lauki (Bottle Gourd) Curry
+          - Tofu and Vegetable Stir Fry
+          - Methi Thepla
+          - Moong Dal with Cabbage.
+
+  utter_moderate_monday_vegetarian_midday_snack:
+    - text:  |
+        For a vegetarian midday snack in the moderate diet on Monday, you can have:
+        - Masala Chaas
+        - Chana Chaat
+        - Sprouted Moong Salad
+        - Roasted Sunflower Seeds
+        - Masala Roasted Almonds.
+
+  utter_moderate_monday_vegetarian_dinner:
+    - text:  |
+        For vegetarian dinner in the moderate diet on Monday, you can have:
+        - Methi and Onion Thepla with Curd
+        - Vegetable Tofu Stir Fry
+        - Pesarattu (Green Gram Pancake)
+        - Vegetable Moong Dal Soup
+        - Buckwheat Khichdi.
+  utter_moderate_monday_nonvegetarian_breakfast:
+    - text: |
+        For non-vegetarian breakfast in the moderate diabetic diet on Monday, you can have:
+        - Poached Eggs with Avocado
+        - Methi Paratha with Chicken
+        - Chicken Sukka
+        - Scrambled Eggs with Tomatoes
+        - Fish Curry with Brown Rice.
+
+  utter_moderate_monday_nonvegetarian_morning_snack:
+    - text: |
+        For a non-vegetarian morning snack in the moderate diabetic diet on Monday, you can have:
+        - Boiled Egg with Black Pepper
+        - Chicken Tikka
+        - Fish Tikka
+        - Chicken and Cucumber Salad
+        - Yogurt with Flax Seeds.
+
+  utter_moderate_monday_nonvegetarian_lunch:
+    - text: |
+        For non-vegetarian lunch in the moderate diabetic diet on Monday, you can have:
+        - Grilled Chicken with Quinoa
+        - Fish Curry with Spinach
+        - Egg Curry with Quinoa
+        - Baked Salmon with Steamed Vegetables
+        - Mutton Soup.
+
+  utter_moderate_monday_nonvegetarian_midday_snack:
+    - text: |
+        For a non-vegetarian midday snack in the moderate diabetic diet on Monday, you can have:
+        - Chicken and Spinach Soup
+        - Fish Tikka
+        - Protein Shake with Chia Seeds
+        - Turkey Breast with Avocado
+        - Tuna Salad.
+
+  utter_moderate_monday_nonvegetarian_dinner:
+    - text: |
+        For non-vegetarian dinner in the moderate diabetic diet on Monday, you can have:
+        - Grilled Fish with Mixed Vegetables
+        - Chicken Stew with Brown Rice
+        - Mutton Korma with Cauliflower
+        - Grilled Chicken with Spinach
+        - Fish Fry.
+  utter_moderate_monday_vegan_breakfast:
+    - text: |
+        For vegan breakfast in the moderate diabetic diet on Monday, you can have:
+        - Masala Oats with Vegetables
+        - Quinoa Upma with Peas
+        - Avocado Toast with Tomato and Cucumber
+        - Vegan Moong Dal Chilla
+        - Mixed Sprouts Salad.
+
+  utter_moderate_monday_vegan_morning_snack:
+    - text: |
+        For a vegan morning snack in the moderate diabetic diet on Monday, you can have:
+        - Apple with Peanut Butter
+        - Almonds
+        - Roasted Chickpeas
+        - Fresh Coconut Water
+        - Raw Mango with Chili.
+
+  utter_moderate_monday_vegan_lunch:
+    - text: |
+        For vegan lunch in the moderate diabetic diet on Monday, you can have:
+        - Vegetable Pulao with Tofu
+        - Brown Rice with Sambar
+        - Spicy Chickpea Salad
+        - Quinoa Salad with Mixed Greens
+        - Stir-Fried Cauliflower and Peas.
+
+  utter_moderate_monday_vegan_midday_snack:
+    - text: |
+        For a vegan midday snack in the moderate diabetic diet on Monday, you can have:
+        - Veggie Smoothie with Flax Seeds
+        - Roasted Makhana
+        - Apple with Walnuts
+        - Masala Roasted Peas
+        - Watermelon.
+
+  utter_moderate_monday_vegan_dinner:
+    - text: |
+        For vegan dinner in the moderate diabetic diet on Monday, you can have:
+        - Stir-Fried Tofu with Mushrooms and Bell Peppers
+        - Lentil Stew with Carrots and Peas
+        - Vegetable Couscous
+        - Chia Pudding with Almond Milk
+        - Stuffed Zucchini with Millet.
+  utter_moderate_tuesday_vegetarian_breakfast:
+    - text: |
+        For vegetarian breakfast in the moderate diabetic diet on Tuesday, you can have:
+        - Moong Dal Chilla with Tomato Chutney
+        - Oats Poha
+        - Ragi Dosa with Coconut Chutney
+        - Besan Chilla with Cucumber
+        - Buckwheat Porridge.
+
+  utter_moderate_tuesday_vegetarian_morning_snack:
+    - text: |
+        For a vegetarian morning snack in the moderate diabetic diet on Tuesday, you can have:
+        - Carrot and Beetroot Salad
+        - Roasted Walnuts
+        - Cucumber with Lemon and Salt
+        - Guava
+        - Roasted Chana.
+
+  utter_moderate_tuesday_vegetarian_lunch:
+    - text: |
+        For vegetarian lunch in the moderate diabetic diet on Tuesday, you can have:
+        - Vegetable Pulao with Cucumber Raita
+        - Spinach and Moong Dal Soup
+        - Lentil Pulao with Veggies
+        - Tofu Stir Fry with Vegetables
+        - Kachumber Salad.
+
+  utter_moderate_tuesday_vegetarian_midday_snack:
+    - text: |
+        For a vegetarian midday snack in the moderate diabetic diet on Tuesday, you can have:
+        - Buttermilk with Cumin
+        - Roasted Chana with Peanuts
+        - Green Tea with Almonds
+        - Fruit Salad with Apple and Kiwi
+        - Puffed Rice.
+  utter_moderate_tuesday_vegetarian_dinner:
+    - text: |
+        For vegetarian dinner in the moderate diabetic diet on Tuesday, you can have:
+        - Vegetable Daliya with Curd
+        - Brown Rice with Palak (Spinach) and Onion
+        - Lauki (Bottle Gourd) Roti
+        - Millet Khichdi with Cabbage
+        - Mixed Vegetable Soup.
+
+  utter_moderate_tuesday_nonvegetarian_breakfast:
+    - text: |
+        For non-vegetarian breakfast in the moderate diabetic diet on Tuesday, you can have:
+        - Vegetable Omelet with Mushrooms
+        - Scrambled Eggs with Spinach
+        - Chicken Keema with Quinoa
+        - Methi Paratha with Paneer
+        - Fish Amritsari.
+
+  utter_moderate_tuesday_nonvegetarian_morning_snack:
+    - text: |
+        For a non-vegetarian morning snack in the moderate diabetic diet on Tuesday, you can have:
+        - Boiled Egg with Spinach
+        - Chicken Shawarma Wrap
+        - Grilled Fish with Lemon
+        - Fish and Avocado Salad
+        - Turkey Bacon.
+
+  utter_moderate_tuesday_nonvegetarian_lunch:
+    - text: |
+        For non-vegetarian lunch in the moderate diabetic diet on Tuesday, you can have:
+        - Chicken Curry with Brown Rice
+        - Grilled Fish with Lentil Soup
+        - Mutton with Mixed Vegetables
+        - Baked Chicken with Cauliflower
+        - Salmon Salad.
+
+  utter_moderate_tuesday_nonvegetarian_midday_snack:
+    - text: |
+        For a non-vegetarian midday snack in the moderate diabetic diet on Tuesday, you can have:
+        - Chicken Salad with Avocado
+        - Protein Smoothie with Almond Milk
+        - Boiled Egg with Olive Oil
+        - Turkey Jerky
+        - Grilled Chicken Skewers.
+
+  utter_moderate_tuesday_nonvegetarian_dinner:
+    - text: |
+        For non-vegetarian dinner in the moderate diabetic diet on Tuesday, you can have:
+        - Grilled Chicken with Spinach Salad
+        - Baked Fish with Quinoa
+        - Mutton Shorba
+        - Chicken Saagwala
+        - Fish Tikka.
+  utter_moderate_tuesday_vegan_breakfast:
+    - text: |
+        For vegan breakfast in the moderate diabetic diet on Tuesday, you can have:
+        - Chia Seed Pudding with Coconut Milk
+        - Vegan Pancakes with Maple Syrup
+        - Quinoa Khichdi with Mixed Vegetables
+        - Tofu and Spinach Paratha
+        - Masala Oats.
+
+  utter_moderate_tuesday_vegan_morning_snack:
+    - text: |
+        For a vegan morning snack in the moderate diabetic diet on Tuesday, you can have:
+        - Mixed Seeds (Flax, Chia, Pumpkin)
+        - Coconut Water with Lime
+        - Pomegranate
+        - Sliced Apple with Almonds
+        - Raw Mango.
+
+  utter_moderate_tuesday_vegan_lunch:
+    - text: |
+        For vegan lunch in the moderate diabetic diet on Tuesday, you can have:
+        - Chickpea and Spinach Salad
+        - Quinoa and Vegetable Soup
+        - Stuffed Mushrooms with Millet
+        - Vegan Biryani
+        - Mixed Vegetable Khichdi.
+
+  utter_moderate_tuesday_vegan_midday_snack:
+    - text: |
+        For a vegan midday snack in the moderate diabetic diet on Tuesday, you can have:
+        - Fresh Coconut Water with Chia Seeds
+        - Roasted Makhana with Spices
+        - Apple with Almond Butter
+        - Roasted Pumpkin Seeds
+        - Cucumber with Hummus.
+
+  utter_moderate_tuesday_vegan_dinner:
+    - text: |
+        For vegan dinner in the moderate diabetic diet on Tuesday, you can have:
+        - Stir-Fried Tofu with Broccoli
+        - Vegetable and Millet Soup
+        - Lentil and Spinach Curry with Rice
+        - Vegan Stuffed Bell Peppers
+        - Zucchini Noodles with Pesto.
+  utter_moderate_wednesday_vegetarian_breakfast:
+    - text: |
+        For vegetarian breakfast in the moderate diabetic diet on Wednesday, you can have:
+        - Methi Thepla with Yogurt
+        - Oats Upma with Vegetables
+        - Moong Dal Cheela with Green Chutney
+        - Kachori with Curd
+        - Bajra Khichdi.
+
+  utter_moderate_wednesday_vegetarian_morning_snack:
+    - text: |
+        For a vegetarian morning snack in the moderate diabetic diet on Wednesday, you can have:
+        - Roasted Almonds
+        - Boiled Sweet Potato
+        - Fruit Chaat with Apple and Pomegranate
+        - Moong Sprouts Salad
+        - Cucumber with Salt.
+
+  utter_moderate_wednesday_vegetarian_lunch:
+    - text: |
+        For vegetarian lunch in the moderate diabetic diet on Wednesday, you can have:
+        - Masoor Dal with Brown Rice
+        - Vegetable Khichdi
+        - Vegetable and Tofu Stir Fry
+        - Methi Paratha with Yogurt
+        - Cabbage and Peas Curry.
+
+  utter_moderate_wednesday_vegetarian_midday_snack:
+    - text: |
+        For a vegetarian midday snack in the moderate diabetic diet on Wednesday, you can have:
+        - Cucumber and Tomato Salad with Lime
+        - Roasted Peanuts with Black Salt
+        - Green Tea with Lemon
+        - Mixed Fruit Salad with Orange and Kiwi
+        - Puffed Rice.
+
+  utter_moderate_wednesday_vegetarian_dinner:
+    - text: |
+        For vegetarian dinner in the moderate diabetic diet on Wednesday, you can have:
+        - Palak (Spinach) Roti with Dal
+        - Vegetable Pulao with Moong Dal
+        - Cabbage and Carrot Soup
+        - Vegetable Tofu Stir Fry
+        - Masala Khichdi.
+  utter_moderate_wednesday_nonvegetarian_breakfast:
+    - text: |
+        For non-vegetarian breakfast in the moderate diabetic diet on Wednesday, you can have:
+        - Scrambled Eggs with Mushrooms
+        - Chicken Bhurji with Millet
+        - Egg and Spinach Wrap
+        - Tandoori Chicken with Cucumber Raita
+        - Grilled Fish with Spinach.
+
+  utter_moderate_wednesday_nonvegetarian_morning_snack:
+    - text: |
+        For a non-vegetarian morning snack in the moderate diabetic diet on Wednesday, you can have:
+        - Chicken Soup with Ginger
+        - Grilled Prawns with Lemon
+        - Hard-Boiled Eggs with Red Chilli
+        - Fish Pakora
+        - Grilled Chicken Skewers.
+
+  utter_moderate_wednesday_nonvegetarian_lunch:
+    - text: |
+        For non-vegetarian lunch in the moderate diabetic diet on Wednesday, you can have:
+        - Grilled Chicken with Cabbage Salad
+        - Mutton Curry with Quinoa
+        - Baked Fish with Brown Rice
+        - Chicken Korma with Cauliflower
+        - Tandoori Fish.
+
+  utter_moderate_wednesday_nonvegetarian_midday_snack:
+    - text: |
+        For a non-vegetarian midday snack in the moderate diabetic diet on Wednesday, you can have:
+        - Boiled Egg Whites
+        - Tuna Salad with Avocado
+        - Grilled Chicken Wings
+        - Chicken and Pineapple Skewers
+        - Fish Tikka with Mango Salsa.
+
+  utter_moderate_wednesday_nonvegetarian_dinner:
+    - text: |
+        For non-vegetarian dinner in the moderate diabetic diet on Wednesday, you can have:
+        - Grilled Fish with Spinach
+        - Baked Chicken with Broccoli
+        - Mutton and Spinach Curry
+        - Fish Moilee
+        - Grilled Chicken Thighs with Cauliflower Rice.
+  utter_moderate_wednesday_vegan_breakfast:
+    - text: |
+        For vegan breakfast in the moderate diabetic diet on Wednesday, you can have:
+        - Masala Porridge with Oats and Veggies
+        - Vegetable Dosa with Tofu
+        - Chia Pudding with Almond Milk and Mixed Berries
+        - Poha with Peas
+        - Vegan Paratha with Cucumber.
+
+  utter_moderate_wednesday_vegan_morning_snack:
+    - text: |
+        For a vegan morning snack in the moderate diabetic diet on Wednesday, you can have:
+        - Papaya Salad with Lemon
+        - Mixed Nuts
+        - Coconut Water
+        - Roasted Chickpeas with Turmeric
+        - Carrot and Celery Sticks.
+
+  utter_moderate_wednesday_vegan_lunch:
+    - text: |
+        For vegan lunch in the moderate diabetic diet on Wednesday, you can have:
+        - Vegan Biryani with Vegetables
+        - Quinoa Salad with Roasted Pumpkin
+        - Vegetable Stew with Brown Rice
+        - Chickpea and Spinach Soup
+        - Stuffed Bell Peppers with Quinoa.
+
+  utter_moderate_wednesday_vegan_midday_snack:
+    - text: |
+        For a vegan midday snack in the moderate diabetic diet on Wednesday, you can have:
+        - Apple with Almond Butter
+        - Roasted Makhana
+        - Hummus with Carrot Sticks
+        - Vegan Protein Smoothie
+        - Watermelon.
+
+  utter_moderate_wednesday_vegan_dinner:
+    - text: |
+        For vegan dinner in the moderate diabetic diet on Wednesday, you can have:
+        - Stir-Fried Veggies with Tofu
+        - Vegan Lentil Soup with Kale
+        - Vegan Shepherd’s Pie
+        - Cauliflower Rice with Stir-Fried Tofu
+        - Chickpea and Zucchini Stew.
+  utter_moderate_thursday_vegetarian_breakfast:
+    - text: |
+        For vegetarian breakfast in the moderate diabetic diet on Thursday, you can have:
+        - Vegetable Upma with Peas and Carrot
+        - Ragi Dosa with Tamarind Chutney
+        - Moong Dal and Spinach Pancake
+        - Buckwheat Idli with Sambar
+        - Aloo Paratha with Curd.
+
+  utter_moderate_thursday_vegetarian_morning_snack:
+    - text: |
+        For a vegetarian morning snack in the moderate diabetic diet on Thursday, you can have:
+        - Roasted Pumpkin Seeds
+        - Buttermilk with Ginger
+        - Apple with Walnuts
+        - Raw Papaya Salad
+        - Guava.
+
+  utter_moderate_thursday_vegetarian_lunch:
+    - text: |
+        For vegetarian lunch in the moderate diabetic diet on Thursday, you can have:
+        - Brown Rice with Spinach and Moong Dal
+        - Vegetable Khichdi with Peas
+        - Vegetable Korma with Millet
+        - Masoor Dal with Cucumber Raita
+        - Tofu Pulao.
+
+  utter_moderate_thursday_vegetarian_midday_snack:
+    - text: |
+        For a vegetarian midday snack in the moderate diabetic diet on Thursday, you can have:
+        - Boiled Mung Beans
+        - Steamed Corn with Lime and Salt
+        - Cucumber with Yogurt Dip
+        - Roasted Chana with Black Salt
+        - Fresh Coconut Water.
+
+  utter_moderate_thursday_vegetarian_dinner:
+    - text: |
+        For vegetarian dinner in the moderate diabetic diet on Thursday, you can have:
+        - Mixed Vegetable Dalia
+        - Methi and Carrot Roti with Curd
+        - Tofu and Vegetable Stir Fry
+        - Vegetable Moong Dal Soup
+        - Brown Rice with Tomato and Cucumber Salad.
+  utter_moderate_thursday_nonvegetarian_breakfast:
+    - text: |
+        For non-vegetarian breakfast in the moderate diabetic diet on Thursday, you can have:
+        - Egg and Avocado Toast
+        - Scrambled Eggs with Spinach
+        - Chicken Keema with Brown Rice
+        - Egg Bhurji with Millet
+        - Grilled Fish with Quinoa.
+
+  utter_moderate_thursday_nonvegetarian_morning_snack:
+    - text: |
+        For a non-vegetarian morning snack in the moderate diabetic diet on Thursday, you can have:
+        - Grilled Chicken with Lemon
+        - Boiled Egg with Red Onion
+        - Prawn Salad with Lime
+        - Fish Cutlets
+        - Chicken and Vegetable Soup.
+
+  utter_moderate_thursday_nonvegetarian_lunch:
+    - text: |
+        For non-vegetarian lunch in the moderate diabetic diet on Thursday, you can have:
+        - Grilled Chicken with Mixed Veggies
+        - Mutton Kofta with Quinoa
+        - Fish Curry with Spinach
+        - Baked Salmon with Brown Rice
+        - Chicken Tikka with Quinoa.
+
+  utter_moderate_thursday_nonvegetarian_midday_snack:
+    - text: |
+        For a non-vegetarian midday snack in the moderate diabetic diet on Thursday, you can have:
+        - Chicken Wrap with Lettuce
+        - Grilled Fish with Avocado
+        - Protein Smoothie with Banana and Almond Milk
+        - Chicken Skewers with Bell Peppers
+        - Hard-Boiled Egg with Cucumber.
+
+  utter_moderate_thursday_nonvegetarian_dinner:
+    - text: |
+        For non-vegetarian dinner in the moderate diabetic diet on Thursday, you can have:
+        - Baked Chicken with Brussels Sprouts
+        - Fish in Coconut Milk with Brown Rice
+        - Chicken Saagwala
+        - Grilled Salmon with Asparagus
+        - Mutton Soup.
+  utter_moderate_thursday_vegan_breakfast:
+    - text: |
+        For vegan breakfast in the moderate diabetic diet on Thursday, you can have:
+        - Chia Seed Pudding with Almond Milk and Berries
+        - Quinoa Upma with Vegetables
+        - Oats and Banana Pancakes
+        - Tofu Scramble with Peppers
+        - Buckwheat Porridge with Nuts.
+
+  utter_moderate_thursday_vegan_morning_snack:
+    - text: |
+        For a vegan morning snack in the moderate diabetic diet on Thursday, you can have:
+        - Roasted Pumpkin Seeds
+        - Fresh Coconut Water
+        - Sliced Apples with Almond Butter
+        - Mixed Nuts and Seeds
+        - Cucumber and Carrot Sticks with Hummus.
+
+  utter_moderate_thursday_vegan_lunch:
+    - text: |
+        For vegan lunch in the moderate diabetic diet on Thursday, you can have:
+        - Chickpea and Spinach Salad
+        - Brown Rice with Vegetable Stir-Fry
+        - Lentil Soup with Whole Grain Bread
+        - Quinoa and Roasted Pumpkin Salad
+        - Vegan Biryani with Tofu.
+
+  utter_moderate_thursday_vegan_midday_snack:
+    - text: |
+        For a vegan midday snack in the moderate diabetic diet on Thursday, you can have:
+        - Roasted Makhana with Spices
+        - Fruit Salad with Lemon Dressing
+        - Vegan Protein Smoothie
+        - Boiled Chickpeas with Salt and Pepper
+        - Almonds and Walnuts.
+
+  utter_moderate_thursday_vegan_dinner:
+    - text: |
+        For vegan dinner in the moderate diabetic diet on Thursday, you can have:
+        - Stir-Fried Tofu with Vegetables
+        - Lentil and Spinach Soup
+        - Vegan Shepherd’s Pie
+        - Roasted Sweet Potatoes with Black Beans
+        - Cauliflower Rice with Stir-Fried Broccoli.
+  utter_moderate_friday_vegetarian_breakfast:
+    - text: |
+        For vegetarian breakfast in the moderate diabetic diet on Friday, you can have:
+        - Moong Dal Chilla with Green Chutney
+        - Ragi Idli with Sambar
+        - Bajra Upma with Vegetables
+        - Vegetable Poha with Peanuts
+        - Besan Pancake with Tomato Salsa.
+
+  utter_moderate_friday_vegetarian_morning_snack:
+    - text: |
+        For a vegetarian morning snack in the moderate diabetic diet on Friday, you can have:
+        - Roasted Almonds and Walnuts
+        - Sliced Apple with Peanut Butter
+        - Cucumber and Carrot Sticks with Lemon
+        - Masala Chaas (Spiced Buttermilk)
+        - Mixed Seeds (Pumpkin, Sunflower, Flax).
+
+  utter_moderate_friday_vegetarian_lunch:
+    - text: |
+        For vegetarian lunch in the moderate diabetic diet on Friday, you can have:
+        - Brown Rice with Mixed Vegetable Curry
+        - Quinoa Pulao with Cucumber Raita
+        - Methi Paratha with Moong Dal
+        - Lentil Soup with Whole Wheat Roti
+        - Tofu and Stir-Fried Vegetables.
+
+  utter_moderate_friday_vegetarian_midday_snack:
+    - text: |
+        For a vegetarian midday snack in the moderate diabetic diet on Friday, you can have:
+        - Roasted Makhana with Black Salt
+        - Fresh Coconut Water
+        - Green Tea with Lemon
+        - Sprouted Moong Chaat
+        - Fruit Salad with Papaya and Kiwi.
+
+  utter_moderate_friday_vegetarian_dinner:
+    - text: |
+        For vegetarian dinner in the moderate diabetic diet on Friday, you can have:
+        - Vegetable Daliya with Yogurt
+        - Millet Roti with Spinach Dal
+        - Mixed Lentil Soup with Brown Rice
+        - Tofu and Mushroom Stir Fry
+        - Cabbage and Peas Curry with Whole Wheat Roti.
+  utter_moderate_friday_nonvegetarian_breakfast:
+    - text: |
+        For non-vegetarian breakfast in the moderate diabetic diet on Friday, you can have:
+        - Scrambled Eggs with Spinach
+        - Chicken Keema with Whole Wheat Toast
+        - Boiled Eggs with Avocado
+        - Grilled Fish with Vegetables
+        - Egg Bhurji with Multigrain Roti.
+
+  utter_moderate_friday_nonvegetarian_morning_snack:
+    - text: |
+        For a non-vegetarian morning snack in the moderate diabetic diet on Friday, you can have:
+        - Boiled Eggs with Black Pepper
+        - Chicken and Avocado Salad
+        - Tuna Salad with Cucumber
+        - Chicken Soup with Ginger
+        - Grilled Prawns with Lemon.
+
+  utter_moderate_friday_nonvegetarian_lunch:
+    - text: |
+        For non-vegetarian lunch in the moderate diabetic diet on Friday, you can have:
+        - Grilled Chicken with Brown Rice
+        - Fish Curry with Spinach
+        - Baked Salmon with Roasted Vegetables
+        - Chicken Korma with Quinoa
+        - Mutton Soup with Whole Wheat Roti.
+
+  utter_moderate_friday_nonvegetarian_midday_snack:
+    - text: |
+        For a non-vegetarian midday snack in the moderate diabetic diet on Friday, you can have:
+        - Chicken Skewers with Bell Peppers
+        - Hard-Boiled Egg with Cucumber
+        - Grilled Fish with Avocado
+        - Turkey Jerky with Nuts
+        - Chicken Wrap with Lettuce.
+
+  utter_moderate_friday_nonvegetarian_dinner:
+    - text: |
+        For non-vegetarian dinner in the moderate diabetic diet on Friday, you can have:
+        - Baked Chicken with Brussels Sprouts
+        - Fish Tikka with Mint Chutney
+        - Chicken Saagwala with Brown Rice
+        - Grilled Salmon with Asparagus
+        - Mutton Curry with Cauliflower Rice.
+  utter_moderate_friday_vegan_breakfast:
+    - text: |
+        For vegan breakfast in the moderate diabetic diet on Friday, you can have:
+        - Chia Seed Pudding with Almond Milk and Berries
+        - Oats and Banana Pancakes
+        - Quinoa Upma with Vegetables
+        - Tofu Scramble with Peppers
+        - Buckwheat Porridge with Nuts.
+
+  utter_moderate_friday_vegan_morning_snack:
+    - text: |
+        For a vegan morning snack in the moderate diabetic diet on Friday, you can have:
+        - Roasted Pumpkin Seeds
+        - Fresh Coconut Water
+        - Sliced Apples with Almond Butter
+        - Mixed Nuts and Seeds
+        - Cucumber and Carrot Sticks with Hummus.
+
+  utter_moderate_friday_vegan_lunch:
+    - text: |
+        For vegan lunch in the moderate diabetic diet on Friday, you can have:
+        - Chickpea and Spinach Salad
+        - Brown Rice with Vegetable Stir-Fry
+        - Lentil Soup with Whole Grain Bread
+        - Quinoa and Roasted Pumpkin Salad
+        - Vegan Biryani with Tofu.
+
+  utter_moderate_friday_vegan_midday_snack:
+    - text: |
+        For a vegan midday snack in the moderate diabetic diet on Friday, you can have:
+        - Roasted Makhana with Spices
+        - Fruit Salad with Lemon Dressing
+        - Vegan Protein Smoothie
+        - Boiled Chickpeas with Salt and Pepper
+        - Almonds and Walnuts.
+
+  utter_moderate_friday_vegan_dinner:
+    - text: |
+        For vegan dinner in the moderate diabetic diet on Friday, you can have:
+        - Stir-Fried Tofu with Vegetables
+        - Lentil and Spinach Soup
+        - Vegan Shepherd’s Pie
+        - Roasted Sweet Potatoes with Black Beans
+        - Cauliflower Rice with Stir-Fried Broccoli.
+  utter_moderate_saturday_vegetarian_breakfast:
+    - text: |
+        For vegetarian breakfast in the moderate diabetic diet on Saturday, you can have:
+        - Besan Chilla with Mint Chutney
+        - Ragi Idli with Sambar
+        - Moong Dal Pancake with Carrot
+        - Bajra Upma with Vegetables
+        - Vegetable Poha with Peanuts.
+
+  utter_moderate_saturday_vegetarian_morning_snack:
+    - text: |
+        For a vegetarian morning snack in the moderate diabetic diet on Saturday, you can have:
+        - Roasted Almonds and Walnuts
+        - Sliced Apple with Peanut Butter
+        - Cucumber and Carrot Sticks with Lemon
+        - Buttermilk with Cumin
+        - Fresh Coconut Water.
+
+  utter_moderate_saturday_vegetarian_lunch:
+    - text: |
+        For vegetarian lunch in the moderate diabetic diet on Saturday, you can have:
+        - Brown Rice with Mixed Vegetable Curry
+        - Quinoa Pulao with Cucumber Raita
+        - Methi Paratha with Moong Dal
+        - Lentil Soup with Whole Wheat Roti
+        - Tofu and Stir-Fried Vegetables.
+
+  utter_moderate_saturday_vegetarian_midday_snack:
+    - text: |
+        For a vegetarian midday snack in the moderate diabetic diet on Saturday, you can have:
+        - Roasted Makhana with Black Salt
+        - Green Tea with Lemon
+        - Sprouted Moong Chaat
+        - Fruit Salad with Papaya and Kiwi
+        - Steamed Corn with Lime.
+
+  utter_moderate_saturday_vegetarian_dinner:
+    - text: |
+        For vegetarian dinner in the moderate diabetic diet on Saturday, you can have:
+        - Vegetable Daliya with Yogurt
+        - Millet Roti with Spinach Dal
+        - Mixed Lentil Soup with Brown Rice
+        - Tofu and Mushroom Stir Fry
+        - Cabbage and Peas Curry with Whole Wheat Roti.
+  utter_moderate_saturday_nonvegetarian_breakfast:
+    - text: |
+        For non-vegetarian breakfast in the moderate diabetic diet on Saturday, you can have:
+        - Scrambled Eggs with Spinach
+        - Chicken Keema with Whole Wheat Toast
+        - Boiled Eggs with Avocado
+        - Grilled Fish with Vegetables
+        - Egg Bhurji with Multigrain Roti.
+
+  utter_moderate_saturday_nonvegetarian_morning_snack:
+    - text: |
+        For a non-vegetarian morning snack in the moderate diabetic diet on Saturday, you can have:
+        - Boiled Eggs with Black Pepper
+        - Chicken and Avocado Salad
+        - Tuna Salad with Cucumber
+        - Chicken Soup with Ginger
+        - Grilled Prawns with Lemon.
+
+  utter_moderate_saturday_nonvegetarian_lunch:
+    - text: |
+        For non-vegetarian lunch in the moderate diabetic diet on Saturday, you can have:
+        - Grilled Chicken with Brown Rice
+        - Fish Curry with Spinach
+        - Baked Salmon with Roasted Vegetables
+        - Chicken Korma with Quinoa
+        - Mutton Soup with Whole Wheat Roti.
+
+  utter_moderate_saturday_nonvegetarian_midday_snack:
+    - text: |
+        For a non-vegetarian midday snack in the moderate diabetic diet on Saturday, you can have:
+        - Chicken Skewers with Bell Peppers
+        - Hard-Boiled Egg with Cucumber
+        - Grilled Fish with Avocado
+        - Turkey Jerky with Nuts
+        - Chicken Wrap with Lettuce.
+
+  utter_moderate_saturday_nonvegetarian_dinner:
+    - text: |
+        For non-vegetarian dinner in the moderate diabetic diet on Saturday, you can have:
+        - Baked Chicken with Brussels Sprouts
+        - Fish Tikka with Mint Chutney
+        - Chicken Saagwala with Brown Rice
+        - Grilled Salmon with Asparagus
+        - Mutton Curry with Cauliflower Rice.
+  utter_moderate_saturday_vegan_breakfast:
+    - text: |
+        For vegan breakfast in the moderate diabetic diet on Saturday, you can have:
+        - Chia Seed Pudding with Almond Milk and Berries
+        - Oats and Banana Pancakes
+        - Quinoa Upma with Vegetables
+        - Tofu Scramble with Peppers
+        - Buckwheat Porridge with Nuts.
+
+  utter_moderate_saturday_vegan_morning_snack:
+    - text: |
+        For a vegan morning snack in the moderate diabetic diet on Saturday, you can have:
+        - Roasted Pumpkin Seeds
+        - Fresh Coconut Water
+        - Sliced Apples with Almond Butter
+        - Mixed Nuts and Seeds
+        - Cucumber and Carrot Sticks with Hummus.
+
+  utter_moderate_saturday_vegan_lunch:
+    - text: |
+        For vegan lunch in the moderate diabetic diet on Saturday, you can have:
+        - Chickpea and Spinach Salad
+        - Brown Rice with Vegetable Stir-Fry
+        - Lentil Soup with Whole Grain Bread
+        - Quinoa and Roasted Pumpkin Salad
+        - Vegan Biryani with Tofu.
+
+  utter_moderate_saturday_vegan_midday_snack:
+    - text: |
+        For a vegan midday snack in the moderate diabetic diet on Saturday, you can have:
+        - Roasted Makhana with Spices
+        - Fruit Salad with Lemon Dressing
+        - Vegan Protein Smoothie
+        - Boiled Chickpeas with Salt and Pepper
+        - Almonds and Walnuts.
+
+  utter_moderate_saturday_vegan_dinner:
+    - text: |
+        For vegan dinner in the moderate diabetic diet on Saturday, you can have:
+        - Stir-Fried Tofu with Vegetables
+        - Lentil and Spinach Soup
+        - Vegan Shepherd’s Pie
+        - Roasted Sweet Potatoes with Black Beans
+        - Cauliflower Rice with Stir-Fried Broccoli.
+  utter_moderate_sunday_vegetarian_breakfast:
+    - text: |
+        For vegetarian breakfast in the moderate diabetic diet on Sunday, you can have:
+        - Ragi Dosa with Coconut Chutney
+        - Methi Paratha with Curd
+        - Vegetable Poha with Peanuts
+        - Bajra Upma with Vegetables
+        - Moong Dal Cheela with Mint Chutney.
+
+  utter_moderate_sunday_vegetarian_morning_snack:
+    - text: |
+        For a vegetarian morning snack in the moderate diabetic diet on Sunday, you can have:
+        - Roasted Makhana
+        - Almonds (7-8 pieces)
+        - Carrot Sticks with Lemon
+        - Roasted Chana
+        - Cucumber with Mint Raita.
+
+  utter_moderate_sunday_vegetarian_lunch:
+    - text: |
+        For vegetarian lunch in the moderate diabetic diet on Sunday, you can have:
+        - Quinoa Pulao with Spinach
+        - Vegetable Khichdi with Vegetable Raita
+        - Methi Thepla with Vegetable Raita
+        - Quinoa with Stir-Fried Veggies
+        - Vegetable Sambar with Millet.
+
+  utter_moderate_sunday_vegetarian_midday_snack:
+    - text: |
+        For a vegetarian midday snack in the moderate diabetic diet on Sunday, you can have:
+        - Roasted Peanuts
+        - Vegetable Soup
+        - Apple Slices
+        - Fresh Coconut Water
+        - Roasted Chana.
+
+  utter_moderate_sunday_vegetarian_dinner:
+    - text: |
+        For vegetarian dinner in the moderate diabetic diet on Sunday, you can have:
+        - Vegetable Stir Fry with Bajra Roti
+        - Moong Dal Khichdi
+        - Brown Rice with Vegetable Curry
+        - Quinoa Vegetable Curry
+        - Millet Roti with Dal.
+  utter_moderate_sunday_nonvegetarian_breakfast:
+    - text: |
+        For non-vegetarian breakfast in the moderate diabetic diet on Sunday, you can have:
+        - Scrambled Eggs with Spinach
+        - Chicken Keema with Whole Wheat Toast
+        - Boiled Eggs with Avocado
+        - Grilled Fish with Vegetables
+        - Egg Bhurji with Multigrain Roti.
+
+  utter_moderate_sunday_nonvegetarian_morning_snack:
+    - text: |
+        For a non-vegetarian morning snack in the moderate diabetic diet on Sunday, you can have:
+        - Boiled Eggs with Black Pepper
+        - Chicken and Avocado Salad
+        - Tuna Salad with Cucumber
+        - Chicken Soup with Ginger
+        - Grilled Prawns with Lemon.
+
+  utter_moderate_sunday_nonvegetarian_lunch:
+    - text: |
+        For non-vegetarian lunch in the moderate diabetic diet on Sunday, you can have:
+        - Grilled Chicken with Brown Rice
+        - Fish Curry with Spinach
+        - Baked Salmon with Roasted Vegetables
+        - Chicken Korma with Quinoa
+        - Mutton Soup with Whole Wheat Roti.
+
+  utter_moderate_sunday_nonvegetarian_midday_snack:
+    - text: |
+        For a non-vegetarian midday snack in the moderate diabetic diet on Sunday, you can have:
+        - Chicken Skewers with Bell Peppers
+        - Hard-Boiled Egg with Cucumber
+        - Grilled Fish with Avocado
+        - Turkey Jerky with Nuts
+        - Chicken Wrap with Lettuce.
+
+  utter_moderate_sunday_nonvegetarian_dinner:
+    - text: |
+        For non-vegetarian dinner in the moderate diabetic diet on Sunday, you can have:
+        - Baked Chicken with Brussels Sprouts
+        - Fish Tikka with Mint Chutney
+        - Chicken Saagwala with Brown Rice
+        - Grilled Salmon with Asparagus
+        - Mutton Curry with Cauliflower Rice.
+  utter_moderate_sunday_vegan_breakfast:
+    - text: |
+        For vegan breakfast in the moderate diabetic diet on Sunday, you can have:
+        - Chia Seed Pudding with Almond Milk and Berries
+        - Oats and Banana Pancakes
+        - Quinoa Upma with Vegetables
+        - Tofu Scramble with Peppers
+        - Buckwheat Porridge with Nuts.
+
+  utter_moderate_sunday_vegan_morning_snack:
+    - text: |
+        For a vegan morning snack in the moderate diabetic diet on Sunday, you can have:
+        - Roasted Pumpkin Seeds
+        - Fresh Coconut Water
+        - Sliced Apples with Almond Butter
+        - Mixed Nuts and Seeds
+        - Cucumber and Carrot Sticks with Hummus.
+
+  utter_moderate_sunday_vegan_lunch:
+    - text: |
+        For vegan lunch in the moderate diabetic diet on Sunday, you can have:
+        - Chickpea and Spinach Salad
+        - Brown Rice with Vegetable Stir-Fry
+        - Lentil Soup with Whole Grain Bread
+        - Quinoa and Roasted Pumpkin Salad
+        - Vegan Biryani with Tofu.
+
+  utter_moderate_sunday_vegan_midday_snack:
+    - text: |
+        For a vegan midday snack in the moderate diabetic diet on Sunday, you can have:
+        - Roasted Makhana with Spices
+        - Fruit Salad with Lemon Dressing
+        - Vegan Protein Smoothie
+        - Boiled Chickpeas with Salt and Pepper
+        - Almonds and Walnuts.
+
+  utter_moderate_sunday_vegan_dinner:
+    - text: |
+        For vegan dinner in the moderate diabetic diet on Sunday, you can have:
+        - Stir-Fried Tofu with Vegetables
+        - Lentil and Spinach Soup
+        - Vegan Shepherd’s Pie
+        - Roasted Sweet Potatoes with Black Beans
+        - Cauliflower Rice with Stir-Fried Broccoli.
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true

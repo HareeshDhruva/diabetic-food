@@ -1,0 +1,1905 @@
+
+version: "3.1"
+
+nlu:
+- intent: greet
+  examples: |
+    - hey
+    - hello
+    - hi
+    - hello there
+    - good morning
+    - good evening
+    - hey dude
+    - good afternoon
+
+- intent: goodbye
+  examples: |
+    - bye
+    - goodbye
+    - see you later
+    - have a nice day
+    - see you around
+
+- intent: affirm
+  examples: |
+    - yes
+    - indeed
+    - of course
+    - correct
+
+- intent: deny
+  examples: |
+    - no
+    - never
+    - not really
+
+- intent: mood_great
+  examples: |
+    - perfect
+    - great
+    - amazing
+    - I am feeling very good
+    - I am great
+    - I am amazing
+
+- intent: mood_unhappy
+  examples: |
+    - I am sad
+    - I don't feel very well
+    - I am disappointed
+    - super sad
+
+- intent: bot_challenge
+  examples: |
+    - are you a bot?
+    - are you a human?
+
+- intent: ask_proliferative_monday_vegetarian_breakfast
+  examples: |
+    - What is the vegetarian breakfast for proliferative on Monday?
+    - Tell me the Monday breakfast for proliferative (vegetarian).
+    - What should I eat for breakfast on Monday in the proliferative vegetarian diet?
+
+- intent: ask_proliferative_monday_vegetarian_morning_snack
+  examples: |
+    - What is the vegetarian morning snack for proliferative on Monday?
+    - What can I eat for a morning snack on Monday in the proliferative vegetarian diet?
+    - Suggest a Monday morning snack for proliferative (vegetarian).
+
+- intent: ask_proliferative_monday_vegetarian_lunch
+  examples: |
+    - What is the vegetarian lunch for proliferative on Monday?
+    - Tell me the Monday lunch for proliferative (vegetarian).
+    - What should I eat for lunch on Monday in the proliferative vegetarian diet?
+
+- intent: ask_proliferative_monday_vegetarian_midday_snack
+  examples: |
+    - What is the vegetarian midday snack for proliferative on Monday?
+    - What can I eat for a midday snack on Monday in the proliferative vegetarian diet?
+    - Suggest a Monday midday snack for proliferative (vegetarian).
+
+- intent: ask_proliferative_monday_vegetarian_dinner
+  examples: |
+    - What is the vegetarian dinner for proliferative on Monday?
+    - Tell me the Monday dinner for proliferative (vegetarian).
+    - What should I eat for dinner on Monday in the proliferative vegetarian diet?
+- intent: ask_proliferative_monday_nonvegetarian_breakfast
+  examples: |
+    - What is the non-vegetarian breakfast for proliferative on Monday?
+    - Tell me the Monday breakfast for proliferative (non-vegetarian).
+    - What should I eat for breakfast on Monday in the proliferative non-vegetarian diet?
+
+- intent: ask_proliferative_monday_nonvegetarian_morning_snack
+  examples: |
+    - What is the non-vegetarian morning snack for proliferative on Monday?
+    - What can I eat for a morning snack on Monday in the proliferative non-vegetarian diet?
+    - Suggest a Monday morning snack for proliferative (non-vegetarian).
+
+- intent: ask_proliferative_monday_nonvegetarian_lunch
+  examples: |
+    - What is the non-vegetarian lunch for proliferative on Monday?
+    - Tell me the Monday lunch for proliferative (non-vegetarian).
+    - What should I eat for lunch on Monday in the proliferative non-vegetarian diet?
+
+- intent: ask_proliferative_monday_nonvegetarian_midday_snack
+  examples: |
+    - What is the non-vegetarian midday snack for proliferative on Monday?
+    - What can I eat for a midday snack on Monday in the proliferative non-vegetarian diet?
+    - Suggest a Monday midday snack for proliferative (non-vegetarian).
+
+- intent: ask_proliferative_monday_nonvegetarian_dinner
+  examples: |
+    - What is the non-vegetarian dinner for proliferative on Monday?
+    - Tell me the Monday dinner for proliferative (non-vegetarian).
+    - What should I eat for dinner on Monday in the proliferative non-vegetarian diet?
+- intent: ask_proliferative_monday_vegan_breakfast
+  examples: |
+    - What is the vegan breakfast for proliferative on Monday?
+    - Tell me the Monday breakfast for proliferative (vegan).
+    - What should I eat for breakfast on Monday in the proliferative vegan diet?
+
+- intent: ask_proliferative_monday_vegan_morning_snack
+  examples: |
+    - What is the vegan morning snack for proliferative on Monday?
+    - What can I eat for a morning snack on Monday in the proliferative vegan diet?
+    - Suggest a Monday morning snack for proliferative (vegan).
+
+- intent: ask_proliferative_monday_vegan_lunch
+  examples: |
+    - What is the vegan lunch for proliferative on Monday?
+    - Tell me the Monday lunch for proliferative (vegan).
+    - What should I eat for lunch on Monday in the proliferative vegan diet?
+
+- intent: ask_proliferative_monday_vegan_midday_snack
+  examples: |
+    - What is the vegan midday snack for proliferative on Monday?
+    - What can I eat for a midday snack on Monday in the proliferative vegan diet?
+    - Suggest a Monday midday snack for proliferative (vegan).
+
+- intent: ask_proliferative_monday_vegan_dinner
+  examples: |
+    - What is the vegan dinner for proliferative on Monday?
+    - Tell me the Monday dinner for proliferative (vegan).
+    - What should I eat for dinner on Monday in the proliferative vegan diet?
+- intent: ask_proliferative_tuesday_vegetarian_breakfast
+  examples: |
+    - What is the vegetarian breakfast for proliferative on Tuesday?
+    - Tell me the Tuesday breakfast for proliferative (vegetarian).
+    - What should I eat for breakfast on Tuesday in the proliferative vegetarian diet?
+
+- intent: ask_proliferative_tuesday_vegetarian_morning_snack
+  examples: |
+    - What is the vegetarian morning snack for proliferative on Tuesday?
+    - What can I eat for a morning snack on Tuesday in the proliferative vegetarian diet?
+    - Suggest a Tuesday morning snack for proliferative (vegetarian).
+
+- intent: ask_proliferative_tuesday_vegetarian_lunch
+  examples: |
+    - What is the vegetarian lunch for proliferative on Tuesday?
+    - Tell me the Tuesday lunch for proliferative (vegetarian).
+    - What should I eat for lunch on Tuesday in the proliferative vegetarian diet?
+
+- intent: ask_proliferative_tuesday_vegetarian_midday_snack
+  examples: |
+    - What is the vegetarian midday snack for proliferative on Tuesday?
+    - What can I eat for a midday snack on Tuesday in the proliferative vegetarian diet?
+    - Suggest a Tuesday midday snack for proliferative (vegetarian).
+
+- intent: ask_proliferative_tuesday_vegetarian_dinner
+  examples: |
+    - What is the vegetarian dinner for proliferative on Tuesday?
+    - Tell me the Tuesday dinner for proliferative (vegetarian).
+    - What should I eat for dinner on Tuesday in the proliferative vegetarian diet?
+- intent: ask_proliferative_tuesday_nonvegetarian_breakfast
+  examples: |
+    - What is the non-vegetarian breakfast for proliferative on Tuesday?
+    - Tell me the Tuesday breakfast for proliferative (non-vegetarian).
+    - What should I eat for breakfast on Tuesday in the proliferative non-vegetarian diet?
+
+- intent: ask_proliferative_tuesday_nonvegetarian_morning_snack
+  examples: |
+    - What is the non-vegetarian morning snack for proliferative on Tuesday?
+    - What can I eat for a morning snack on Tuesday in the proliferative non-vegetarian diet?
+    - Suggest a Tuesday morning snack for proliferative (non-vegetarian).
+
+- intent: ask_proliferative_tuesday_nonvegetarian_lunch
+  examples: |
+    - What is the non-vegetarian lunch for proliferative on Tuesday?
+    - Tell me the Tuesday lunch for proliferative (non-vegetarian).
+    - What should I eat for lunch on Tuesday in the proliferative non-vegetarian diet?
+
+- intent: ask_proliferative_tuesday_nonvegetarian_midday_snack
+  examples: |
+    - What is the non-vegetarian midday snack for proliferative on Tuesday?
+    - What can I eat for a midday snack on Tuesday in the proliferative non-vegetarian diet?
+    - Suggest a Tuesday midday snack for proliferative (non-vegetarian).
+
+- intent: ask_proliferative_tuesday_nonvegetarian_dinner
+  examples: |
+    - What is the non-vegetarian dinner for proliferative on Tuesday?
+    - Tell me the Tuesday dinner for proliferative (non-vegetarian).
+    - What should I eat for dinner on Tuesday in the proliferative non-vegetarian diet?
+- intent: ask_proliferative_tuesday_vegan_breakfast
+  examples: |
+    - What is the vegan breakfast for proliferative on Tuesday?
+    - Tell me the Tuesday breakfast for proliferative (vegan).
+    - What should I eat for breakfast on Tuesday in the proliferative vegan diet?
+
+- intent: ask_proliferative_tuesday_vegan_morning_snack
+  examples: |
+    - What is the vegan morning snack for proliferative on Tuesday?
+    - What can I eat for a morning snack on Tuesday in the proliferative vegan diet?
+    - Suggest a Tuesday morning snack for proliferative (vegan).
+
+- intent: ask_proliferative_tuesday_vegan_lunch
+  examples: |
+    - What is the vegan lunch for proliferative on Tuesday?
+    - Tell me the Tuesday lunch for proliferative (vegan).
+    - What should I eat for lunch on Tuesday in the proliferative vegan diet?
+
+- intent: ask_proliferative_tuesday_vegan_midday_snack
+  examples: |
+    - What is the vegan midday snack for proliferative on Tuesday?
+    - What can I eat for a midday snack on Tuesday in the proliferative vegan diet?
+    - Suggest a Tuesday midday snack for proliferative (vegan).
+
+- intent: ask_proliferative_tuesday_vegan_dinner
+  examples: |
+    - What is the vegan dinner for proliferative on Tuesday?
+    - Tell me the Tuesday dinner for proliferative (vegan).
+    - What should I eat for dinner on Tuesday in the proliferative vegan diet?
+- intent: ask_proliferative_wednesday_vegetarian_breakfast
+  examples: |
+    - What is the vegetarian breakfast for proliferative on Wednesday?
+    - Tell me the Wednesday breakfast for proliferative (vegetarian).
+    - What should I eat for breakfast on Wednesday in the proliferative vegetarian diet?
+
+- intent: ask_proliferative_wednesday_vegetarian_morning_snack
+  examples: |
+    - What is the vegetarian morning snack for proliferative on Wednesday?
+    - What can I eat for a morning snack on Wednesday in the proliferative vegetarian diet?
+    - Suggest a Wednesday morning snack for proliferative (vegetarian).
+
+- intent: ask_proliferative_wednesday_vegetarian_lunch
+  examples: |
+    - What is the vegetarian lunch for proliferative on Wednesday?
+    - Tell me the Wednesday lunch for proliferative (vegetarian).
+    - What should I eat for lunch on Wednesday in the proliferative vegetarian diet?
+
+- intent: ask_proliferative_wednesday_vegetarian_midday_snack
+  examples: |
+    - What is the vegetarian midday snack for proliferative on Wednesday?
+    - What can I eat for a midday snack on Wednesday in the proliferative vegetarian diet?
+    - Suggest a Wednesday midday snack for proliferative (vegetarian).
+
+- intent: ask_proliferative_wednesday_vegetarian_dinner
+  examples: |
+    - What is the vegetarian dinner for proliferative on Wednesday?
+    - Tell me the Wednesday dinner for proliferative (vegetarian).
+    - What should I eat for dinner on Wednesday in the proliferative vegetarian diet?
+- intent: ask_proliferative_wednesday_nonvegetarian_breakfast
+  examples: |
+    - What is the non-vegetarian breakfast for proliferative on Wednesday?
+    - Tell me the Wednesday breakfast for proliferative (non-vegetarian).
+    - What should I eat for breakfast on Wednesday in the proliferative non-vegetarian diet?
+
+- intent: ask_proliferative_wednesday_nonvegetarian_morning_snack
+  examples: |
+    - What is the non-vegetarian morning snack for proliferative on Wednesday?
+    - What can I eat for a morning snack on Wednesday in the proliferative non-vegetarian diet?
+    - Suggest a Wednesday morning snack for proliferative (non-vegetarian).
+
+- intent: ask_proliferative_wednesday_nonvegetarian_lunch
+  examples: |
+    - What is the non-vegetarian lunch for proliferative on Wednesday?
+    - Tell me the Wednesday lunch for proliferative (non-vegetarian).
+    - What should I eat for lunch on Wednesday in the proliferative non-vegetarian diet?
+
+- intent: ask_proliferative_wednesday_nonvegetarian_midday_snack
+  examples: |
+    - What is the non-vegetarian midday snack for proliferative on Wednesday?
+    - What can I eat for a midday snack on Wednesday in the proliferative non-vegetarian diet?
+    - Suggest a Wednesday midday snack for proliferative (non-vegetarian).
+
+- intent: ask_proliferative_wednesday_nonvegetarian_dinner
+  examples: |
+    - What is the non-vegetarian dinner for proliferative on Wednesday?
+    - Tell me the Wednesday dinner for proliferative (non-vegetarian).
+    - What should I eat for dinner on Wednesday in the proliferative non-vegetarian diet?
+- intent: ask_proliferative_wednesday_vegan_breakfast
+  examples: |
+    - What is the vegan breakfast for proliferative on Wednesday?
+    - Tell me the Wednesday breakfast for proliferative (vegan).
+    - What should I eat for breakfast on Wednesday in the proliferative vegan diet?
+
+- intent: ask_proliferative_wednesday_vegan_morning_snack
+  examples: |
+    - What is the vegan morning snack for proliferative on Wednesday?
+    - What can I eat for a morning snack on Wednesday in the proliferative vegan diet?
+    - Suggest a Wednesday morning snack for proliferative (vegan).
+
+- intent: ask_proliferative_wednesday_vegan_lunch
+  examples: |
+    - What is the vegan lunch for proliferative on Wednesday?
+    - Tell me the Wednesday lunch for proliferative (vegan).
+    - What should I eat for lunch on Wednesday in the proliferative vegan diet?
+
+- intent: ask_proliferative_wednesday_vegan_midday_snack
+  examples: |
+    - What is the vegan midday snack for proliferative on Wednesday?
+    - What can I eat for a midday snack on Wednesday in the proliferative vegan diet?
+    - Suggest a Wednesday midday snack for proliferative (vegan).
+
+- intent: ask_proliferative_wednesday_vegan_dinner
+  examples: |
+    - What is the vegan dinner for proliferative on Wednesday?
+    - Tell me the Wednesday dinner for proliferative (vegan).
+    - What should I eat for dinner on Wednesday in the proliferative vegan diet?
+- intent: ask_proliferative_thursday_vegetarian_breakfast
+  examples: |
+    - What is the vegetarian breakfast for proliferative on Thursday?
+    - Tell me the Thursday breakfast for proliferative (vegetarian).
+    - What should I eat for breakfast on Thursday in the proliferative vegetarian diet?
+
+- intent: ask_proliferative_thursday_vegetarian_morning_snack
+  examples: |
+    - What is the vegetarian morning snack for proliferative on Thursday?
+    - What can I eat for a morning snack on Thursday in the proliferative vegetarian diet?
+    - Suggest a Thursday morning snack for proliferative (vegetarian).
+
+- intent: ask_proliferative_thursday_vegetarian_lunch
+  examples: |
+    - What is the vegetarian lunch for proliferative on Thursday?
+    - Tell me the Thursday lunch for proliferative (vegetarian).
+    - What should I eat for lunch on Thursday in the proliferative vegetarian diet?
+
+- intent: ask_proliferative_thursday_vegetarian_midday_snack
+  examples: |
+    - What is the vegetarian midday snack for proliferative on Thursday?
+    - What can I eat for a midday snack on Thursday in the proliferative vegetarian diet?
+    - Suggest a Thursday midday snack for proliferative (vegetarian).
+
+- intent: ask_proliferative_thursday_vegetarian_dinner
+  examples: |
+    - What is the vegetarian dinner for proliferative on Thursday?
+    - Tell me the Thursday dinner for proliferative (vegetarian).
+    - What should I eat for dinner on Thursday in the proliferative vegetarian diet?
+- intent: ask_proliferative_thursday_nonvegetarian_breakfast
+  examples: |
+    - What is the non-vegetarian breakfast for proliferative on Thursday?
+    - Tell me the Thursday breakfast for proliferative (non-vegetarian).
+    - What should I eat for breakfast on Thursday in the proliferative non-vegetarian diet?
+
+- intent: ask_proliferative_thursday_nonvegetarian_morning_snack
+  examples: |
+    - What is the non-vegetarian morning snack for proliferative on Thursday?
+    - What can I eat for a morning snack on Thursday in the proliferative non-vegetarian diet?
+    - Suggest a Thursday morning snack for proliferative (non-vegetarian).
+
+- intent: ask_proliferative_thursday_nonvegetarian_lunch
+  examples: |
+    - What is the non-vegetarian lunch for proliferative on Thursday?
+    - Tell me the Thursday lunch for proliferative (non-vegetarian).
+    - What should I eat for lunch on Thursday in the proliferative non-vegetarian diet?
+
+- intent: ask_proliferative_thursday_nonvegetarian_midday_snack
+  examples: |
+    - What is the non-vegetarian midday snack for proliferative on Thursday?
+    - What can I eat for a midday snack on Thursday in the proliferative non-vegetarian diet?
+    - Suggest a Thursday midday snack for proliferative (non-vegetarian).
+
+- intent: ask_proliferative_thursday_nonvegetarian_dinner
+  examples: |
+    - What is the non-vegetarian dinner for proliferative on Thursday?
+    - Tell me the Thursday dinner for proliferative (non-vegetarian).
+    - What should I eat for dinner on Thursday in the proliferative non-vegetarian diet?
+- intent: ask_proliferative_thursday_vegan_breakfast
+  examples: |
+    - What is the vegan breakfast for proliferative on Thursday?
+    - Tell me the Thursday breakfast for proliferative (vegan).
+    - What should I eat for breakfast on Thursday in the proliferative vegan diet?
+
+- intent: ask_proliferative_thursday_vegan_morning_snack
+  examples: |
+    - What is the vegan morning snack for proliferative on Thursday?
+    - What can I eat for a morning snack on Thursday in the proliferative vegan diet?
+    - Suggest a Thursday morning snack for proliferative (vegan).
+
+- intent: ask_proliferative_thursday_vegan_lunch
+  examples: |
+    - What is the vegan lunch for proliferative on Thursday?
+    - Tell me the Thursday lunch for proliferative (vegan).
+    - What should I eat for lunch on Thursday in the proliferative vegan diet?
+
+- intent: ask_proliferative_thursday_vegan_midday_snack
+  examples: |
+    - What is the vegan midday snack for proliferative on Thursday?
+    - What can I eat for a midday snack on Thursday in the proliferative vegan diet?
+    - Suggest a Thursday midday snack for proliferative (vegan).
+
+- intent: ask_proliferative_thursday_vegan_dinner
+  examples: |
+    - What is the vegan dinner for proliferative on Thursday?
+    - Tell me the Thursday dinner for proliferative (vegan).
+    - What should I eat for dinner on Thursday in the proliferative vegan diet?
+- intent: ask_proliferative_friday_vegetarian_breakfast
+  examples: |
+    - What is the vegetarian breakfast for proliferative on Friday?
+    - Tell me the Friday breakfast for proliferative (vegetarian).
+    - What should I eat for breakfast on Friday in the proliferative vegetarian diet?
+
+- intent: ask_proliferative_friday_vegetarian_morning_snack
+  examples: |
+    - What is the vegetarian morning snack for proliferative on Friday?
+    - What can I eat for a morning snack on Friday in the proliferative vegetarian diet?
+    - Suggest a Friday morning snack for proliferative (vegetarian).
+
+- intent: ask_proliferative_friday_vegetarian_lunch
+  examples: |
+    - What is the vegetarian lunch for proliferative on Friday?
+    - Tell me the Friday lunch for proliferative (vegetarian).
+    - What should I eat for lunch on Friday in the proliferative vegetarian diet?
+
+- intent: ask_proliferative_friday_vegetarian_midday_snack
+  examples: |
+    - What is the vegetarian midday snack for proliferative on Friday?
+    - What can I eat for a midday snack on Friday in the proliferative vegetarian diet?
+    - Suggest a Friday midday snack for proliferative (vegetarian).
+
+- intent: ask_proliferative_friday_vegetarian_dinner
+  examples: |
+    - What is the vegetarian dinner for proliferative on Friday?
+    - Tell me the Friday dinner for proliferative (vegetarian).
+    - What should I eat for dinner on Friday in the proliferative vegetarian diet?
+- intent: ask_proliferative_friday_nonvegetarian_breakfast
+  examples: |
+    - What is the non-vegetarian breakfast for proliferative on Friday?
+    - Tell me the Friday breakfast for proliferative (non-vegetarian).
+    - What should I eat for breakfast on Friday in the proliferative non-vegetarian diet?
+
+- intent: ask_proliferative_friday_nonvegetarian_morning_snack
+  examples: |
+    - What is the non-vegetarian morning snack for proliferative on Friday?
+    - What can I eat for a morning snack on Friday in the proliferative non-vegetarian diet?
+    - Suggest a Friday morning snack for proliferative (non-vegetarian).
+
+- intent: ask_proliferative_friday_nonvegetarian_lunch
+  examples: |
+    - What is the non-vegetarian lunch for proliferative on Friday?
+    - Tell me the Friday lunch for proliferative (non-vegetarian).
+    - What should I eat for lunch on Friday in the proliferative non-vegetarian diet?
+
+- intent: ask_proliferative_friday_nonvegetarian_midday_snack
+  examples: |
+    - What is the non-vegetarian midday snack for proliferative on Friday?
+    - What can I eat for a midday snack on Friday in the proliferative non-vegetarian diet?
+    - Suggest a Friday midday snack for proliferative (non-vegetarian).
+
+- intent: ask_proliferative_friday_nonvegetarian_dinner
+  examples: |
+    - What is the non-vegetarian dinner for proliferative on Friday?
+    - Tell me the Friday dinner for proliferative (non-vegetarian).
+    - What should I eat for dinner on Friday in the proliferative non-vegetarian diet?
+- intent: ask_proliferative_friday_vegan_breakfast
+  examples: |
+    - What is the vegan breakfast for proliferative on Friday?
+    - Tell me the Friday breakfast for proliferative (vegan).
+    - What should I eat for breakfast on Friday in the proliferative vegan diet?
+
+- intent: ask_proliferative_friday_vegan_morning_snack
+  examples: |
+    - What is the vegan morning snack for proliferative on Friday?
+    - What can I eat for a morning snack on Friday in the proliferative vegan diet?
+    - Suggest a Friday morning snack for proliferative (vegan).
+
+- intent: ask_proliferative_friday_vegan_lunch
+  examples: |
+    - What is the vegan lunch for proliferative on Friday?
+    - Tell me the Friday lunch for proliferative (vegan).
+    - What should I eat for lunch on Friday in the proliferative vegan diet?
+
+- intent: ask_proliferative_friday_vegan_midday_snack
+  examples: |
+    - What is the vegan midday snack for proliferative on Friday?
+    - What can I eat for a midday snack on Friday in the proliferative vegan diet?
+    - Suggest a Friday midday snack for proliferative (vegan).
+
+- intent: ask_proliferative_friday_vegan_dinner
+  examples: |
+    - What is the vegan dinner for proliferative on Friday?
+    - Tell me the Friday dinner for proliferative (vegan).
+    - What should I eat for dinner on Friday in the proliferative vegan diet?
+- intent: ask_proliferative_saturday_vegetarian_breakfast
+  examples: |
+    - What is the vegetarian breakfast for proliferative on Saturday?
+    - Tell me the Saturday breakfast for proliferative (vegetarian).
+    - What should I eat for breakfast on Saturday in the proliferative vegetarian diet?
+
+- intent: ask_proliferative_saturday_vegetarian_morning_snack
+  examples: |
+    - What is the vegetarian morning snack for proliferative on Saturday?
+    - What can I eat for a morning snack on Saturday in the proliferative vegetarian diet?
+    - Suggest a Saturday morning snack for proliferative (vegetarian).
+
+- intent: ask_proliferative_saturday_vegetarian_lunch
+  examples: |
+    - What is the vegetarian lunch for proliferative on Saturday?
+    - Tell me the Saturday lunch for proliferative (vegetarian).
+    - What should I eat for lunch on Saturday in the proliferative vegetarian diet?
+
+- intent: ask_proliferative_saturday_vegetarian_midday_snack
+  examples: |
+    - What is the vegetarian midday snack for proliferative on Saturday?
+    - What can I eat for a midday snack on Saturday in the proliferative vegetarian diet?
+    - Suggest a Saturday midday snack for proliferative (vegetarian).
+
+- intent: ask_proliferative_saturday_vegetarian_dinner
+  examples: |
+    - What is the vegetarian dinner for proliferative on Saturday?
+    - Tell me the Saturday dinner for proliferative (vegetarian).
+    - What should I eat for dinner on Saturday in the proliferative vegetarian diet?
+- intent: ask_proliferative_saturday_nonvegetarian_breakfast
+  examples: |
+    - What is the non-vegetarian breakfast for proliferative on Saturday?
+    - Tell me the Saturday breakfast for proliferative (non-vegetarian).
+    - What should I eat for breakfast on Saturday in the proliferative non-vegetarian diet?
+
+- intent: ask_proliferative_saturday_nonvegetarian_morning_snack
+  examples: |
+    - What is the non-vegetarian morning snack for proliferative on Saturday?
+    - What can I eat for a morning snack on Saturday in the proliferative non-vegetarian diet?
+    - Suggest a Saturday morning snack for proliferative (non-vegetarian).
+
+- intent: ask_proliferative_saturday_nonvegetarian_lunch
+  examples: |
+    - What is the non-vegetarian lunch for proliferative on Saturday?
+    - Tell me the Saturday lunch for proliferative (non-vegetarian).
+    - What should I eat for lunch on Saturday in the proliferative non-vegetarian diet?
+
+- intent: ask_proliferative_saturday_nonvegetarian_midday_snack
+  examples: |
+    - What is the non-vegetarian midday snack for proliferative on Saturday?
+    - What can I eat for a midday snack on Saturday in the proliferative non-vegetarian diet?
+    - Suggest a Saturday midday snack for proliferative (non-vegetarian).
+
+- intent: ask_proliferative_saturday_nonvegetarian_dinner
+  examples: |
+    - What is the non-vegetarian dinner for proliferative on Saturday?
+    - Tell me the Saturday dinner for proliferative (non-vegetarian).
+    - What should I eat for dinner on Saturday in the proliferative non-vegetarian diet?
+- intent: ask_proliferative_saturday_vegan_breakfast
+  examples: |
+    - What is the vegan breakfast for proliferative on Saturday?
+    - Tell me the Saturday breakfast for proliferative (vegan).
+    - What should I eat for breakfast on Saturday in the proliferative vegan diet?
+
+- intent: ask_proliferative_saturday_vegan_morning_snack
+  examples: |
+    - What is the vegan morning snack for proliferative on Saturday?
+    - What can I eat for a morning snack on Saturday in the proliferative vegan diet?
+    - Suggest a Saturday morning snack for proliferative (vegan).
+
+- intent: ask_proliferative_saturday_vegan_lunch
+  examples: |
+    - What is the vegan lunch for proliferative on Saturday?
+    - Tell me the Saturday lunch for proliferative (vegan).
+    - What should I eat for lunch on Saturday in the proliferative vegan diet?
+
+- intent: ask_proliferative_saturday_vegan_midday_snack
+  examples: |
+    - What is the vegan midday snack for proliferative on Saturday?
+    - What can I eat for a midday snack on Saturday in the proliferative vegan diet?
+    - Suggest a Saturday midday snack for proliferative (vegan).
+
+- intent: ask_proliferative_saturday_vegan_dinner
+  examples: |
+    - What is the vegan dinner for proliferative on Saturday?
+    - Tell me the Saturday dinner for proliferative (vegan).
+    - What should I eat for dinner on Saturday in the proliferative vegan diet?
+- intent: ask_proliferative_sunday_vegetarian_breakfast
+  examples: |
+    - What is the vegetarian breakfast for proliferative on Sunday?
+    - Tell me the Sunday breakfast for proliferative (vegetarian).
+    - What should I eat for breakfast on Sunday in the proliferative vegetarian diet?
+
+- intent: ask_proliferative_sunday_vegetarian_morning_snack
+  examples: |
+    - What is the vegetarian morning snack for proliferative on Sunday?
+    - What can I eat for a morning snack on Sunday in the proliferative vegetarian diet?
+    - Suggest a Sunday morning snack for proliferative (vegetarian).
+
+- intent: ask_proliferative_sunday_vegetarian_lunch
+  examples: |
+    - What is the vegetarian lunch for proliferative on Sunday?
+    - Tell me the Sunday lunch for proliferative (vegetarian).
+    - What should I eat for lunch on Sunday in the proliferative vegetarian diet?
+
+- intent: ask_proliferative_sunday_vegetarian_midday_snack
+  examples: |
+    - What is the vegetarian midday snack for proliferative on Sunday?
+    - What can I eat for a midday snack on Sunday in the proliferative vegetarian diet?
+    - Suggest a Sunday midday snack for proliferative (vegetarian).
+
+- intent: ask_proliferative_sunday_vegetarian_dinner
+  examples: |
+    - What is the vegetarian dinner for proliferative on Sunday?
+    - Tell me the Sunday dinner for proliferative (vegetarian).
+    - What should I eat for dinner on Sunday in the proliferative vegetarian diet?
+- intent: ask_proliferative_sunday_nonvegetarian_breakfast
+  examples: |
+    - What is the non-vegetarian breakfast for proliferative on Sunday?
+    - Tell me the Sunday breakfast for proliferative (non-vegetarian).
+    - What should I eat for breakfast on Sunday in the proliferative non-vegetarian diet?
+
+- intent: ask_proliferative_sunday_nonvegetarian_morning_snack
+  examples: |
+    - What is the non-vegetarian morning snack for proliferative on Sunday?
+    - What can I eat for a morning snack on Sunday in the proliferative non-vegetarian diet?
+    - Suggest a Sunday morning snack for proliferative (non-vegetarian).
+
+- intent: ask_proliferative_sunday_nonvegetarian_lunch
+  examples: |
+    - What is the non-vegetarian lunch for proliferative on Sunday?
+    - Tell me the Sunday lunch for proliferative (non-vegetarian).
+    - What should I eat for lunch on Sunday in the proliferative non-vegetarian diet?
+
+- intent: ask_proliferative_sunday_nonvegetarian_midday_snack
+  examples: |
+    - What is the non-vegetarian midday snack for proliferative on Sunday?
+    - What can I eat for a midday snack on Sunday in the proliferative non-vegetarian diet?
+    - Suggest a Sunday midday snack for proliferative (non-vegetarian).
+
+- intent: ask_proliferative_sunday_nonvegetarian_dinner
+  examples: |
+    - What is the non-vegetarian dinner for proliferative on Sunday?
+    - Tell me the Sunday dinner for proliferative (non-vegetarian).
+    - What should I eat for dinner on Sunday in the proliferative non-vegetarian diet?
+- intent: ask_proliferative_sunday_vegan_breakfast
+  examples: |
+    - What is the vegan breakfast for proliferative on Sunday?
+    - Tell me the Sunday breakfast for proliferative (vegan).
+    - What should I eat for breakfast on Sunday in the proliferative vegan diet?
+
+- intent: ask_proliferative_sunday_vegan_morning_snack
+  examples: |
+    - What is the vegan morning snack for proliferative on Sunday?
+    - What can I eat for a morning snack on Sunday in the proliferative vegan diet?
+    - Suggest a Sunday morning snack for proliferative (vegan).
+
+- intent: ask_proliferative_sunday_vegan_lunch
+  examples: |
+    - What is the vegan lunch for proliferative on Sunday?
+    - Tell me the Sunday lunch for proliferative (vegan).
+    - What should I eat for lunch on Sunday in the proliferative vegan diet?
+
+- intent: ask_proliferative_sunday_vegan_midday_snack
+  examples: |
+    - What is the vegan midday snack for proliferative on Sunday?
+    - What can I eat for a midday snack on Sunday in the proliferative vegan diet?
+    - Suggest a Sunday midday snack for proliferative (vegan).
+
+- intent: ask_proliferative_sunday_vegan_dinner
+  examples: |
+    - What is the vegan dinner for proliferative on Sunday?
+    - Tell me the Sunday dinner for proliferative (vegan).
+    - What should I eat for dinner on Sunday in the proliferative vegan diet?
+
+- intent: ask_severe_monday_vegetarian_breakfast
+  examples: |
+    - What is the vegetarian breakfast for severe on Monday?
+    - Tell me the Monday breakfast for severe (vegetarian).
+    - What should I eat for breakfast on Monday in the severe vegetarian diet?
+
+- intent: ask_severe_monday_vegetarian_morning_snack
+  examples: |
+    - What is the vegetarian morning snack for severe on Monday?
+    - What can I eat for a morning snack on Monday in the severe vegetarian diet?
+    - Suggest a Monday morning snack for severe (vegetarian).
+
+- intent: ask_severe_monday_vegetarian_lunch
+  examples: |
+    - What is the vegetarian lunch for severe on Monday?
+    - Tell me the Monday lunch for severe (vegetarian).
+    - What should I eat for lunch on Monday in the severe vegetarian diet?
+
+- intent: ask_severe_monday_vegetarian_midday_snack
+  examples: |
+    - What is the vegetarian midday snack for severe on Monday?
+    - What can I eat for a midday snack on Monday in the severe vegetarian diet?
+    - Suggest a Monday midday snack for severe (vegetarian).
+
+- intent: ask_severe_monday_vegetarian_dinner
+  examples: |
+    - What is the vegetarian dinner for severe on Monday?
+    - Tell me the Monday dinner for severe (vegetarian).
+    - What should I eat for dinner on Monday in the severe vegetarian diet?
+
+- intent: ask_severe_monday_nonvegetarian_breakfast
+  examples: |
+    - What is the non-vegetarian breakfast for severe on Monday?
+    - Tell me the Monday breakfast for severe (non-vegetarian).
+    - What should I eat for breakfast on Monday in the severe non-vegetarian diet?
+
+- intent: ask_severe_monday_nonvegetarian_morning_snack
+  examples: |
+    - What is the non-vegetarian morning snack for severe on Monday?
+    - What can I eat for a morning snack on Monday in the severe non-vegetarian diet?
+    - Suggest a Monday morning snack for severe (non-vegetarian).
+
+- intent: ask_severe_monday_nonvegetarian_lunch
+  examples: |
+    - What is the non-vegetarian lunch for severe on Monday?
+    - Tell me the Monday lunch for severe (non-vegetarian).
+    - What should I eat for lunch on Monday in the severe non-vegetarian diet?
+
+- intent: ask_severe_monday_nonvegetarian_midday_snack
+  examples: |
+    - What is the non-vegetarian midday snack for severe on Monday?
+    - What can I eat for a midday snack on Monday in the severe non-vegetarian diet?
+    - Suggest a Monday midday snack for severe (non-vegetarian).
+
+- intent: ask_severe_monday_nonvegetarian_dinner
+  examples: |
+    - What is the non-vegetarian dinner for severe on Monday?
+    - Tell me the Monday dinner for severe (non-vegetarian).
+    - What should I eat for dinner on Monday in the severe non-vegetarian diet?
+
+- intent: ask_severe_monday_vegan_breakfast
+  examples: |
+    - What is the vegan breakfast for severe on Monday?
+    - Tell me the Monday breakfast for severe (vegan).
+    - What should I eat for breakfast on Monday in the severe vegan diet?
+
+- intent: ask_severe_monday_vegan_morning_snack
+  examples: |
+    - What is the vegan morning snack for severe on Monday?
+    - What can I eat for a morning snack on Monday in the severe vegan diet?
+    - Suggest a Monday morning snack for severe (vegan).
+
+- intent: ask_severe_monday_vegan_lunch
+  examples: |
+    - What is the vegan lunch for severe on Monday?
+    - Tell me the Monday lunch for severe (vegan).
+    - What should I eat for lunch on Monday in the severe vegan diet?
+
+- intent: ask_severe_monday_vegan_midday_snack
+  examples: |
+    - What is the vegan midday snack for severe on Monday?
+    - What can I eat for a midday snack on Monday in the severe vegan diet?
+    - Suggest a Monday midday snack for severe (vegan).
+
+- intent: ask_severe_monday_vegan_dinner
+  examples: |
+    - What is the vegan dinner for severe on Monday?
+    - Tell me the Monday dinner for severe (vegan).
+    - What should I eat for dinner on Monday in the severe vegan diet?
+
+- intent: ask_severe_tuesday_vegetarian_breakfast
+  examples: |
+    - What is the vegetarian breakfast for severe on Tuesday?
+    - Tell me the Tuesday breakfast for severe (vegetarian).
+    - What should I eat for breakfast on Tuesday in the severe vegetarian diet?
+
+- intent: ask_severe_tuesday_vegetarian_morning_snack
+  examples: |
+    - What is the vegetarian morning snack for severe on Tuesday?
+    - What can I eat for a morning snack on Tuesday in the severe vegetarian diet?
+    - Suggest a Tuesday morning snack for severe (vegetarian).
+
+- intent: ask_severe_tuesday_vegetarian_lunch
+  examples: |
+    - What is the vegetarian lunch for severe on Tuesday?
+    - Tell me the Tuesday lunch for severe (vegetarian).
+    - What should I eat for lunch on Tuesday in the severe vegetarian diet?
+
+- intent: ask_severe_tuesday_vegetarian_midday_snack
+  examples: |
+    - What is the vegetarian midday snack for severe on Tuesday?
+    - What can I eat for a midday snack on Tuesday in the severe vegetarian diet?
+    - Suggest a Tuesday midday snack for severe (vegetarian).
+
+- intent: ask_severe_tuesday_vegetarian_dinner
+  examples: |
+    - What is the vegetarian dinner for severe on Tuesday?
+    - Tell me the Tuesday dinner for severe (vegetarian).
+    - What should I eat for dinner on Tuesday in the severe vegetarian diet?
+
+- intent: ask_severe_tuesday_nonvegetarian_breakfast
+  examples: |
+    - What is the non-vegetarian breakfast for severe on Tuesday?
+    - Tell me the Tuesday breakfast for severe (non-vegetarian).
+    - What should I eat for breakfast on Tuesday in the severe non-vegetarian diet?
+
+- intent: ask_severe_tuesday_nonvegetarian_morning_snack
+  examples: |
+    - What is the non-vegetarian morning snack for severe on Tuesday?
+    - What can I eat for a morning snack on Tuesday in the severe non-vegetarian diet?
+    - Suggest a Tuesday morning snack for severe (non-vegetarian).
+
+- intent: ask_severe_tuesday_nonvegetarian_lunch
+  examples: |
+    - What is the non-vegetarian lunch for severe on Tuesday?
+    - Tell me the Tuesday lunch for severe (non-vegetarian).
+    - What should I eat for lunch on Tuesday in the severe non-vegetarian diet?
+
+- intent: ask_severe_tuesday_nonvegetarian_midday_snack
+  examples: |
+    - What is the non-vegetarian midday snack for severe on Tuesday?
+    - What can I eat for a midday snack on Tuesday in the severe non-vegetarian diet?
+    - Suggest a Tuesday midday snack for severe (non-vegetarian).
+
+- intent: ask_severe_tuesday_nonvegetarian_dinner
+  examples: |
+    - What is the non-vegetarian dinner for severe on Tuesday?
+    - Tell me the Tuesday dinner for severe (non-vegetarian).
+    - What should I eat for dinner on Tuesday in the severe non-vegetarian diet?
+
+- intent: ask_severe_tuesday_vegan_breakfast
+  examples: |
+    - What is the vegan breakfast for severe on Tuesday?
+    - Tell me the Tuesday breakfast for severe (vegan).
+    - What should I eat for breakfast on Tuesday in the severe vegan diet?
+
+- intent: ask_severe_tuesday_vegan_morning_snack
+  examples: |
+    - What is the vegan morning snack for severe on Tuesday?
+    - What can I eat for a morning snack on Tuesday in the severe vegan diet?
+    - Suggest a Tuesday morning snack for severe (vegan).
+
+- intent: ask_severe_tuesday_vegan_lunch
+  examples: |
+    - What is the vegan lunch for severe on Tuesday?
+    - Tell me the Tuesday lunch for severe (vegan).
+    - What should I eat for lunch on Tuesday in the severe vegan diet?
+
+- intent: ask_severe_tuesday_vegan_midday_snack
+  examples: |
+    - What is the vegan midday snack for severe on Tuesday?
+    - What can I eat for a midday snack on Tuesday in the severe vegan diet?
+    - Suggest a Tuesday midday snack for severe (vegan).
+
+- intent: ask_severe_tuesday_vegan_dinner
+  examples: |
+    - What is the vegan dinner for severe on Tuesday?
+    - Tell me the Tuesday dinner for severe (vegan).
+    - What should I eat for dinner on Tuesday in the severe vegan diet?
+
+- intent: ask_severe_wednesday_vegetarian_breakfast
+  examples: |
+    - What is the vegetarian breakfast for severe on Wednesday?
+    - Tell me the Wednesday breakfast for severe (vegetarian).
+    - What should I eat for breakfast on Wednesday in the severe vegetarian diet?
+
+- intent: ask_severe_wednesday_vegetarian_morning_snack
+  examples: |
+    - What is the vegetarian morning snack for severe on Wednesday?
+    - What can I eat for a morning snack on Wednesday in the severe vegetarian diet?
+    - Suggest a Wednesday morning snack for severe (vegetarian).
+
+- intent: ask_severe_wednesday_vegetarian_lunch
+  examples: |
+    - What is the vegetarian lunch for severe on Wednesday?
+    - Tell me the Wednesday lunch for severe (vegetarian).
+    - What should I eat for lunch on Wednesday in the severe vegetarian diet?
+
+- intent: ask_severe_wednesday_vegetarian_midday_snack
+  examples: |
+    - What is the vegetarian midday snack for severe on Wednesday?
+    - What can I eat for a midday snack on Wednesday in the severe vegetarian diet?
+    - Suggest a Wednesday midday snack for severe (vegetarian).
+
+- intent: ask_severe_wednesday_vegetarian_dinner
+  examples: |
+    - What is the vegetarian dinner for severe on Wednesday?
+    - Tell me the Wednesday dinner for severe (vegetarian).
+    - What should I eat for dinner on Wednesday in the severe vegetarian diet?
+
+- intent: ask_severe_wednesday_nonvegetarian_breakfast
+  examples: |
+    - What is the non-vegetarian breakfast for severe on Wednesday?
+    - Tell me the Wednesday breakfast for severe (non-vegetarian).
+    - What should I eat for breakfast on Wednesday in the severe non-vegetarian diet?
+
+- intent: ask_severe_wednesday_nonvegetarian_morning_snack
+  examples: |
+    - What is the non-vegetarian morning snack for severe on Wednesday?
+    - What can I eat for a morning snack on Wednesday in the severe non-vegetarian diet?
+    - Suggest a Wednesday morning snack for severe (non-vegetarian).
+
+- intent: ask_severe_wednesday_nonvegetarian_lunch
+  examples: |
+    - What is the non-vegetarian lunch for severe on Wednesday?
+    - Tell me the Wednesday lunch for severe (non-vegetarian).
+    - What should I eat for lunch on Wednesday in the severe non-vegetarian diet?
+
+- intent: ask_severe_wednesday_nonvegetarian_midday_snack
+  examples: |
+    - What is the non-vegetarian midday snack for severe on Wednesday?
+    - What can I eat for a midday snack on Wednesday in the severe non-vegetarian diet?
+    - Suggest a Wednesday midday snack for severe (non-vegetarian).
+
+- intent: ask_severe_wednesday_nonvegetarian_dinner
+  examples: |
+    - What is the non-vegetarian dinner for severe on Wednesday?
+    - Tell me the Wednesday dinner for severe (non-vegetarian).
+    - What should I eat for dinner on Wednesday in the severe non-vegetarian diet?
+
+- intent: ask_severe_wednesday_vegan_breakfast
+  examples: |
+    - What is the vegan breakfast for severe on Wednesday?
+    - Tell me the Wednesday breakfast for severe (vegan).
+    - What should I eat for breakfast on Wednesday in the severe vegan diet?
+
+- intent: ask_severe_wednesday_vegan_morning_snack
+  examples: |
+    - What is the vegan morning snack for severe on Wednesday?
+    - What can I eat for a morning snack on Wednesday in the severe vegan diet?
+    - Suggest a Wednesday morning snack for severe (vegan).
+
+- intent: ask_severe_wednesday_vegan_lunch
+  examples: |
+    - What is the vegan lunch for severe on Wednesday?
+    - Tell me the Wednesday lunch for severe (vegan).
+    - What should I eat for lunch on Wednesday in the severe vegan diet?
+
+- intent: ask_severe_wednesday_vegan_midday_snack
+  examples: |
+    - What is the vegan midday snack for severe on Wednesday?
+    - What can I eat for a midday snack on Wednesday in the severe vegan diet?
+    - Suggest a Wednesday midday snack for severe (vegan).
+
+- intent: ask_severe_wednesday_vegan_dinner
+  examples: |
+    - What is the vegan dinner for severe on Wednesday?
+    - Tell me the Wednesday dinner for severe (vegan).
+    - What should I eat for dinner on Wednesday in the severe vegan diet?
+
+- intent: ask_severe_thursday_vegetarian_breakfast
+  examples: |
+    - What is the vegetarian breakfast for severe on Thursday?
+    - Tell me the Thursday breakfast for severe (vegetarian).
+    - What should I eat for breakfast on Thursday in the severe vegetarian diet?
+
+- intent: ask_severe_thursday_vegetarian_morning_snack
+  examples: |
+    - What is the vegetarian morning snack for severe on Thursday?
+    - What can I eat for a morning snack on Thursday in the severe vegetarian diet?
+    - Suggest a Thursday morning snack for severe (vegetarian).
+
+- intent: ask_severe_thursday_vegetarian_lunch
+  examples: |
+    - What is the vegetarian lunch for severe on Thursday?
+    - Tell me the Thursday lunch for severe (vegetarian).
+    - What should I eat for lunch on Thursday in the severe vegetarian diet?
+
+- intent: ask_severe_thursday_vegetarian_midday_snack
+  examples: |
+    - What is the vegetarian midday snack for severe on Thursday?
+    - What can I eat for a midday snack on Thursday in the severe vegetarian diet?
+    - Suggest a Thursday midday snack for severe (vegetarian).
+
+- intent: ask_severe_thursday_vegetarian_dinner
+  examples: |
+    - What is the vegetarian dinner for severe on Thursday?
+    - Tell me the Thursday dinner for severe (vegetarian).
+    - What should I eat for dinner on Thursday in the severe vegetarian diet?
+
+- intent: ask_severe_thursday_nonvegetarian_breakfast
+  examples: |
+    - What is the non-vegetarian breakfast for severe on Thursday?
+    - Tell me the Thursday breakfast for severe (non-vegetarian).
+    - What should I eat for breakfast on Thursday in the severe non-vegetarian diet?
+
+- intent: ask_severe_thursday_nonvegetarian_morning_snack
+  examples: |
+    - What is the non-vegetarian morning snack for severe on Thursday?
+    - What can I eat for a morning snack on Thursday in the severe non-vegetarian diet?
+    - Suggest a Thursday morning snack for severe (non-vegetarian).
+
+- intent: ask_severe_thursday_nonvegetarian_lunch
+  examples: |
+    - What is the non-vegetarian lunch for severe on Thursday?
+    - Tell me the Thursday lunch for severe (non-vegetarian).
+    - What should I eat for lunch on Thursday in the severe non-vegetarian diet?
+
+- intent: ask_severe_thursday_nonvegetarian_midday_snack
+  examples: |
+    - What is the non-vegetarian midday snack for severe on Thursday?
+    - What can I eat for a midday snack on Thursday in the severe non-vegetarian diet?
+    - Suggest a Thursday midday snack for severe (non-vegetarian).
+
+- intent: ask_severe_thursday_nonvegetarian_dinner
+  examples: |
+    - What is the non-vegetarian dinner for severe on Thursday?
+    - Tell me the Thursday dinner for severe (non-vegetarian).
+    - What should I eat for dinner on Thursday in the severe non-vegetarian diet?
+
+- intent: ask_severe_thursday_vegan_breakfast
+  examples: |
+    - What is the vegan breakfast for severe on Thursday?
+    - Tell me the Thursday breakfast for severe (vegan).
+    - What should I eat for breakfast on Thursday in the severe vegan diet?
+
+- intent: ask_severe_thursday_vegan_morning_snack
+  examples: |
+    - What is the vegan morning snack for severe on Thursday?
+    - What can I eat for a morning snack on Thursday in the severe vegan diet?
+    - Suggest a Thursday morning snack for severe (vegan).
+
+- intent: ask_severe_thursday_vegan_lunch
+  examples: |
+    - What is the vegan lunch for severe on Thursday?
+    - Tell me the Thursday lunch for severe (vegan).
+    - What should I eat for lunch on Thursday in the severe vegan diet?
+
+- intent: ask_severe_thursday_vegan_midday_snack
+  examples: |
+    - What is the vegan midday snack for severe on Thursday?
+    - What can I eat for a midday snack on Thursday in the severe vegan diet?
+    - Suggest a Thursday midday snack for severe (vegan).
+
+- intent: ask_severe_thursday_vegan_dinner
+  examples: |
+    - What is the vegan dinner for severe on Thursday?
+    - Tell me the Thursday dinner for severe (vegan).
+    - What should I eat for dinner on Thursday in the severe vegan diet?
+
+- intent: ask_severe_friday_vegetarian_breakfast
+  examples: |
+    - What is the vegetarian breakfast for severe on Friday?
+    - Tell me the Friday breakfast for severe (vegetarian).
+    - What should I eat for breakfast on Friday in the severe vegetarian diet?
+
+- intent: ask_severe_friday_vegetarian_morning_snack
+  examples: |
+    - What is the vegetarian morning snack for severe on Friday?
+    - What can I eat for a morning snack on Friday in the severe vegetarian diet?
+    - Suggest a Friday morning snack for severe (vegetarian).
+
+- intent: ask_severe_friday_vegetarian_lunch
+  examples: |
+    - What is the vegetarian lunch for severe on Friday?
+    - Tell me the Friday lunch for severe (vegetarian).
+    - What should I eat for lunch on Friday in the severe vegetarian diet?
+
+- intent: ask_severe_friday_vegetarian_midday_snack
+  examples: |
+    - What is the vegetarian midday snack for severe on Friday?
+    - What can I eat for a midday snack on Friday in the severe vegetarian diet?
+    - Suggest a Friday midday snack for severe (vegetarian).
+
+- intent: ask_severe_friday_vegetarian_dinner
+  examples: |
+    - What is the vegetarian dinner for severe on Friday?
+    - Tell me the Friday dinner for severe (vegetarian).
+    - What should I eat for dinner on Friday in the severe vegetarian diet?
+
+- intent: ask_severe_friday_nonvegetarian_breakfast
+  examples: |
+    - What is the non-vegetarian breakfast for severe on Friday?
+    - Tell me the Friday breakfast for severe (non-vegetarian).
+    - What should I eat for breakfast on Friday in the severe non-vegetarian diet?
+
+- intent: ask_severe_friday_nonvegetarian_morning_snack
+  examples: |
+    - What is the non-vegetarian morning snack for severe on Friday?
+    - What can I eat for a morning snack on Friday in the severe non-vegetarian diet?
+    - Suggest a Friday morning snack for severe (non-vegetarian).
+
+- intent: ask_severe_friday_nonvegetarian_lunch
+  examples: |
+    - What is the non-vegetarian lunch for severe on Friday?
+    - Tell me the Friday lunch for severe (non-vegetarian).
+    - What should I eat for lunch on Friday in the severe non-vegetarian diet?
+
+- intent: ask_severe_friday_nonvegetarian_midday_snack
+  examples: |
+    - What is the non-vegetarian midday snack for severe on Friday?
+    - What can I eat for a midday snack on Friday in the severe non-vegetarian diet?
+    - Suggest a Friday midday snack for severe (non-vegetarian).
+
+- intent: ask_severe_friday_nonvegetarian_dinner
+  examples: |
+    - What is the non-vegetarian dinner for severe on Friday?
+    - Tell me the Friday dinner for severe (non-vegetarian).
+    - What should I eat for dinner on Friday in the severe non-vegetarian diet?
+
+- intent: ask_severe_friday_vegan_breakfast
+  examples: |
+    - What is the vegan breakfast for severe on Friday?
+    - Tell me the Friday breakfast for severe (vegan).
+    - What should I eat for breakfast on Friday in the severe vegan diet?
+
+- intent: ask_severe_friday_vegan_morning_snack
+  examples: |
+    - What is the vegan morning snack for severe on Friday?
+    - What can I eat for a morning snack on Friday in the severe vegan diet?
+    - Suggest a Friday morning snack for severe (vegan).
+
+- intent: ask_severe_friday_vegan_lunch
+  examples: |
+    - What is the vegan lunch for severe on Friday?
+    - Tell me the Friday lunch for severe (vegan).
+    - What should I eat for lunch on Friday in the severe vegan diet?
+
+- intent: ask_severe_friday_vegan_midday_snack
+  examples: |
+    - What is the vegan midday snack for severe on Friday?
+    - What can I eat for a midday snack on Friday in the severe vegan diet?
+    - Suggest a Friday midday snack for severe (vegan).
+
+- intent: ask_severe_friday_vegan_dinner
+  examples: |
+    - What is the vegan dinner for severe on Friday?
+    - Tell me the Friday dinner for severe (vegan).
+    - What should I eat for dinner on Friday in the severe vegan diet?
+
+- intent: ask_severe_saturday_vegetarian_breakfast
+  examples: |
+    - What is the vegetarian breakfast for severe on Saturday?
+    - Tell me the Saturday breakfast for severe (vegetarian).
+    - What should I eat for breakfast on Saturday in the severe vegetarian diet?
+
+- intent: ask_severe_saturday_vegetarian_morning_snack
+  examples: |
+    - What is the vegetarian morning snack for severe on Saturday?
+    - What can I eat for a morning snack on Saturday in the severe vegetarian diet?
+    - Suggest a Saturday morning snack for severe (vegetarian).
+
+- intent: ask_severe_saturday_vegetarian_lunch
+  examples: |
+    - What is the vegetarian lunch for severe on Saturday?
+    - Tell me the Saturday lunch for severe (vegetarian).
+    - What should I eat for lunch on Saturday in the severe vegetarian diet?
+
+- intent: ask_severe_saturday_vegetarian_midday_snack
+  examples: |
+    - What is the vegetarian midday snack for severe on Saturday?
+    - What can I eat for a midday snack on Saturday in the severe vegetarian diet?
+    - Suggest a Saturday midday snack for severe (vegetarian).
+
+- intent: ask_severe_saturday_vegetarian_dinner
+  examples: |
+    - What is the vegetarian dinner for severe on Saturday?
+    - Tell me the Saturday dinner for severe (vegetarian).
+    - What should I eat for dinner on Saturday in the severe vegetarian diet?
+
+- intent: ask_severe_saturday_nonvegetarian_breakfast
+  examples: |
+    - What is the non-vegetarian breakfast for severe on Saturday?
+    - Tell me the Saturday breakfast for severe (non-vegetarian).
+    - What should I eat for breakfast on Saturday in the severe non-vegetarian diet?
+
+- intent: ask_severe_saturday_nonvegetarian_morning_snack
+  examples: |
+    - What is the non-vegetarian morning snack for severe on Saturday?
+    - What can I eat for a morning snack on Saturday in the severe non-vegetarian diet?
+    - Suggest a Saturday morning snack for severe (non-vegetarian).
+
+- intent: ask_severe_saturday_nonvegetarian_lunch
+  examples: |
+    - What is the non-vegetarian lunch for severe on Saturday?
+    - Tell me the Saturday lunch for severe (non-vegetarian).
+    - What should I eat for lunch on Saturday in the severe non-vegetarian diet?
+
+- intent: ask_severe_saturday_nonvegetarian_midday_snack
+  examples: |
+    - What is the non-vegetarian midday snack for severe on Saturday?
+    - What can I eat for a midday snack on Saturday in the severe non-vegetarian diet?
+    - Suggest a Saturday midday snack for severe (non-vegetarian).
+
+- intent: ask_severe_saturday_nonvegetarian_dinner
+  examples: |
+    - What is the non-vegetarian dinner for severe on Saturday?
+    - Tell me the Saturday dinner for severe (non-vegetarian).
+    - What should I eat for dinner on Saturday in the severe non-vegetarian diet?
+
+- intent: ask_severe_saturday_vegan_breakfast
+  examples: |
+    - What is the vegan breakfast for severe on Saturday?
+    - Tell me the Saturday breakfast for severe (vegan).
+    - What should I eat for breakfast on Saturday in the severe vegan diet?
+
+- intent: ask_severe_saturday_vegan_morning_snack
+  examples: |
+    - What is the vegan morning snack for severe on Saturday?
+    - What can I eat for a morning snack on Saturday in the severe vegan diet?
+    - Suggest a Saturday morning snack for severe (vegan).
+
+- intent: ask_severe_saturday_vegan_lunch
+  examples: |
+    - What is the vegan lunch for severe on Saturday?
+    - Tell me the Saturday lunch for severe (vegan).
+    - What should I eat for lunch on Saturday in the severe vegan diet?
+
+- intent: ask_severe_saturday_vegan_midday_snack
+  examples: |
+    - What is the vegan midday snack for severe on Saturday?
+    - What can I eat for a midday snack on Saturday in the severe vegan diet?
+    - Suggest a Saturday midday snack for severe (vegan).
+
+- intent: ask_severe_saturday_vegan_dinner
+  examples: |
+    - What is the vegan dinner for severe on Saturday?
+    - Tell me the Saturday dinner for severe (vegan).
+    - What should I eat for dinner on Saturday in the severe vegan diet?
+
+- intent: ask_severe_sunday_vegetarian_breakfast
+  examples: |
+    - What is the vegetarian breakfast for severe on Sunday?
+    - Tell me the Sunday breakfast for severe (vegetarian).
+    - What should I eat for breakfast on Sunday in the severe vegetarian diet?
+
+- intent: ask_severe_sunday_vegetarian_morning_snack
+  examples: |
+    - What is the vegetarian morning snack for severe on Sunday?
+    - What can I eat for a morning snack on Sunday in the severe vegetarian diet?
+    - Suggest a Sunday morning snack for severe (vegetarian).
+
+- intent: ask_severe_sunday_vegetarian_lunch
+  examples: |
+    - What is the vegetarian lunch for severe on Sunday?
+    - Tell me the Sunday lunch for severe (vegetarian).
+    - What should I eat for lunch on Sunday in the severe vegetarian diet?
+
+- intent: ask_severe_sunday_vegetarian_midday_snack
+  examples: |
+    - What is the vegetarian midday snack for severe on Sunday?
+    - What can I eat for a midday snack on Sunday in the severe vegetarian diet?
+    - Suggest a Sunday midday snack for severe (vegetarian).
+
+- intent: ask_severe_sunday_vegetarian_dinner
+  examples: |
+    - What is the vegetarian dinner for severe on Sunday?
+    - Tell me the Sunday dinner for severe (vegetarian).
+    - What should I eat for dinner on Sunday in the severe vegetarian diet?
+
+- intent: ask_severe_sunday_nonvegetarian_breakfast
+  examples: |
+    - What is the non-vegetarian breakfast for severe on Sunday?
+    - Tell me the Sunday breakfast for severe (non-vegetarian).
+    - What should I eat for breakfast on Sunday in the severe non-vegetarian diet?
+
+- intent: ask_severe_sunday_nonvegetarian_morning_snack
+  examples: |
+    - What is the non-vegetarian morning snack for severe on Sunday?
+    - What can I eat for a morning snack on Sunday in the severe non-vegetarian diet?
+    - Suggest a Sunday morning snack for severe (non-vegetarian).
+
+- intent: ask_severe_sunday_nonvegetarian_lunch
+  examples: |
+    - What is the non-vegetarian lunch for severe on Sunday?
+    - Tell me the Sunday lunch for severe (non-vegetarian).
+    - What should I eat for lunch on Sunday in the severe non-vegetarian diet?
+
+- intent: ask_severe_sunday_nonvegetarian_midday_snack
+  examples: |
+    - What is the non-vegetarian midday snack for severe on Sunday?
+    - What can I eat for a midday snack on Sunday in the severe non-vegetarian diet?
+    - Suggest a Sunday midday snack for severe (non-vegetarian).
+
+- intent: ask_severe_sunday_nonvegetarian_dinner
+  examples: |
+    - What is the non-vegetarian dinner for severe on Sunday?
+    - Tell me the Sunday dinner for severe (non-vegetarian).
+    - What should I eat for dinner on Sunday in the severe non-vegetarian diet?
+
+- intent: ask_severe_sunday_vegan_breakfast
+  examples: |
+    - What is the vegan breakfast for severe on Sunday?
+    - Tell me the Sunday breakfast for severe (vegan).
+    - What should I eat for breakfast on Sunday in the severe vegan diet?
+
+- intent: ask_severe_sunday_vegan_morning_snack
+  examples: |
+    - What is the vegan morning snack for severe on Sunday?
+    - What can I eat for a morning snack on Sunday in the severe vegan diet?
+    - Suggest a Sunday morning snack for severe (vegan).
+
+- intent: ask_severe_sunday_vegan_lunch
+  examples: |
+    - What is the vegan lunch for severe on Sunday?
+    - Tell me the Sunday lunch for severe (vegan).
+    - What should I eat for lunch on Sunday in the severe vegan diet?
+
+- intent: ask_severe_sunday_vegan_midday_snack
+  examples: |
+    - What is the vegan midday snack for severe on Sunday?
+    - What can I eat for a midday snack on Sunday in the severe vegan diet?
+    - Suggest a Sunday midday snack for severe (vegan).
+
+- intent: ask_severe_sunday_vegan_dinner
+  examples: |
+    - What is the vegan dinner for severe on Sunday?
+    - Tell me the Sunday dinner for severe (vegan).
+    - What should I eat for dinner on Sunday in the severe vegan diet?
+- intent: ask_moderate_monday_vegetarian_breakfast
+  examples: |
+    - What is the vegetarian breakfast for moderate diabetics on Monday?
+    - Tell me the Monday breakfast for moderate diabetics (vegetarian).
+    - What should I eat for breakfast on Monday in the moderate vegetarian diet?
+
+- intent: ask_moderate_monday_vegetarian_morning_snack
+  examples: |
+    - What is the vegetarian morning snack for moderate diabetics on Monday?
+    - What can I eat for a morning snack on Monday in the moderate vegetarian diet?
+    - Suggest a Monday morning snack for moderate diabetics (vegetarian).
+
+- intent: ask_moderate_monday_vegetarian_lunch
+  examples: |
+    - What is the vegetarian lunch for moderate diabetics on Monday?
+    - Tell me the Monday lunch for moderate diabetics (vegetarian).
+    - What should I eat for lunch on Monday in the moderate vegetarian diet?
+
+- intent: ask_moderate_monday_vegetarian_midday_snack
+  examples: |
+    - What is the vegetarian midday snack for moderate diabetics on Monday?
+    - What can I eat for a midday snack on Monday in the moderate vegetarian diet?
+    - Suggest a Monday midday snack for moderate diabetics (vegetarian).
+
+- intent: ask_moderate_monday_vegetarian_dinner
+  examples: |
+    - What is the vegetarian dinner for moderate diabetics on Monday?
+    - Tell me the Monday dinner for moderate diabetics (vegetarian).
+    - What should I eat for dinner on Monday in the moderate vegetarian diet?
+- intent: ask_moderate_monday_nonvegetarian_breakfast
+  examples: |
+    - What is the non-vegetarian breakfast for moderate diabetics on Monday?
+    - Tell me the Monday breakfast for moderate diabetics (non-vegetarian).
+    - What should a moderate diabetic eat for breakfast on Monday if they eat non-veg?
+
+- intent: ask_moderate_monday_nonvegetarian_morning_snack
+  examples: |
+    - What is the non-vegetarian morning snack for moderate diabetics on Monday?
+    - Suggest a Monday morning snack for moderate diabetics (non-vegetarian).
+    - What can a moderate diabetic have for a morning snack on Monday if they eat non-veg?
+
+- intent: ask_moderate_monday_nonvegetarian_lunch
+  examples: |
+    - What is the non-vegetarian lunch for moderate diabetics on Monday?
+    - Tell me the Monday lunch for moderate diabetics (non-vegetarian).
+    - What should a moderate diabetic eat for lunch on Monday if they eat non-veg?
+
+- intent: ask_moderate_monday_nonvegetarian_midday_snack
+  examples: |
+    - What is the non-vegetarian midday snack for moderate diabetics on Monday?
+    - Suggest a Monday midday snack for moderate diabetics (non-vegetarian).
+    - What can a moderate diabetic have for a midday snack on Monday if they eat non-veg?
+
+- intent: ask_moderate_monday_nonvegetarian_dinner
+  examples: |
+    - What is the non-vegetarian dinner for moderate diabetics on Monday?
+    - Tell me the Monday dinner for moderate diabetics (non-vegetarian).
+    - What should a moderate diabetic eat for dinner on Monday if they eat non-veg?
+- intent: ask_moderate_monday_vegan_breakfast
+  examples: |
+    - What is the vegan breakfast for moderate diabetics on Monday?
+    - Tell me the Monday breakfast for moderate diabetics (vegan).
+    - What should a moderate diabetic eat for breakfast on Monday if they follow a vegan diet?
+
+- intent: ask_moderate_monday_vegan_morning_snack
+  examples: |
+    - What is the vegan morning snack for moderate diabetics on Monday?
+    - Suggest a Monday morning snack for moderate diabetics (vegan).
+    - What can a moderate diabetic have for a morning snack on Monday if they follow a vegan diet?
+
+- intent: ask_moderate_monday_vegan_lunch
+  examples: |
+    - What is the vegan lunch for moderate diabetics on Monday?
+    - Tell me the Monday lunch for moderate diabetics (vegan).
+    - What should a moderate diabetic eat for lunch on Monday if they follow a vegan diet?
+
+- intent: ask_moderate_monday_vegan_midday_snack
+  examples: |
+    - What is the vegan midday snack for moderate diabetics on Monday?
+    - Suggest a Monday midday snack for moderate diabetics (vegan).
+    - What can a moderate diabetic have for a midday snack on Monday if they follow a vegan diet?
+
+- intent: ask_moderate_monday_vegan_dinner
+  examples: |
+    - What is the vegan dinner for moderate diabetics on Monday?
+    - Tell me the Monday dinner for moderate diabetics (vegan).
+    - What should a moderate diabetic eat for dinner on Monday if they follow a vegan diet?
+- intent: ask_moderate_tuesday_vegetarian_breakfast
+  examples: |
+    - What is the vegetarian breakfast for moderate diabetics on Tuesday?
+    - Tell me the Tuesday breakfast for moderate diabetics (vegetarian).
+    - What should a moderate diabetic eat for breakfast on Tuesday?
+
+- intent: ask_moderate_tuesday_vegetarian_morning_snack
+  examples: |
+    - What is the vegetarian morning snack for moderate diabetics on Tuesday?
+    - Suggest a Tuesday morning snack for moderate diabetics (vegetarian).
+    - What can a moderate diabetic have for a morning snack on Tuesday?
+
+- intent: ask_moderate_tuesday_vegetarian_lunch
+  examples: |
+    - What is the vegetarian lunch for moderate diabetics on Tuesday?
+    - Tell me the Tuesday lunch for moderate diabetics (vegetarian).
+    - What should a moderate diabetic eat for lunch on Tuesday?
+
+- intent: ask_moderate_tuesday_vegetarian_midday_snack
+  examples: |
+    - What is the vegetarian midday snack for moderate diabetics on Tuesday?
+    - Suggest a Tuesday midday snack for moderate diabetics (vegetarian).
+    - What can a moderate diabetic have for a midday snack on Tuesday?
+
+- intent: ask_moderate_tuesday_vegetarian_dinner
+  examples: |
+    - What is the vegetarian dinner for moderate diabetics on Tuesday?
+    - Tell me the Tuesday dinner for moderate diabetics (vegetarian).
+    - What should a moderate diabetic eat for dinner on Tuesday?
+- intent: ask_moderate_tuesday_nonvegetarian_breakfast
+  examples: |
+    - What is the non-vegetarian breakfast for moderate diabetics on Tuesday?
+    - Tell me the Tuesday breakfast for moderate diabetics (non-vegetarian).
+    - What should a moderate diabetic eat for breakfast on Tuesday if they eat non-veg?
+
+- intent: ask_moderate_tuesday_nonvegetarian_morning_snack
+  examples: |
+    - What is the non-vegetarian morning snack for moderate diabetics on Tuesday?
+    - Suggest a Tuesday morning snack for moderate diabetics (non-vegetarian).
+    - What can a moderate diabetic have for a morning snack on Tuesday if they eat non-veg?
+
+- intent: ask_moderate_tuesday_nonvegetarian_lunch
+  examples: |
+    - What is the non-vegetarian lunch for moderate diabetics on Tuesday?
+    - Tell me the Tuesday lunch for moderate diabetics (non-vegetarian).
+    - What should a moderate diabetic eat for lunch on Tuesday if they eat non-veg?
+
+- intent: ask_moderate_tuesday_nonvegetarian_midday_snack
+  examples: |
+    - What is the non-vegetarian midday snack for moderate diabetics on Tuesday?
+    - Suggest a Tuesday midday snack for moderate diabetics (non-vegetarian).
+    - What can a moderate diabetic have for a midday snack on Tuesday if they eat non-veg?
+
+- intent: ask_moderate_tuesday_nonvegetarian_dinner
+  examples: |
+    - What is the non-vegetarian dinner for moderate diabetics on Tuesday?
+    - Tell me the Tuesday dinner for moderate diabetics (non-vegetarian).
+    - What should a moderate diabetic eat for dinner on Tuesday if they eat non-veg?
+- intent: ask_moderate_tuesday_vegan_breakfast
+  examples: |
+    - What is the vegan breakfast for moderate diabetics on Tuesday?
+    - Tell me the Tuesday breakfast for moderate diabetics (vegan).
+    - What should a moderate diabetic eat for breakfast on Tuesday if they follow a vegan diet?
+
+- intent: ask_moderate_tuesday_vegan_morning_snack
+  examples: |
+    - What is the vegan morning snack for moderate diabetics on Tuesday?
+    - Suggest a Tuesday morning snack for moderate diabetics (vegan).
+    - What can a moderate diabetic have for a morning snack on Tuesday if they follow a vegan diet?
+
+- intent: ask_moderate_tuesday_vegan_lunch
+  examples: |
+    - What is the vegan lunch for moderate diabetics on Tuesday?
+    - Tell me the Tuesday lunch for moderate diabetics (vegan).
+    - What should a moderate diabetic eat for lunch on Tuesday if they follow a vegan diet?
+
+- intent: ask_moderate_tuesday_vegan_midday_snack
+  examples: |
+    - What is the vegan midday snack for moderate diabetics on Tuesday?
+    - Suggest a Tuesday midday snack for moderate diabetics (vegan).
+    - What can a moderate diabetic have for a midday snack on Tuesday if they follow a vegan diet?
+
+- intent: ask_moderate_tuesday_vegan_dinner
+  examples: |
+    - What is the vegan dinner for moderate diabetics on Tuesday?
+    - Tell me the Tuesday dinner for moderate diabetics (vegan).
+    - What should a moderate diabetic eat for dinner on Tuesday if they follow a vegan diet?
+- intent: ask_moderate_wednesday_vegetarian_breakfast
+  examples: |
+    - What is the vegetarian breakfast for moderate diabetics on Wednesday?
+    - Tell me the Wednesday breakfast for moderate diabetics (vegetarian).
+    - What should a moderate diabetic eat for breakfast on Wednesday?
+
+- intent: ask_moderate_wednesday_vegetarian_morning_snack
+  examples: |
+    - What is the vegetarian morning snack for moderate diabetics on Wednesday?
+    - Suggest a Wednesday morning snack for moderate diabetics (vegetarian).
+    - What can a moderate diabetic have for a morning snack on Wednesday?
+
+- intent: ask_moderate_wednesday_vegetarian_lunch
+  examples: |
+    - What is the vegetarian lunch for moderate diabetics on Wednesday?
+    - Tell me the Wednesday lunch for moderate diabetics (vegetarian).
+    - What should a moderate diabetic eat for lunch on Wednesday?
+
+- intent: ask_moderate_wednesday_vegetarian_midday_snack
+  examples: |
+    - What is the vegetarian midday snack for moderate diabetics on Wednesday?
+    - Suggest a Wednesday midday snack for moderate diabetics (vegetarian).
+    - What can a moderate diabetic have for a midday snack on Wednesday?
+
+- intent: ask_moderate_wednesday_vegetarian_dinner
+  examples: |
+    - What is the vegetarian dinner for moderate diabetics on Wednesday?
+    - Tell me the Wednesday dinner for moderate diabetics (vegetarian).
+    - What should a moderate diabetic eat for dinner on Wednesday?
+- intent: ask_moderate_wednesday_nonvegetarian_breakfast
+  examples: |
+    - What is the non-vegetarian breakfast for moderate diabetics on Wednesday?
+    - Tell me the Wednesday breakfast for moderate diabetics (non-vegetarian).
+    - What should a moderate diabetic eat for breakfast on Wednesday if they eat non-veg?
+
+- intent: ask_moderate_wednesday_nonvegetarian_morning_snack
+  examples: |
+    - What is the non-vegetarian morning snack for moderate diabetics on Wednesday?
+    - Suggest a Wednesday morning snack for moderate diabetics (non-vegetarian).
+    - What can a moderate diabetic have for a morning snack on Wednesday if they eat non-veg?
+
+- intent: ask_moderate_wednesday_nonvegetarian_lunch
+  examples: |
+    - What is the non-vegetarian lunch for moderate diabetics on Wednesday?
+    - Tell me the Wednesday lunch for moderate diabetics (non-vegetarian).
+    - What should a moderate diabetic eat for lunch on Wednesday if they eat non-veg?
+
+- intent: ask_moderate_wednesday_nonvegetarian_midday_snack
+  examples: |
+    - What is the non-vegetarian midday snack for moderate diabetics on Wednesday?
+    - Suggest a Wednesday midday snack for moderate diabetics (non-vegetarian).
+    - What can a moderate diabetic have for a midday snack on Wednesday if they eat non-veg?
+
+- intent: ask_moderate_wednesday_nonvegetarian_dinner
+  examples: |
+    - What is the non-vegetarian dinner for moderate diabetics on Wednesday?
+    - Tell me the Wednesday dinner for moderate diabetics (non-vegetarian).
+    - What should a moderate diabetic eat for dinner on Wednesday if they eat non-veg?
+- intent: ask_moderate_wednesday_vegan_breakfast
+  examples: |
+    - What is the vegan breakfast for moderate diabetics on Wednesday?
+    - Tell me the Wednesday breakfast for moderate diabetics (vegan).
+    - What should a moderate diabetic eat for breakfast on Wednesday if they follow a vegan diet?
+
+- intent: ask_moderate_wednesday_vegan_morning_snack
+  examples: |
+    - What is the vegan morning snack for moderate diabetics on Wednesday?
+    - Suggest a Wednesday morning snack for moderate diabetics (vegan).
+    - What can a moderate diabetic have for a morning snack on Wednesday if they follow a vegan diet?
+
+- intent: ask_moderate_wednesday_vegan_lunch
+  examples: |
+    - What is the vegan lunch for moderate diabetics on Wednesday?
+    - Tell me the Wednesday lunch for moderate diabetics (vegan).
+    - What should a moderate diabetic eat for lunch on Wednesday if they follow a vegan diet?
+
+- intent: ask_moderate_wednesday_vegan_midday_snack
+  examples: |
+    - What is the vegan midday snack for moderate diabetics on Wednesday?
+    - Suggest a Wednesday midday snack for moderate diabetics (vegan).
+    - What can a moderate diabetic have for a midday snack on Wednesday if they follow a vegan diet?
+
+- intent: ask_moderate_wednesday_vegan_dinner
+  examples: |
+    - What is the vegan dinner for moderate diabetics on Wednesday?
+    - Tell me the Wednesday dinner for moderate diabetics (vegan).
+    - What should a moderate diabetic eat for dinner on Wednesday if they follow a vegan diet?
+- intent: ask_moderate_thursday_vegetarian_breakfast
+  examples: |
+    - What is the vegetarian breakfast for moderate diabetics on Thursday?
+    - Tell me the Thursday breakfast for moderate diabetics (vegetarian).
+    - What should a moderate diabetic eat for breakfast on Thursday?
+
+- intent: ask_moderate_thursday_vegetarian_morning_snack
+  examples: |
+    - What is the vegetarian morning snack for moderate diabetics on Thursday?
+    - Suggest a Thursday morning snack for moderate diabetics (vegetarian).
+    - What can a moderate diabetic have for a morning snack on Thursday?
+
+- intent: ask_moderate_thursday_vegetarian_lunch
+  examples: |
+    - What is the vegetarian lunch for moderate diabetics on Thursday?
+    - Tell me the Thursday lunch for moderate diabetics (vegetarian).
+    - What should a moderate diabetic eat for lunch on Thursday?
+
+- intent: ask_moderate_thursday_vegetarian_midday_snack
+  examples: |
+    - What is the vegetarian midday snack for moderate diabetics on Thursday?
+    - Suggest a Thursday midday snack for moderate diabetics (vegetarian).
+    - What can a moderate diabetic have for a midday snack on Thursday?
+
+- intent: ask_moderate_thursday_vegetarian_dinner
+  examples: |
+    - What is the vegetarian dinner for moderate diabetics on Thursday?
+    - Tell me the Thursday dinner for moderate diabetics (vegetarian).
+    - What should a moderate diabetic eat for dinner on Thursday?
+- intent: ask_moderate_thursday_nonvegetarian_breakfast
+  examples: |
+    - What is the non-vegetarian breakfast for moderate diabetics on Thursday?
+    - Tell me the Thursday breakfast for moderate diabetics (non-vegetarian).
+    - What should a moderate diabetic eat for breakfast on Thursday if they eat non-veg?
+
+- intent: ask_moderate_thursday_nonvegetarian_morning_snack
+  examples: |
+    - What is the non-vegetarian morning snack for moderate diabetics on Thursday?
+    - Suggest a Thursday morning snack for moderate diabetics (non-vegetarian).
+    - What can a moderate diabetic have for a morning snack on Thursday if they eat non-veg?
+
+- intent: ask_moderate_thursday_nonvegetarian_lunch
+  examples: |
+    - What is the non-vegetarian lunch for moderate diabetics on Thursday?
+    - Tell me the Thursday lunch for moderate diabetics (non-vegetarian).
+    - What should a moderate diabetic eat for lunch on Thursday if they eat non-veg?
+
+- intent: ask_moderate_thursday_nonvegetarian_midday_snack
+  examples: |
+    - What is the non-vegetarian midday snack for moderate diabetics on Thursday?
+    - Suggest a Thursday midday snack for moderate diabetics (non-vegetarian).
+    - What can a moderate diabetic have for a midday snack on Thursday if they eat non-veg?
+
+- intent: ask_moderate_thursday_nonvegetarian_dinner
+  examples: |
+    - What is the non-vegetarian dinner for moderate diabetics on Thursday?
+    - Tell me the Thursday dinner for moderate diabetics (non-vegetarian).
+    - What should a moderate diabetic eat for dinner on Thursday if they eat non-veg?
+- intent: ask_moderate_thursday_vegan_breakfast
+  examples: |
+    - What is the vegan breakfast for moderate diabetics on Thursday?
+    - Tell me the Thursday breakfast for moderate diabetics (vegan).
+    - What should a moderate diabetic eat for breakfast on Thursday if they follow a vegan diet?
+
+- intent: ask_moderate_thursday_vegan_morning_snack
+  examples: |
+    - What is the vegan morning snack for moderate diabetics on Thursday?
+    - Suggest a Thursday morning snack for moderate diabetics (vegan).
+    - What can a moderate diabetic have for a morning snack on Thursday if they follow a vegan diet?
+
+- intent: ask_moderate_thursday_vegan_lunch
+  examples: |
+    - What is the vegan lunch for moderate diabetics on Thursday?
+    - Tell me the Thursday lunch for moderate diabetics (vegan).
+    - What should a moderate diabetic eat for lunch on Thursday if they follow a vegan diet?
+
+- intent: ask_moderate_thursday_vegan_midday_snack
+  examples: |
+    - What is the vegan midday snack for moderate diabetics on Thursday?
+    - Suggest a Thursday midday snack for moderate diabetics (vegan).
+    - What can a moderate diabetic have for a midday snack on Thursday if they follow a vegan diet?
+
+- intent: ask_moderate_thursday_vegan_dinner
+  examples: |
+    - What is the vegan dinner for moderate diabetics on Thursday?
+    - Tell me the Thursday dinner for moderate diabetics (vegan).
+    - What should a moderate diabetic eat for dinner on Thursday if they follow a vegan diet?
+- intent: ask_moderate_friday_vegetarian_breakfast
+  examples: |
+    - What is the vegetarian breakfast for moderate diabetics on Friday?
+    - Tell me the Friday breakfast for moderate diabetics (vegetarian).
+    - What should a moderate diabetic eat for breakfast on Friday?
+
+- intent: ask_moderate_friday_vegetarian_morning_snack
+  examples: |
+    - What is the vegetarian morning snack for moderate diabetics on Friday?
+    - Suggest a Friday morning snack for moderate diabetics (vegetarian).
+    - What can a moderate diabetic have for a morning snack on Friday?
+
+- intent: ask_moderate_friday_vegetarian_lunch
+  examples: |
+    - What is the vegetarian lunch for moderate diabetics on Friday?
+    - Tell me the Friday lunch for moderate diabetics (vegetarian).
+    - What should a moderate diabetic eat for lunch on Friday?
+
+- intent: ask_moderate_friday_vegetarian_midday_snack
+  examples: |
+    - What is the vegetarian midday snack for moderate diabetics on Friday?
+    - Suggest a Friday midday snack for moderate diabetics (vegetarian).
+    - What can a moderate diabetic have for a midday snack on Friday?
+
+- intent: ask_moderate_friday_vegetarian_dinner
+  examples: |
+    - What is the vegetarian dinner for moderate diabetics on Friday?
+    - Tell me the Friday dinner for moderate diabetics (vegetarian).
+    - What should a moderate diabetic eat for dinner on Friday?
+- intent: ask_moderate_friday_nonvegetarian_breakfast
+  examples: |
+    - What is the non-vegetarian breakfast for moderate diabetics on Friday?
+    - Tell me the Friday breakfast for moderate diabetics (non-vegetarian).
+    - What should a moderate diabetic eat for breakfast on Friday if they eat non-veg?
+
+- intent: ask_moderate_friday_nonvegetarian_morning_snack
+  examples: |
+    - What is the non-vegetarian morning snack for moderate diabetics on Friday?
+    - Suggest a Friday morning snack for moderate diabetics (non-vegetarian).
+    - What can a moderate diabetic have for a morning snack on Friday if they eat non-veg?
+
+- intent: ask_moderate_friday_nonvegetarian_lunch
+  examples: |
+    - What is the non-vegetarian lunch for moderate diabetics on Friday?
+    - Tell me the Friday lunch for moderate diabetics (non-vegetarian).
+    - What should a moderate diabetic eat for lunch on Friday if they eat non-veg?
+
+- intent: ask_moderate_friday_nonvegetarian_midday_snack
+  examples: |
+    - What is the non-vegetarian midday snack for moderate diabetics on Friday?
+    - Suggest a Friday midday snack for moderate diabetics (non-vegetarian).
+    - What can a moderate diabetic have for a midday snack on Friday if they eat non-veg?
+
+- intent: ask_moderate_friday_nonvegetarian_dinner
+  examples: |
+    - What is the non-vegetarian dinner for moderate diabetics on Friday?
+    - Tell me the Friday dinner for moderate diabetics (non-vegetarian).
+    - What should a moderate diabetic eat for dinner on Friday if they eat non-veg?
+- intent: ask_moderate_friday_vegan_breakfast
+  examples: |
+    - What is the vegan breakfast for moderate diabetics on Friday?
+    - Tell me the Friday breakfast for moderate diabetics (vegan).
+    - What should a moderate diabetic eat for breakfast on Friday if they follow a vegan diet?
+
+- intent: ask_moderate_friday_vegan_morning_snack
+  examples: |
+    - What is the vegan morning snack for moderate diabetics on Friday?
+    - Suggest a Friday morning snack for moderate diabetics (vegan).
+    - What can a moderate diabetic have for a morning snack on Friday if they follow a vegan diet?
+
+- intent: ask_moderate_friday_vegan_lunch
+  examples: |
+    - What is the vegan lunch for moderate diabetics on Friday?
+    - Tell me the Friday lunch for moderate diabetics (vegan).
+    - What should a moderate diabetic eat for lunch on Friday if they follow a vegan diet?
+
+- intent: ask_moderate_friday_vegan_midday_snack
+  examples: |
+    - What is the vegan midday snack for moderate diabetics on Friday?
+    - Suggest a Friday midday snack for moderate diabetics (vegan).
+    - What can a moderate diabetic have for a midday snack on Friday if they follow a vegan diet?
+
+- intent: ask_moderate_friday_vegan_dinner
+  examples: |
+    - What is the vegan dinner for moderate diabetics on Friday?
+    - Tell me the Friday dinner for moderate diabetics (vegan).
+    - What should a moderate diabetic eat for dinner on Friday if they follow a vegan diet?
+- intent: ask_moderate_saturday_vegetarian_breakfast
+  examples: |
+    - What is the vegetarian breakfast for moderate diabetics on Saturday?
+    - Tell me the Saturday breakfast for moderate diabetics (vegetarian).
+    - What should a moderate diabetic eat for breakfast on Saturday?
+
+- intent: ask_moderate_saturday_vegetarian_morning_snack
+  examples: |
+    - What is the vegetarian morning snack for moderate diabetics on Saturday?
+    - Suggest a Saturday morning snack for moderate diabetics (vegetarian).
+    - What can a moderate diabetic have for a morning snack on Saturday?
+
+- intent: ask_moderate_saturday_vegetarian_lunch
+  examples: |
+    - What is the vegetarian lunch for moderate diabetics on Saturday?
+    - Tell me the Saturday lunch for moderate diabetics (vegetarian).
+    - What should a moderate diabetic eat for lunch on Saturday?
+
+- intent: ask_moderate_saturday_vegetarian_midday_snack
+  examples: |
+    - What is the vegetarian midday snack for moderate diabetics on Saturday?
+    - Suggest a Saturday midday snack for moderate diabetics (vegetarian).
+    - What can a moderate diabetic have for a midday snack on Saturday?
+
+- intent: ask_moderate_saturday_vegetarian_dinner
+  examples: |
+    - What is the vegetarian dinner for moderate diabetics on Saturday?
+    - Tell me the Saturday dinner for moderate diabetics (vegetarian).
+    - What should a moderate diabetic eat for dinner on Saturday?
+- intent: ask_moderate_saturday_nonvegetarian_breakfast
+  examples: |
+    - What is the non-vegetarian breakfast for moderate diabetics on Saturday?
+    - Tell me the Saturday breakfast for moderate diabetics (non-vegetarian).
+    - What should a moderate diabetic eat for breakfast on Saturday if they eat non-veg?
+
+- intent: ask_moderate_saturday_nonvegetarian_morning_snack
+  examples: |
+    - What is the non-vegetarian morning snack for moderate diabetics on Saturday?
+    - Suggest a Saturday morning snack for moderate diabetics (non-vegetarian).
+    - What can a moderate diabetic have for a morning snack on Saturday if they eat non-veg?
+
+- intent: ask_moderate_saturday_nonvegetarian_lunch
+  examples: |
+    - What is the non-vegetarian lunch for moderate diabetics on Saturday?
+    - Tell me the Saturday lunch for moderate diabetics (non-vegetarian).
+    - What should a moderate diabetic eat for lunch on Saturday if they eat non-veg?
+
+- intent: ask_moderate_saturday_nonvegetarian_midday_snack
+  examples: |
+    - What is the non-vegetarian midday snack for moderate diabetics on Saturday?
+    - Suggest a Saturday midday snack for moderate diabetics (non-vegetarian).
+    - What can a moderate diabetic have for a midday snack on Saturday if they eat non-veg?
+
+- intent: ask_moderate_saturday_nonvegetarian_dinner
+  examples: |
+    - What is the non-vegetarian dinner for moderate diabetics on Saturday?
+    - Tell me the Saturday dinner for moderate diabetics (non-vegetarian).
+    - What should a moderate diabetic eat for dinner on Saturday if they eat non-veg?
+- intent: ask_moderate_saturday_vegan_breakfast
+  examples: |
+    - What is the vegan breakfast for moderate diabetics on Saturday?
+    - Tell me the Saturday breakfast for moderate diabetics (vegan).
+    - What should a moderate diabetic eat for breakfast on Saturday if they follow a vegan diet?
+
+- intent: ask_moderate_saturday_vegan_morning_snack
+  examples: |
+    - What is the vegan morning snack for moderate diabetics on Saturday?
+    - Suggest a Saturday morning snack for moderate diabetics (vegan).
+    - What can a moderate diabetic have for a morning snack on Saturday if they follow a vegan diet?
+
+- intent: ask_moderate_saturday_vegan_lunch
+  examples: |
+    - What is the vegan lunch for moderate diabetics on Saturday?
+    - Tell me the Saturday lunch for moderate diabetics (vegan).
+    - What should a moderate diabetic eat for lunch on Saturday if they follow a vegan diet?
+
+- intent: ask_moderate_saturday_vegan_midday_snack
+  examples: |
+    - What is the vegan midday snack for moderate diabetics on Saturday?
+    - Suggest a Saturday midday snack for moderate diabetics (vegan).
+    - What can a moderate diabetic have for a midday snack on Saturday if they follow a vegan diet?
+
+- intent: ask_moderate_saturday_vegan_dinner
+  examples: |
+    - What is the vegan dinner for moderate diabetics on Saturday?
+    - Tell me the Saturday dinner for moderate diabetics (vegan).
+    - What should a moderate diabetic eat for dinner on Saturday if they follow a vegan diet?
+- intent: ask_moderate_sunday_vegetarian_breakfast
+  examples: |
+    - What is the vegetarian breakfast for moderate diabetics on Sunday?
+    - Tell me the Sunday breakfast for moderate diabetics (vegetarian).
+    - What should a moderate diabetic eat for breakfast on Sunday?
+
+- intent: ask_moderate_sunday_vegetarian_morning_snack
+  examples: |
+    - What is the vegetarian morning snack for moderate diabetics on Sunday?
+    - Suggest a Sunday morning snack for moderate diabetics (vegetarian).
+    - What can a moderate diabetic have for a morning snack on Sunday?
+
+- intent: ask_moderate_sunday_vegetarian_lunch
+  examples: |
+    - What is the vegetarian lunch for moderate diabetics on Sunday?
+    - Tell me the Sunday lunch for moderate diabetics (vegetarian).
+    - What should a moderate diabetic eat for lunch on Sunday?
+
+- intent: ask_moderate_sunday_vegetarian_midday_snack
+  examples: |
+    - What is the vegetarian midday snack for moderate diabetics on Sunday?
+    - Suggest a Sunday midday snack for moderate diabetics (vegetarian).
+    - What can a moderate diabetic have for a midday snack on Sunday?
+
+- intent: ask_moderate_sunday_vegetarian_dinner
+  examples: |
+    - What is the vegetarian dinner for moderate diabetics on Sunday?
+    - Tell me the Sunday dinner for moderate diabetics (vegetarian).
+    - What should a moderate diabetic eat for dinner on Sunday?
+- intent: ask_moderate_sunday_nonvegetarian_breakfast
+  examples: |
+    - What is the non-vegetarian breakfast for moderate diabetics on Sunday?
+    - Tell me the Sunday breakfast for moderate diabetics (non-vegetarian).
+    - What should a moderate diabetic eat for breakfast on Sunday if they eat non-veg?
+
+- intent: ask_moderate_sunday_nonvegetarian_morning_snack
+  examples: |
+    - What is the non-vegetarian morning snack for moderate diabetics on Sunday?
+    - Suggest a Sunday morning snack for moderate diabetics (non-vegetarian).
+    - What can a moderate diabetic have for a morning snack on Sunday if they eat non-veg?
+
+- intent: ask_moderate_sunday_nonvegetarian_lunch
+  examples: |
+    - What is the non-vegetarian lunch for moderate diabetics on Sunday?
+    - Tell me the Sunday lunch for moderate diabetics (non-vegetarian).
+    - What should a moderate diabetic eat for lunch on Sunday if they eat non-veg?
+
+- intent: ask_moderate_sunday_nonvegetarian_midday_snack
+  examples: |
+    - What is the non-vegetarian midday snack for moderate diabetics on Sunday?
+    - Suggest a Sunday midday snack for moderate diabetics (non-vegetarian).
+    - What can a moderate diabetic have for a midday snack on Sunday if they eat non-veg?
+
+- intent: ask_moderate_sunday_nonvegetarian_dinner
+  examples: |
+    - What is the non-vegetarian dinner for moderate diabetics on Sunday?
+    - Tell me the Sunday dinner for moderate diabetics (non-vegetarian).
+    - What should a moderate diabetic eat for dinner on Sunday if they eat non-veg?
+- intent: ask_moderate_sunday_vegan_breakfast
+  examples: |
+    - What is the vegan breakfast for moderate diabetics on Sunday?
+    - Tell me the Sunday breakfast for moderate diabetics (vegan).
+    - What should a moderate diabetic eat for breakfast on Sunday if they follow a vegan diet?
+
+- intent: ask_moderate_sunday_vegan_morning_snack
+  examples: |
+    - What is the vegan morning snack for moderate diabetics on Sunday?
+    - Suggest a Sunday morning snack for moderate diabetics (vegan).
+    - What can a moderate diabetic have for a morning snack on Sunday if they follow a vegan diet?
+
+- intent: ask_moderate_sunday_vegan_lunch
+  examples: |
+    - What is the vegan lunch for moderate diabetics on Sunday?
+    - Tell me the Sunday lunch for moderate diabetics (vegan).
+    - What should a moderate diabetic eat for lunch on Sunday if they follow a vegan diet?
+
+- intent: ask_moderate_sunday_vegan_midday_snack
+  examples: |
+    - What is the vegan midday snack for moderate diabetics on Sunday?
+    - Suggest a Sunday midday snack for moderate diabetics (vegan).
+    - What can a moderate diabetic have for a midday snack on Sunday if they follow a vegan diet?
+
+- intent: ask_moderate_sunday_vegan_dinner
+  examples: |
+    - What is the vegan dinner for moderate diabetics on Sunday?
+    - Tell me the Sunday dinner for moderate diabetics (vegan).
+    - What should a moderate diabetic eat for dinner on Sunday if they follow a vegan diet?
