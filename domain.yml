@@ -1,4 +1,4 @@
-version: '3.1'
+version: "3.1"
 intents:
   - greet
   - goodbye
@@ -322,26 +322,138 @@ intents:
   - ask_moderate_sunday_vegan_lunch
   - ask_moderate_sunday_vegan_midday_snack
   - ask_moderate_sunday_vegan_dinner
+    # monday
+  - ask_mild_monday_vegetarian_breakfast
+  - ask_mild_monday_vegetarian_morning_snack
+  - ask_mild_monday_vegetarian_lunch
+  - ask_mild_monday_vegetarian_midday_snack
+  - ask_mild_monday_vegetarian_dinner
+  - ask_mild_monday_nonvegetarian_breakfast
+  - ask_mild_monday_nonvegetarian_morning_snack
+  - ask_mild_monday_nonvegetarian_lunch
+  - ask_mild_monday_nonvegetarian_midday_snack
+  - ask_mild_monday_nonvegetarian_dinner
+  - ask_mild_monday_vegan_breakfast
+  - ask_mild_monday_vegan_morning_snack
+  - ask_mild_monday_vegan_lunch
+  - ask_mild_monday_vegan_midday_snack
+  - ask_mild_monday_vegan_dinner
 
+  # tuesday:
+  - ask_mild_tuesday_vegetarian_breakfast
+  - ask_mild_tuesday_vegetarian_morning_snack
+  - ask_mild_tuesday_vegetarian_lunch
+  - ask_mild_tuesday_vegetarian_midday_snack
+  - ask_mild_tuesday_vegetarian_dinner
+  - ask_mild_tuesday_nonvegetarian_breakfast
+  - ask_mild_tuesday_nonvegetarian_morning_snack
+  - ask_mild_tuesday_nonvegetarian_lunch
+  - ask_mild_tuesday_nonvegetarian_midday_snack
+  - ask_mild_tuesday_nonvegetarian_dinner
+  - ask_mild_tuesday_vegan_breakfast
+  - ask_mild_tuesday_vegan_morning_snack
+  - ask_mild_tuesday_vegan_lunch
+  - ask_mild_tuesday_vegan_midday_snack
+  - ask_mild_tuesday_vegan_dinner
+  # wednesday
+  - ask_mild_wednesday_vegetarian_breakfast
+  - ask_mild_wednesday_vegetarian_morning_snack
+  - ask_mild_wednesday_vegetarian_lunch
+  - ask_mild_wednesday_vegetarian_midday_snack
+  - ask_mild_wednesday_vegetarian_dinner
+  - ask_mild_wednesday_nonvegetarian_breakfast
+  - ask_mild_wednesday_nonvegetarian_morning_snack
+  - ask_mild_wednesday_nonvegetarian_lunch
+  - ask_mild_wednesday_nonvegetarian_midday_snack
+  - ask_mild_wednesday_nonvegetarian_dinner
+  - ask_mild_wednesday_vegan_breakfast
+  - ask_mild_wednesday_vegan_morning_snack
+  - ask_mild_wednesday_vegan_lunch
+  - ask_mild_wednesday_vegan_midday_snack
+  - ask_mild_wednesday_vegan_dinner
+  # thursday
+  - ask_mild_thursday_vegetarian_breakfast
+  - ask_mild_thursday_vegetarian_morning_snack
+  - ask_mild_thursday_vegetarian_lunch
+  - ask_mild_thursday_vegetarian_midday_snack
+  - ask_mild_thursday_vegetarian_dinner
+  - ask_mild_thursday_nonvegetarian_breakfast
+  - ask_mild_thursday_nonvegetarian_morning_snack
+  - ask_mild_thursday_nonvegetarian_lunch
+  - ask_mild_thursday_nonvegetarian_midday_snack
+  - ask_mild_thursday_nonvegetarian_dinner
+  - ask_mild_thursday_vegan_breakfast
+  - ask_mild_thursday_vegan_morning_snack
+  - ask_mild_thursday_vegan_lunch
+  - ask_mild_thursday_vegan_midday_snack
+  - ask_mild_thursday_vegan_dinner
+  # friday
+  - ask_mild_friday_vegetarian_breakfast
+  - ask_mild_friday_vegetarian_morning_snack
+  - ask_mild_friday_vegetarian_lunch
+  - ask_mild_friday_vegetarian_midday_snack
+  - ask_mild_friday_vegetarian_dinner
+  - ask_mild_friday_nonvegetarian_breakfast
+  - ask_mild_friday_nonvegetarian_morning_snack
+  - ask_mild_friday_nonvegetarian_lunch
+  - ask_mild_friday_nonvegetarian_midday_snack
+  - ask_mild_friday_nonvegetarian_dinner
+  - ask_mild_friday_vegan_breakfast
+  - ask_mild_friday_vegan_morning_snack
+  - ask_mild_friday_vegan_lunch
+  - ask_mild_friday_vegan_midday_snack
+  - ask_mild_friday_vegan_dinner
+  # saturday
+  - ask_mild_saturday_vegetarian_breakfast
+  - ask_mild_saturday_vegetarian_morning_snack
+  - ask_mild_saturday_vegetarian_lunch
+  - ask_mild_saturday_vegetarian_midday_snack
+  - ask_mild_saturday_vegetarian_dinner
+  - ask_mild_saturday_nonvegetarian_breakfast
+  - ask_mild_saturday_nonvegetarian_morning_snack
+  - ask_mild_saturday_nonvegetarian_lunch
+  - ask_mild_saturday_nonvegetarian_midday_snack
+  - ask_mild_saturday_nonvegetarian_dinner
+  - ask_mild_saturday_vegan_breakfast
+  - ask_mild_saturday_vegan_morning_snack
+  - ask_mild_saturday_vegan_lunch
+  - ask_mild_saturday_vegan_midday_snack
+  - ask_mild_saturday_vegan_dinner
+  # sunday
+  - ask_mild_sunday_vegetarian_breakfast
+  - ask_mild_sunday_vegetarian_morning_snack
+  - ask_mild_sunday_vegetarian_lunch
+  - ask_mild_sunday_vegetarian_midday_snack
+  - ask_mild_sunday_vegetarian_dinner
+  - ask_mild_sunday_nonvegetarian_breakfast
+  - ask_mild_sunday_nonvegetarian_morning_snack
+  - ask_mild_sunday_nonvegetarian_lunch
+  - ask_mild_sunday_nonvegetarian_midday_snack
+  - ask_mild_sunday_nonvegetarian_dinner
+  - ask_mild_sunday_vegan_breakfast
+  - ask_mild_sunday_vegan_morning_snack
+  - ask_mild_sunday_vegan_lunch
+  - ask_mild_sunday_vegan_midday_snack
+  - ask_mild_sunday_vegan_dinner
 
 responses:
   utter_greet:
     - text: Hey! How are you?
   utter_cheer_up:
-    - text: 'Here is something to cheer you up:'
-      image: 'https://i.imgur.com/nGF1K8f.jpg'
+    - text: "Here is something to cheer you up:"
+      image: "https://i.imgur.com/nGF1K8f.jpg"
   utter_did_that_help:
     - text: Did that help you?
   utter_happy:
-    - text: 'Great, carry on!'
+    - text: "Great, carry on!"
   utter_goodbye:
     - text: Bye
   utter_iamabot:
-    - text: 'I am a bot, powered by Rasa.'
+    - text: "I am a bot, powered by Rasa."
   utter_hi_swathi:
     - text: Hello Swathi!
   utter_great:
-    - text: 'Wow, nice! You know many things at this age.'
+    - text: "Wow, nice! You know many things at this age."
   utter_proliferative_monday_vegetarian_breakfast:
     - text: >-
         For vegetarian breakfast in the proliferative diet on Monday, you can
@@ -2099,7 +2211,7 @@ responses:
         - Coconut Water with Basil Seeds
 
         - Carrot Sticks with Hummus.
-  
+
   utter_severe_thursday_vegetarian_lunch:
     - text: |
         For vegetarian lunch in the severe diet on Thursday, you can have:
@@ -2596,26 +2708,25 @@ responses:
         - Dosa with Sambar.
 
   utter_moderate_monday_vegetarian_morning_snack:
-    - text:  |
+    - text: |
         For a vegetarian morning snack in the moderate diet on Monday, you can have:
         - Roasted Almonds
         - Mixed Fruit Salad with Papaya
         - Steamed Corn
         - Carrot and Cucumber Sticks with Mint Dip
         - Puffed Rice.
-     
 
   utter_moderate_monday_vegetarian_lunch:
-     - text:  |
-          For vegetarian lunch in the moderate diet on Monday, you can have:
-          - Vegetable Khichdi
-          - Brown Rice with Lauki (Bottle Gourd) Curry
-          - Tofu and Vegetable Stir Fry
-          - Methi Thepla
-          - Moong Dal with Cabbage.
+    - text: |
+        For vegetarian lunch in the moderate diet on Monday, you can have:
+        - Vegetable Khichdi
+        - Brown Rice with Lauki (Bottle Gourd) Curry
+        - Tofu and Vegetable Stir Fry
+        - Methi Thepla
+        - Moong Dal with Cabbage.
 
   utter_moderate_monday_vegetarian_midday_snack:
-    - text:  |
+    - text: |
         For a vegetarian midday snack in the moderate diet on Monday, you can have:
         - Masala Chaas
         - Chana Chaat
@@ -2624,7 +2735,7 @@ responses:
         - Masala Roasted Almonds.
 
   utter_moderate_monday_vegetarian_dinner:
-    - text:  |
+    - text: |
         For vegetarian dinner in the moderate diet on Monday, you can have:
         - Methi and Onion Thepla with Curd
         - Vegetable Tofu Stir Fry
@@ -3511,6 +3622,839 @@ responses:
         - Vegan Shepherd’s Pie
         - Roasted Sweet Potatoes with Black Beans
         - Cauliflower Rice with Stir-Fried Broccoli.
+
+  utter_mild_monday_vegetarian_breakfast:
+    - text: >
+        For a vegetarian breakfast in the mild diet on Monday, you can have:
+
+        - Oatmeal with nuts and fruits
+        - Whole wheat toast with avocado
+        - A glass of low-fat milk
+
+  utter_mild_monday_vegetarian_morning_snack:
+    - text: >
+        For a vegetarian morning snack in the mild diet on Monday, you can have:
+
+        - Handful of almonds
+        - Greek yogurt with honey
+        - Fresh fruit salad
+
+  utter_mild_monday_vegetarian_lunch:
+    - text: >
+        For a vegetarian lunch in the mild diet on Monday, you can have:
+
+        - Brown rice with lentil curry
+        - Mixed vegetable salad
+        - Cottage cheese stir-fry
+
+  utter_mild_monday_vegetarian_midday_snack:
+    - text: >
+        For a vegetarian midday snack in the mild diet on Monday, you can have:
+
+        - Roasted peanuts
+        - Buttermilk
+        - Apple slices
+
+  utter_mild_monday_vegetarian_dinner:
+    - text: >
+        For a vegetarian dinner in the mild diet on Monday, you can have:
+
+        - Quinoa with steamed vegetables
+        - Spinach soup
+        - A bowl of curd
+
+  utter_mild_monday_nonvegetarian_breakfast:
+    - text: >
+        For a non-vegetarian breakfast in the mild diet on Monday, you can have:
+
+        - Scrambled eggs with whole wheat toast
+        - Grilled chicken sandwich
+        - A glass of fresh orange juice
+
+  utter_mild_monday_nonvegetarian_morning_snack:
+    - text: >
+        For a non-vegetarian morning snack in the mild diet on Monday, you can have:
+
+        - Boiled eggs
+        - Chicken salad
+        - A handful of walnuts
+
+  utter_mild_monday_nonvegetarian_lunch:
+    - text: >
+        For a non-vegetarian lunch in the mild diet on Monday, you can have:
+
+        - Grilled fish with brown rice
+        - Steamed vegetables
+        - Lentil soup
+
+  utter_mild_monday_nonvegetarian_midday_snack:
+    - text: >
+        For a non-vegetarian midday snack in the mild diet on Monday, you can have:
+
+        - Tuna salad
+        - A handful of cashews
+        - Buttermilk
+
+  utter_mild_monday_nonvegetarian_dinner:
+    - text: >
+        For a non-vegetarian dinner in the mild diet on Monday, you can have:
+
+        - Chicken stir-fry with quinoa
+        - Roasted vegetables
+        - A bowl of yogurt
+
+  utter_mild_monday_vegan_breakfast:
+    - text: >
+        For a vegan breakfast in the mild diet on Monday, you can have:
+
+        - Chia seed pudding with berries
+        - Whole wheat toast with peanut butter
+        - A glass of almond milk
+
+  utter_mild_monday_vegan_morning_snack:
+    - text: >
+        For a vegan morning snack in the mild diet on Monday, you can have:
+
+        - Hummus with carrot sticks
+        - Fresh fruit smoothie
+        - A handful of mixed seeds
+
+  utter_mild_monday_vegan_lunch:
+    - text: >
+        For a vegan lunch in the mild diet on Monday, you can have:
+
+        - Quinoa and black bean bowl
+        - Cucumber and tomato salad
+        - Lentil soup
+
+  utter_mild_monday_vegan_midday_snack:
+    - text: >
+        For a vegan midday snack in the mild diet on Monday, you can have:
+
+        - Roasted chickpeas
+        - Green tea
+        - Apple slices
+
+  utter_mild_monday_vegan_dinner:
+    - text: >
+        For a vegan dinner in the mild diet on Monday, you can have:
+
+        - Stir-fried tofu with vegetables
+        - Brown rice
+        - A bowl of coconut yogurt
+  utter_mild_tuesday_vegetarian_breakfast:
+    - text: >
+        For a vegetarian breakfast in the mild diet on Tuesday, you can have:
+
+        - Multigrain toast with cottage cheese
+        - Fresh fruit smoothie
+        - A bowl of muesli with yogurt
+
+  utter_mild_tuesday_vegetarian_morning_snack:
+    - text: >
+        For a vegetarian morning snack in the mild diet on Tuesday, you can have:
+
+        - Handful of walnuts
+        - Low-fat paneer cubes
+        - Cucumber sticks with hummus
+
+  utter_mild_tuesday_vegetarian_lunch:
+    - text: >
+        For a vegetarian lunch in the mild diet on Tuesday, you can have:
+
+        - Brown rice with chickpea curry
+        - Mixed green salad
+        - Steamed broccoli
+
+  utter_mild_tuesday_vegetarian_midday_snack:
+    - text: >
+        For a vegetarian midday snack in the mild diet on Tuesday, you can have:
+
+        - Roasted almonds
+        - Buttermilk
+        - Sliced pear
+
+  utter_mild_tuesday_vegetarian_dinner:
+    - text: >
+        For a vegetarian dinner in the mild diet on Tuesday, you can have:
+
+        - Grilled tofu with sautéed spinach
+        - Lentil soup
+        - A bowl of curd
+
+  utter_mild_tuesday_nonvegetarian_breakfast:
+    - text: >
+        For a non-vegetarian breakfast in the mild diet on Tuesday, you can have:
+
+        - Omelette with vegetables
+        - Smoked salmon on whole wheat toast
+        - A glass of fresh apple juice
+
+  utter_mild_tuesday_nonvegetarian_morning_snack:
+    - text: >
+        For a non-vegetarian morning snack in the mild diet on Tuesday, you can have:
+
+        - Hard-boiled eggs
+        - Grilled chicken bites
+        - A handful of pistachios
+
+  utter_mild_tuesday_nonvegetarian_lunch:
+    - text: >
+        For a non-vegetarian lunch in the mild diet on Tuesday, you can have:
+
+        - Baked salmon with quinoa
+        - Stir-fried bell peppers
+        - Green salad
+
+  utter_mild_tuesday_nonvegetarian_midday_snack:
+    - text: >
+        For a non-vegetarian midday snack in the mild diet on Tuesday, you can have:
+
+        - Turkey slices
+        - Mixed nuts
+        - A glass of buttermilk
+
+  utter_mild_tuesday_nonvegetarian_dinner:
+    - text: >
+        For a non-vegetarian dinner in the mild diet on Tuesday, you can have:
+
+        - Chicken curry with whole wheat roti
+        - Sautéed greens
+        - A bowl of yogurt
+
+  utter_mild_tuesday_vegan_breakfast:
+    - text: >
+        For a vegan breakfast in the mild diet on Tuesday, you can have:
+
+        - Chia pudding with flaxseeds
+        - Smoothie bowl with almond milk
+        - Whole grain toast with cashew butter
+
+  utter_mild_tuesday_vegan_morning_snack:
+    - text: >
+        For a vegan morning snack in the mild diet on Tuesday, you can have:
+
+        - Roasted sunflower seeds
+        - Fresh orange slices
+        - A glass of coconut water
+
+  utter_mild_tuesday_vegan_lunch:
+    - text: >
+        For a vegan lunch in the mild diet on Tuesday, you can have:
+
+        - Quinoa salad with avocado
+        - Stir-fried zucchini and carrots
+        - Lentil soup
+
+  utter_mild_tuesday_vegan_midday_snack:
+    - text: >
+        For a vegan midday snack in the mild diet on Tuesday, you can have:
+
+        - Baked sweet potato fries
+        - Herbal tea
+        - Handful of cashews
+
+  utter_mild_tuesday_vegan_dinner:
+    - text: >
+        For a vegan dinner in the mild diet on Tuesday, you can have:
+
+        - Grilled tempeh with spinach
+        - Brown rice with black beans
+        - A bowl of coconut yogurt
+utter_mild_wednesday_vegetarian_breakfast:
+  - text: >
+      For a vegetarian breakfast in the mild diet on Wednesday, you can have:
+
+      - Whole grain pancakes with honey
+      - A bowl of fresh berries
+      - A glass of warm turmeric milk
+
+utter_mild_wednesday_vegetarian_morning_snack:
+  - text: >
+      For a vegetarian morning snack in the mild diet on Wednesday, you can have:
+
+      - A handful of cashews
+      - Greek yogurt with flaxseeds
+      - Sliced apples with almond butter
+
+utter_mild_wednesday_vegetarian_lunch:
+  - text: >
+      For a vegetarian lunch in the mild diet on Wednesday, you can have:
+
+      - Brown rice with mixed vegetable curry
+      - Cucumber and tomato salad
+      - A serving of lentil soup
+
+utter_mild_wednesday_vegetarian_midday_snack:
+  - text: >
+      For a vegetarian midday snack in the mild diet on Wednesday, you can have:
+
+      - Roasted peanuts
+      - A glass of buttermilk
+      - A banana
+
+utter_mild_wednesday_vegetarian_dinner:
+  - text: >
+      For a vegetarian dinner in the mild diet on Wednesday, you can have:
+
+      - Grilled paneer with sautéed spinach
+      - Quinoa with steamed vegetables
+      - A bowl of curd
+
+utter_mild_wednesday_nonvegetarian_breakfast:
+  - text: >
+      For a non-vegetarian breakfast in the mild diet on Wednesday, you can have:
+
+      - Scrambled eggs with whole wheat toast
+      - Smoked turkey slices
+      - A glass of fresh orange juice
+
+utter_mild_wednesday_nonvegetarian_morning_snack:
+  - text: >
+      For a non-vegetarian morning snack in the mild diet on Wednesday, you can have:
+
+      - Boiled eggs
+      - A handful of almonds
+      - A glass of green tea
+
+utter_mild_wednesday_nonvegetarian_lunch:
+  - text: >
+      For a non-vegetarian lunch in the mild diet on Wednesday, you can have:
+
+      - Grilled chicken with brown rice
+      - Steamed broccoli and carrots
+      - A bowl of mixed greens salad
+
+utter_mild_wednesday_nonvegetarian_midday_snack:
+  - text: >
+      For a non-vegetarian midday snack in the mild diet on Wednesday, you can have:
+
+      - Tuna salad with whole grain crackers
+      - A handful of pistachios
+      - A glass of buttermilk
+
+utter_mild_wednesday_nonvegetarian_dinner:
+  - text: >
+      For a non-vegetarian dinner in the mild diet on Wednesday, you can have:
+
+      - Baked fish with quinoa
+      - Stir-fried bell peppers
+      - A bowl of yogurt
+
+utter_mild_wednesday_vegan_breakfast:
+  - text: >
+      For a vegan breakfast in the mild diet on Wednesday, you can have:
+
+      - Chia seed pudding with coconut milk
+      - A smoothie with banana, spinach, and almond milk
+      - Whole grain toast with peanut butter
+
+utter_mild_wednesday_vegan_morning_snack:
+  - text: >
+      For a vegan morning snack in the mild diet on Wednesday, you can have:
+
+      - Roasted chickpeas
+      - Fresh orange slices
+      - A glass of lemon water
+
+utter_mild_wednesday_vegan_lunch:
+  - text: >
+      For a vegan lunch in the mild diet on Wednesday, you can have:
+
+      - Quinoa with stir-fried tofu and vegetables
+      - Cucumber and tomato salad
+      - Lentil soup
+
+utter_mild_wednesday_vegan_midday_snack:
+  - text: >
+      For a vegan midday snack in the mild diet on Wednesday, you can have:
+
+      - Roasted almonds
+      - Green tea
+      - Sliced pears
+
+utter_mild_wednesday_vegan_dinner:
+  - text: >
+      For a vegan dinner in the mild diet on Wednesday, you can have:
+
+      - Stir-fried tempeh with spinach
+      - Brown rice with black beans
+      - A bowl of coconut yogurt
+utter_mild_thursday_vegetarian_breakfast:
+  - text: >
+      For a vegetarian breakfast in the mild diet on Thursday, you can have:
+
+      - Oatmeal with chia seeds and fruits
+      - Whole grain toast with peanut butter
+      - A glass of almond milk
+
+utter_mild_thursday_vegetarian_morning_snack:
+  - text: >
+      For a vegetarian morning snack in the mild diet on Thursday, you can have:
+
+      - Handful of walnuts
+      - Greek yogurt with berries
+      - Sliced cucumbers with hummus
+
+utter_mild_thursday_vegetarian_lunch:
+  - text: >
+      For a vegetarian lunch in the mild diet on Thursday, you can have:
+
+      - Brown rice with dal (lentil soup)
+      - Steamed spinach and carrots
+      - A side of mixed salad
+
+utter_mild_thursday_vegetarian_midday_snack:
+  - text: >
+      For a vegetarian midday snack in the mild diet on Thursday, you can have:
+
+      - Roasted peanuts
+      - Buttermilk
+      - A banana
+
+utter_mild_thursday_vegetarian_dinner:
+  - text: >
+      For a vegetarian dinner in the mild diet on Thursday, you can have:
+
+      - Quinoa with grilled paneer
+      - Sautéed bell peppers and zucchini
+      - A bowl of curd
+
+utter_mild_thursday_nonvegetarian_breakfast:
+  - text: >
+      For a non-vegetarian breakfast in the mild diet on Thursday, you can have:
+
+      - Scrambled eggs with whole wheat toast
+      - Smoked chicken slices
+      - A glass of fresh orange juice
+
+utter_mild_thursday_nonvegetarian_morning_snack:
+  - text: >
+      For a non-vegetarian morning snack in the mild diet on Thursday, you can have:
+
+      - Boiled eggs
+      - A handful of almonds
+      - A cup of green tea
+
+utter_mild_thursday_nonvegetarian_lunch:
+  - text: >
+      For a non-vegetarian lunch in the mild diet on Thursday, you can have:
+
+      - Grilled chicken with brown rice
+      - Steamed broccoli and carrots
+      - A bowl of fresh green salad
+
+utter_mild_thursday_nonvegetarian_midday_snack:
+  - text: >
+      For a non-vegetarian midday snack in the mild diet on Thursday, you can have:
+
+      - Tuna salad with whole grain crackers
+      - A handful of pistachios
+      - A glass of buttermilk
+
+utter_mild_thursday_nonvegetarian_dinner:
+  - text: >
+      For a non-vegetarian dinner in the mild diet on Thursday, you can have:
+
+      - Baked fish with quinoa
+      - Stir-fried bell peppers
+      - A bowl of yogurt
+
+utter_mild_thursday_vegan_breakfast:
+  - text: >
+      For a vegan breakfast in the mild diet on Thursday, you can have:
+
+      - Chia seed pudding with coconut milk
+      - A smoothie with banana, spinach, and almond milk
+      - Whole grain toast with almond butter
+
+utter_mild_thursday_vegan_morning_snack:
+  - text: >
+      For a vegan morning snack in the mild diet on Thursday, you can have:
+
+      - Roasted chickpeas
+      - Fresh orange slices
+      - A glass of lemon water
+
+utter_mild_thursday_vegan_lunch:
+  - text: >
+      For a vegan lunch in the mild diet on Thursday, you can have:
+
+      - Quinoa with stir-fried tofu and vegetables
+      - Cucumber and tomato salad
+      - Lentil soup
+
+utter_mild_thursday_vegan_midday_snack:
+  - text: >
+      For a vegan midday snack in the mild diet on Thursday, you can have:
+
+      - Roasted almonds
+      - Green tea
+      - Sliced pears
+
+utter_mild_thursday_vegan_dinner:
+  - text: >
+      For a vegan dinner in the mild diet on Thursday, you can have:
+
+      - Stir-fried tempeh with spinach
+      - Brown rice with black beans
+      - A bowl of coconut yogurt
+utter_mild_friday_vegetarian_breakfast:
+  - text: >
+      For a vegetarian breakfast in the mild diet on Friday, you can have:
+
+      - Whole wheat pancakes with honey
+      - Fresh fruit bowl
+      - A glass of warm almond milk
+
+utter_mild_friday_vegetarian_morning_snack:
+  - text: >
+      For a vegetarian morning snack in the mild diet on Friday, you can have:
+
+      - A handful of cashews
+      - Greek yogurt with flaxseeds
+      - Sliced apples with peanut butter
+
+utter_mild_friday_vegetarian_lunch:
+  - text: >
+      For a vegetarian lunch in the mild diet on Friday, you can have:
+
+      - Brown rice with mixed vegetable curry
+      - Cucumber and tomato salad
+      - A serving of lentil soup
+
+utter_mild_friday_vegetarian_midday_snack:
+  - text: >
+      For a vegetarian midday snack in the mild diet on Friday, you can have:
+
+      - Roasted peanuts
+      - A glass of buttermilk
+      - A banana
+
+utter_mild_friday_vegetarian_dinner:
+  - text: >
+      For a vegetarian dinner in the mild diet on Friday, you can have:
+
+      - Grilled paneer with sautéed spinach
+      - Quinoa with steamed vegetables
+      - A bowl of curd
+
+utter_mild_friday_nonvegetarian_breakfast:
+  - text: >
+      For a non-vegetarian breakfast in the mild diet on Friday, you can have:
+
+      - Scrambled eggs with whole wheat toast
+      - Smoked turkey slices
+      - A glass of fresh orange juice
+
+utter_mild_friday_nonvegetarian_morning_snack:
+  - text: >
+      For a non-vegetarian morning snack in the mild diet on Friday, you can have:
+
+      - Boiled eggs
+      - A handful of almonds
+      - A cup of green tea
+
+utter_mild_friday_nonvegetarian_lunch:
+  - text: >
+      For a non-vegetarian lunch in the mild diet on Friday, you can have:
+
+      - Grilled chicken with brown rice
+      - Steamed broccoli and carrots
+      - A bowl of fresh green salad
+
+utter_mild_friday_nonvegetarian_midday_snack:
+  - text: >
+      For a non-vegetarian midday snack in the mild diet on Friday, you can have:
+
+      - Tuna salad with whole grain crackers
+      - A handful of pistachios
+      - A glass of buttermilk
+
+utter_mild_friday_nonvegetarian_dinner:
+  - text: >
+      For a non-vegetarian dinner in the mild diet on Friday, you can have:
+
+      - Baked fish with quinoa
+      - Stir-fried bell peppers
+      - A bowl of yogurt
+
+utter_mild_friday_vegan_breakfast:
+  - text: >
+      For a vegan breakfast in the mild diet on Friday, you can have:
+
+      - Chia seed pudding with coconut milk
+      - A smoothie with banana, spinach, and almond milk
+      - Whole grain toast with almond butter
+
+utter_mild_friday_vegan_morning_snack:
+  - text: >
+      For a vegan morning snack in the mild diet on Friday, you can have:
+
+      - Roasted chickpeas
+      - Fresh orange slices
+      - A glass of lemon water
+
+utter_mild_friday_vegan_lunch:
+  - text: >
+      For a vegan lunch in the mild diet on Friday, you can have:
+
+      - Quinoa with stir-fried tofu and vegetables
+      - Cucumber and tomato salad
+      - Lentil soup
+
+utter_mild_friday_vegan_midday_snack:
+  - text: >
+      For a vegan midday snack in the mild diet on Friday, you can have:
+
+      - Roasted almonds
+      - Green tea
+      - Sliced pears
+
+utter_mild_friday_vegan_dinner:
+  - text: >
+      For a vegan dinner in the mild diet on Friday, you can have:
+
+      - Stir-fried tempeh with spinach
+      - Brown rice with black beans
+      - A bowl of coconut yogurt
+utter_mild_saturday_vegetarian_breakfast:
+  - text: >
+      For a vegetarian breakfast in the mild diet on Saturday, you can have:
+
+      - Oatmeal with nuts and honey
+      - A banana
+      - A glass of warm almond milk
+
+utter_mild_saturday_vegetarian_morning_snack:
+  - text: >
+      For a vegetarian morning snack in the mild diet on Saturday, you can have:
+
+      - A handful of walnuts
+      - Greek yogurt with chia seeds
+      - Sliced oranges
+
+utter_mild_saturday_vegetarian_lunch:
+  - text: >
+      For a vegetarian lunch in the mild diet on Saturday, you can have:
+
+      - Brown rice with kidney bean curry
+      - Cucumber and carrot salad
+      - A bowl of mixed vegetable soup
+
+utter_mild_saturday_vegetarian_midday_snack:
+  - text: >
+      For a vegetarian midday snack in the mild diet on Saturday, you can have:
+
+      - Roasted chickpeas
+      - A glass of buttermilk
+      - Fresh pineapple slices
+
+utter_mild_saturday_vegetarian_dinner:
+  - text: >
+      For a vegetarian dinner in the mild diet on Saturday, you can have:
+
+      - Grilled tofu with sautéed vegetables
+      - Quinoa with lentil curry
+      - A bowl of curd
+
+utter_mild_saturday_nonvegetarian_breakfast:
+  - text: >
+      For a non-vegetarian breakfast in the mild diet on Saturday, you can have:
+
+      - Scrambled eggs with whole wheat toast
+      - Smoked turkey slices
+      - A glass of fresh apple juice
+
+utter_mild_saturday_nonvegetarian_morning_snack:
+  - text: >
+      For a non-vegetarian morning snack in the mild diet on Saturday, you can have:
+
+      - Boiled eggs
+      - A handful of almonds
+      - A cup of green tea
+
+utter_mild_saturday_nonvegetarian_lunch:
+  - text: >
+      For a non-vegetarian lunch in the mild diet on Saturday, you can have:
+
+      - Grilled chicken with brown rice
+      - Steamed broccoli and bell peppers
+      - A bowl of fresh green salad
+
+utter_mild_saturday_nonvegetarian_midday_snack:
+  - text: >
+      For a non-vegetarian midday snack in the mild diet on Saturday, you can have:
+
+      - Tuna salad with whole grain crackers
+      - A handful of pistachios
+      - A glass of buttermilk
+
+utter_mild_saturday_nonvegetarian_dinner:
+  - text: >
+      For a non-vegetarian dinner in the mild diet on Saturday, you can have:
+
+      - Baked salmon with quinoa
+      - Stir-fried bell peppers
+      - A bowl of yogurt
+
+utter_mild_saturday_vegan_breakfast:
+  - text: >
+      For a vegan breakfast in the mild diet on Saturday, you can have:
+
+      - Chia seed pudding with almond milk
+      - A smoothie with banana, spinach, and coconut milk
+      - Whole grain toast with peanut butter
+
+utter_mild_saturday_vegan_morning_snack:
+  - text: >
+      For a vegan morning snack in the mild diet on Saturday, you can have:
+
+      - Roasted sunflower seeds
+      - Fresh orange slices
+      - A glass of lemon water
+
+utter_mild_saturday_vegan_lunch:
+  - text: >
+      For a vegan lunch in the mild diet on Saturday, you can have:
+
+      - Quinoa with stir-fried tofu and vegetables
+      - Cucumber and tomato salad
+      - Lentil soup
+
+utter_mild_saturday_vegan_midday_snack:
+  - text: >
+      For a vegan midday snack in the mild diet on Saturday, you can have:
+
+      - Roasted almonds
+      - Herbal tea
+      - Sliced pears
+
+utter_mild_saturday_vegan_dinner:
+  - text: >
+      For a vegan dinner in the mild diet on Saturday, you can have:
+
+      - Stir-fried tempeh with spinach
+      - Brown rice with black beans
+      - A bowl of coconut yogurt
+      
+utter_mild_sunday_vegetarian_breakfast:
+  - text: >
+      For a vegetarian breakfast in the mild diet on Sunday, you can have:
+      - Whole wheat pancakes with honey
+      - A glass of warm almond milk
+      - Fresh fruit salad
+utter_mild_sunday_vegetarian_morning_snack:
+  - text: >
+      For a vegetarian morning snack in the mild diet on Sunday, you can have:
+
+      - Roasted almonds
+      - Greek yogurt with honey
+      - Sliced apples with peanut butter
+
+utter_mild_sunday_vegetarian_lunch:
+  - text: >
+      For a vegetarian lunch in the mild diet on Sunday, you can have:
+
+      - Brown rice with lentil curry
+      - Mixed vegetable stir-fry
+      - A serving of cucumber salad
+
+utter_mild_sunday_vegetarian_midday_snack:
+  - text: >
+      For a vegetarian midday snack in the mild diet on Sunday, you can have:
+
+      - Roasted chickpeas
+      - Buttermilk
+      - Fresh mango slices
+
+utter_mild_sunday_vegetarian_dinner:
+  - text: >
+      For a vegetarian dinner in the mild diet on Sunday, you can have:
+
+      - Grilled paneer with sautéed vegetables
+      - Quinoa with steamed greens
+      - A bowl of curd
+
+utter_mild_sunday_nonvegetarian_breakfast:
+  - text: >
+      For a non-vegetarian breakfast in the mild diet on Sunday, you can have:
+
+      - Scrambled eggs with whole wheat toast
+      - Smoked turkey slices
+      - A glass of fresh orange juice
+
+utter_mild_sunday_nonvegetarian_morning_snack:
+  - text: >
+      For a non-vegetarian morning snack in the mild diet on Sunday, you can have:
+
+      - Hard-boiled eggs
+      - A handful of walnuts
+      - A cup of green tea
+
+utter_mild_sunday_nonvegetarian_lunch:
+  - text: >
+      For a non-vegetarian lunch in the mild diet on Sunday, you can have:
+
+      - Grilled chicken with brown rice
+      - Steamed broccoli and carrots
+      - A bowl of fresh green salad
+
+utter_mild_sunday_nonvegetarian_midday_snack:
+  - text: >
+      For a non-vegetarian midday snack in the mild diet on Sunday, you can have:
+
+      - Tuna salad with whole grain crackers
+      - A handful of pistachios
+      - A glass of buttermilk
+
+utter_mild_sunday_nonvegetarian_dinner:
+  - text: >
+      For a non-vegetarian dinner in the mild diet on Sunday, you can have:
+
+      - Baked fish with quinoa
+      - Stir-fried bell peppers
+      - A bowl of yogurt
+
+utter_mild_sunday_vegan_breakfast:
+  - text: >
+      For a vegan breakfast in the mild diet on Sunday, you can have:
+
+      - Chia seed pudding with coconut milk
+      - A smoothie with banana, spinach, and almond milk
+      - Whole grain toast with cashew butter
+
+utter_mild_sunday_vegan_morning_snack:
+  - text: >
+      For a vegan morning snack in the mild diet on Sunday, you can have:
+
+      - Roasted sunflower seeds
+      - Fresh orange slices
+      - A glass of lemon water
+
+utter_mild_sunday_vegan_lunch:
+  - text: >
+      For a vegan lunch in the mild diet on Sunday, you can have:
+
+      - Quinoa with stir-fried tofu and vegetables
+      - Cucumber and tomato salad
+      - Lentil soup
+
+utter_mild_sunday_vegan_midday_snack:
+  - text: >
+      For a vegan midday snack in the mild diet on Sunday, you can have:
+
+      - Roasted almonds
+      - Herbal tea
+      - Sliced pears
+
+utter_mild_sunday_vegan_dinner:
+  - text: >
+      For a vegan dinner in the mild diet on Sunday, you can have:
+
+      - Stir-fried tempeh with spinach
+      - Brown rice with black beans
+      - A bowl of coconut yogurt
 
 session_config:
   session_expiration_time: 60
